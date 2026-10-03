@@ -1,23 +1,22 @@
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, CheckCircle2, XCircle, ChevronRight, Activity, AlertCircle } from 'lucide-react';
+import { QuizEngine } from '../lib/QuizEngine';
 
 export default function Quiz() {
     const { chapterId } = useParams();
-    const [data, setData] = useState<any>(null);
-    const [currentIdx, setCurrentIdx] = useState(0);
+    const [engine, setEngine] = useState<QuizEngine | null>(null);
     const [selected, setSelected] = useState<string | null>(null);
-    const [score, setScore] = useState(0);
-    const [finished, setFinished] = useState(false);
     const [error, setError] = useState<string | null>(null);
+    // Force re-render trick since engine mutates internally
+    const [, setTick] = useState(0);
 
     useEffect(() => {
         if (!chapterId) return;
         const id = String(chapterId).padStart(2, '0');
         import(`../data/questions/ch${id}.json`)
             .then(mod => {
-                const pool = mod.default.questions.slice(0, 15).sort(() => Math.random() - 0.5);
-                setData({ ...mod.default, activePool: pool });
+                setEngine(new QuizEngine(mod.default.questions, 15));
             })
             .catch(err => setError(`Could not load questions for Chapter ${chapterId}. (${err.message})`));
     }, [chapterId]);
@@ -30,24 +29,20 @@ export default function Quiz() {
         </div>
     );
 
-    if (!data) return (
+    if (!engine) return (
         <div className="flex items-center justify-center py-24">
             <div className="animate-spin w-10 h-10 border-4 border-indigo-500 border-t-transparent rounded-full"></div>
         </div>
     );
 
     const handleNext = () => {
-        if (selected === q.answer) setScore(s => s + 1);
-        if (currentIdx + 1 < data.activePool.length) {
-            setCurrentIdx(i => i + 1);
-            setSelected(null);
-        } else {
-            setFinished(true);
-        }
+        engine.next();
+        setSelected(null);
+        setTick(t => t + 1);
     };
 
-    if (finished) {
-        const pct = Math.round((score / data.activePool.length) * 100);
+    if (engine.state.finished) {
+        const pct = engine.getPercentage();
         const grade = pct >= 80 ? 'Excellent!' : pct >= 60 ? 'Good Work!' : 'Keep Practising';
         return (
             <div className="max-w-2xl mx-auto text-center space-y-6 mt-16 animate-in fade-in zoom-in duration-500">
@@ -56,7 +51,7 @@ export default function Quiz() {
                 </div>
                 <h2 className="text-4xl font-bold text-white">Quiz Complete!</h2>
                 <p className="text-2xl text-indigo-300 font-bold">{pct}% — {grade}</p>
-                <p className="text-xl text-slate-300">You scored {score} out of {data.activePool.length}.</p>
+                <p className="text-xl text-slate-300">You scored {engine.state.score} out of {engine.state.pool.length}.</p>
                 <div className="flex gap-4 justify-center mt-8">
                     <Link to={`/lesson/${chapterId}`} className="px-6 py-3 bg-slate-700 hover:bg-slate-600 text-white font-bold rounded-xl transition-all">Review Lesson</Link>
                     <Link to="/" className="px-8 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl transition-all">Dashboard</Link>
@@ -65,9 +60,11 @@ export default function Quiz() {
         );
     }
 
-    const q = data.activePool[currentIdx];
+    const q = engine.getCurrentQuestion();
+    if (!q) return null;
+
     const hasAnswered = selected !== null;
-    const progress = ((currentIdx) / data.activePool.length) * 100;
+    const progress = engine.getProgress();
 
     return (
         <div className="max-w-3xl mx-auto space-y-6 pb-20 mt-8 animate-in fade-in duration-500">
@@ -80,7 +77,7 @@ export default function Quiz() {
             </div>
 
             <div className="flex items-center justify-between text-sm font-bold text-slate-400">
-                <span>Question {currentIdx + 1} of {data.activePool.length}</span>
+                <span>Question {engine.state.currentIndex + 1} of {engine.state.pool.length}</span>
                 <span className="bg-slate-800 px-3 py-1 rounded-full border border-slate-700">Level {q.difficulty}</span>
             </div>
 
@@ -100,7 +97,11 @@ export default function Quiz() {
                             btnStyle = "bg-indigo-900/50 border-indigo-500 text-indigo-300 ring-2 ring-indigo-500/30";
                         }
                         return (
-                            <button key={i} disabled={hasAnswered} onClick={() => setSelected(opt)}
+                            <button key={i} disabled={hasAnswered} onClick={() => {
+                                setSelected(opt);
+                                engine.answerQuestion(opt);
+                                setTick(t => t + 1);
+                            }}
                                 className={`w-full text-left p-4 rounded-xl border-2 transition-all font-medium flex justify-between items-center ${btnStyle}`}>
                                 <span>{opt}</span>
                                 {hasAnswered && isCorrect && <CheckCircle2 size={20} className="text-green-500" />}

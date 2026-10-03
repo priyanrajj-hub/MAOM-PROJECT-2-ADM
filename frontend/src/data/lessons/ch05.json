@@ -17,18 +17,15 @@
   "characters": [
     {
       "name": "Krishna",
-      "role": "Peace ambassador; chooses dharma over war repeatedly",
-      "alignment": "Dharma"
+      "role": "Peace ambassador; chooses dharma over war repeatedly"
     },
     {
       "name": "Arjuna",
-      "role": "Supreme archer whose resolve will be tested",
-      "alignment": "Dharma"
+      "role": "Supreme archer whose resolve will be tested"
     },
     {
       "name": "Duryodhana",
-      "role": "Chooses pride over peace, triggering the war",
-      "alignment": "Adharma"
+      "role": "Chooses pride over peace, triggering the war"
     }
   ],
   "content_blocks": [

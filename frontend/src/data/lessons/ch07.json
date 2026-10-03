@@ -17,18 +17,15 @@
   "characters": [
     {
       "name": "Arjuna",
-      "role": "Transformed from grief to divine resolve",
-      "alignment": "Dharma"
+      "role": "Transformed from grief to divine resolve"
     },
     {
       "name": "Krishna",
-      "role": "Reveals the eternal nature of the Self (Atman)",
-      "alignment": "Dharma"
+      "role": "Reveals the eternal nature of the Self (Atman)"
     },
     {
       "name": "Drona",
-      "role": "Guru of both sides; bound by feudal duty",
-      "alignment": "Neutral"
+      "role": "Guru of both sides; bound by feudal duty"
     }
   ],
   "content_blocks": [

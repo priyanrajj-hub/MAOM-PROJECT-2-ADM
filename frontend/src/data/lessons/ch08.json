@@ -17,18 +17,15 @@
   "characters": [
     {
       "name": "Arjuna",
-      "role": "Witness to the terrifying Vishvarupa form",
-      "alignment": "Dharma"
+      "role": "Witness to the terrifying Vishvarupa form"
     },
     {
       "name": "Krishna",
-      "role": "Reveals his Universal Form to Arjuna",
-      "alignment": "Dharma"
+      "role": "Reveals his Universal Form to Arjuna"
     },
     {
       "name": "Sanjaya",
-      "role": "Blessed with divine sight by Vyasa",
-      "alignment": "Neutral"
+      "role": "Blessed with divine sight by Vyasa"
     }
   ],
   "content_blocks": [

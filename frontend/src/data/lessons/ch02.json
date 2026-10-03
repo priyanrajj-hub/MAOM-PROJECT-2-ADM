@@ -17,18 +17,15 @@
   "characters": [
     {
       "name": "Dhritarashtra",
-      "role": "Blind king swayed by attachment to his son",
-      "alignment": "Adharma"
+      "role": "Blind king swayed by attachment to his son"
     },
     {
       "name": "Duryodhana",
-      "role": "Crown prince driven by envy and arrogance",
-      "alignment": "Adharma"
+      "role": "Crown prince driven by envy and arrogance"
     },
     {
       "name": "Shakuni",
-      "role": "Devious schemer who engineers the downfall",
-      "alignment": "Adharma"
+      "role": "Devious schemer who engineers the downfall"
     }
   ],
   "content_blocks": [

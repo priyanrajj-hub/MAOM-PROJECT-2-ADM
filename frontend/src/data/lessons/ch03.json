@@ -17,18 +17,15 @@
   "characters": [
     {
       "name": "Yudhishthira",
-      "role": "Righteous king undone by dharmic confusion",
-      "alignment": "Dharma"
+      "role": "Righteous king undone by dharmic confusion"
     },
     {
       "name": "Draupadi",
-      "role": "Victim of injustice; her question changes everything",
-      "alignment": "Dharma"
+      "role": "Victim of injustice; her question changes everything"
     },
     {
       "name": "Shakuni",
-      "role": "Engineer of the loaded dice and moral destruction",
-      "alignment": "Adharma"
+      "role": "Engineer of the loaded dice and moral destruction"
     }
   ],
   "content_blocks": [

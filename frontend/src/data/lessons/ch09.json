@@ -17,18 +17,15 @@
   "characters": [
     {
       "name": "Bhishma",
-      "role": "Greatest warrior, loyal to throne over dharma",
-      "alignment": "Neutral"
+      "role": "Greatest warrior, loyal to throne over dharma"
     },
     {
       "name": "Arjuna",
-      "role": "Must overcome love for grandfather to do his duty",
-      "alignment": "Dharma"
+      "role": "Must overcome love for grandfather to do his duty"
     },
     {
       "name": "Shikhandi",
-      "role": "Becomes the instrument of Bhishma's fall",
-      "alignment": "Dharma"
+      "role": "Becomes the instrument of Bhishma's fall"
     }
   ],
   "content_blocks": [

@@ -110,6 +110,8 @@ for ch in range(1, 16):
                     warn(f'Ch{ch:02d}: correct answer position {pos} is biased ({cnt}/{len(correct_positions)} = {cnt/len(correct_positions)*100:.0f}%)')
 
         status = 'MOCK' if mock_count > real_count * 0.5 else 'REAL'
+        if status == 'REAL' and ch != 7:
+            err(f'Ch{ch:02d} claims to be REAL but is known to be mock or incomplete!')
         ok(f'Questions: {q_cnt} total, difficulty dist: {dict(diff_counts)}, content: {status} ({mock_count} mock/{real_count} real)')
         summary_rows.append((ch, lesson.get('theme','?') if lesson_ok else '?', status, q_cnt))
 

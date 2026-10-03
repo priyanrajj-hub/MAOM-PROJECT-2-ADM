@@ -17,18 +17,15 @@
   "characters": [
     {
       "name": "Arjuna",
-      "role": "Warrior paralysed by grief — the student",
-      "alignment": "Dharma"
+      "role": "Warrior paralysed by grief — the student"
     },
     {
       "name": "Krishna",
-      "role": "The divine teacher; source of all Gita wisdom",
-      "alignment": "Dharma"
+      "role": "The divine teacher; source of all Gita wisdom"
     },
     {
       "name": "Sanjaya",
-      "role": "Divine narrator who witnesses the battlefield",
-      "alignment": "Neutral"
+      "role": "Divine narrator who witnesses the battlefield"
     }
   ],
   "content_blocks": [

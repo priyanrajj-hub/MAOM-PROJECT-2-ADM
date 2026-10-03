@@ -17,18 +17,15 @@
   "characters": [
     {
       "name": "Karna",
-      "role": "Noble but tragic — loyal to the wrong side",
-      "alignment": "Neutral"
+      "role": "Noble but tragic — loyal to the wrong side"
     },
     {
       "name": "Kunti",
-      "role": "Reveals a devastating secret too late",
-      "alignment": "Dharma"
+      "role": "Reveals a devastating secret too late"
     },
     {
       "name": "Duryodhana",
-      "role": "Exploits Karna's loyalty to sustain his ambitions",
-      "alignment": "Adharma"
+      "role": "Exploits Karna's loyalty to sustain his ambitions"
     }
   ],
   "content_blocks": [

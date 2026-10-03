@@ -17,18 +17,15 @@
   "characters": [
     {
       "name": "Drona",
-      "role": "Brilliant teacher caught between duty and grief",
-      "alignment": "Neutral"
+      "role": "Brilliant teacher caught between duty and grief"
     },
     {
       "name": "Yudhishthira",
-      "role": "Forced to utter a half-lie — his first moral fall",
-      "alignment": "Dharma"
+      "role": "Forced to utter a half-lie — his first moral fall"
     },
     {
       "name": "Abhimanyu",
-      "role": "Young hero trapped in Chakravyuha and slain",
-      "alignment": "Dharma"
+      "role": "Young hero trapped in Chakravyuha and slain"
     }
   ],
   "content_blocks": [

@@ -17,18 +17,15 @@
   "characters": [
     {
       "name": "Vyasa",
-      "role": "Author of the epic, keeper of cosmic truth",
-      "alignment": "Dharma"
+      "role": "Author of the epic, keeper of cosmic truth"
     },
     {
       "name": "Krishna",
-      "role": "Divine guide, embodiment of Dharma itself",
-      "alignment": "Dharma"
+      "role": "Divine guide, embodiment of Dharma itself"
     },
     {
       "name": "Ganesha",
-      "role": "Scribe of the epic, remover of obstacles",
-      "alignment": "Dharma"
+      "role": "Scribe of the epic, remover of obstacles"
     }
   ],
   "content_blocks": [

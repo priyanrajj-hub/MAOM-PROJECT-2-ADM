@@ -89,7 +89,12 @@ export default function Dashboard() {
                                 <div className={`h-1 w-full bg-gradient-to-r ${gradient}`} />
                                 <div className="p-5 space-y-3">
                                     <div className="flex items-start justify-between">
-                                        <span className={`text-xs font-bold px-2 py-0.5 rounded-md bg-gradient-to-r ${gradient} text-white`}>Ch. {ch.chapter}</span>
+                                        <div className="flex gap-2 items-center">
+                                            <span className={`text-xs font-bold px-2 py-0.5 rounded-md bg-gradient-to-r ${gradient} text-white`}>Ch. {ch.chapter}</span>
+                                            {ch.isMock && (
+                                                <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-500 border border-amber-500/30 uppercase tracking-wider">Sample Content</span>
+                                            )}
+                                        </div>
                                     </div>
                                     <h3 className="font-bold text-white text-base group-hover:text-slate-100 leading-snug">{ch.theme}</h3>
                                     <p className="text-xs text-slate-500 line-clamp-2">{ch.abstract}</p>

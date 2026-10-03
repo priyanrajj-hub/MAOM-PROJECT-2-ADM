@@ -17,18 +17,15 @@
   "characters": [
     {
       "name": "Ashvatthama",
-      "role": "Commits the greatest war crime in the epic",
-      "alignment": "Adharma"
+      "role": "Commits the greatest war crime in the epic"
     },
     {
       "name": "Pandavas",
-      "role": "Survivors who must process irreversible loss",
-      "alignment": "Dharma"
+      "role": "Survivors who must process irreversible loss"
     },
     {
       "name": "Draupadi",
-      "role": "Demands justice for her slain sons",
-      "alignment": "Dharma"
+      "role": "Demands justice for her slain sons"
     }
   ],
   "content_blocks": [

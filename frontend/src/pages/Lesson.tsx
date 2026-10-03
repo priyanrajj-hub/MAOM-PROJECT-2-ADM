@@ -3,8 +3,6 @@ import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, BookOpen, Quote, Bookmark, Target, AlertCircle, Users, Lightbulb, Zap } from 'lucide-react';
 import Mindmap from '../components/Mindmap';
 
-const alignmentColor = { Dharma: 'text-emerald-400 bg-emerald-400/10 border-emerald-400/20', Adharma: 'text-red-400 bg-red-400/10 border-red-400/20', Neutral: 'text-slate-300 bg-slate-300/10 border-slate-300/20' };
-
 export default function Lesson() {
     const { chapterId } = useParams();
     const [data, setData] = useState<any>(null);
@@ -92,11 +90,9 @@ export default function Lesson() {
                     </h2>
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                         {data.characters.map((c: any, i: number) => {
-                            const col = alignmentColor[c.alignment as keyof typeof alignmentColor] || alignmentColor.Neutral;
                             return (
                                 <div key={i} className="bg-slate-900 rounded-xl border border-slate-800 p-4 space-y-2">
                                     <div className="font-bold text-white">{c.name}</div>
-                                    <span className={`text-xs font-semibold px-2 py-0.5 rounded-full border ${col}`}>{c.alignment}</span>
                                     <p className="text-xs text-slate-500">{c.role}</p>
                                 </div>
                             );

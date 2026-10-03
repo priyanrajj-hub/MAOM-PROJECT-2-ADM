@@ -17,18 +17,15 @@
   "characters": [
     {
       "name": "Yudhishthira",
-      "role": "Wins the war but drowns in survivor's guilt",
-      "alignment": "Dharma"
+      "role": "Wins the war but drowns in survivor's guilt"
     },
     {
       "name": "Gandhari",
-      "role": "Curses Krishna — the most human response to loss",
-      "alignment": "Neutral"
+      "role": "Curses Krishna — the most human response to loss"
     },
     {
       "name": "Dhritarashtra",
-      "role": "Finally confronts consequences of blind partiality",
-      "alignment": "Neutral"
+      "role": "Finally confronts consequences of blind partiality"
     }
   ],
   "content_blocks": [

@@ -17,18 +17,15 @@
   "characters": [
     {
       "name": "Pandavas",
-      "role": "Brothers tempered by hardship into dharmic warriors",
-      "alignment": "Dharma"
+      "role": "Brothers tempered by hardship into dharmic warriors"
     },
     {
       "name": "Draupadi",
-      "role": "Source of steadfast moral courage through exile",
-      "alignment": "Dharma"
+      "role": "Source of steadfast moral courage through exile"
     },
     {
       "name": "Bhima",
-      "role": "Hot-tempered but fiercely loyal protector",
-      "alignment": "Dharma"
+      "role": "Hot-tempered but fiercely loyal protector"
     }
   ],
   "content_blocks": [
