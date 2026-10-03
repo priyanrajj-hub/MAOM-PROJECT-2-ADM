@@ -17,9 +17,9 @@ const navLinks = [
 function Navigation() {
     const location = useLocation();
     return (
-        <nav className="border-b border-white/5 sticky top-0 z-50 bg-[#080b14]/80 backdrop-blur-xl">
+        <nav aria-label="Main Navigation" className="border-b border-white/5 sticky top-0 z-50 bg-[#080b14]/80 backdrop-blur-xl">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex h-16 items-center justify-between">
+                <div className="flex h-16 items-center justify-between gap-4">
                     <Link to="/" className="flex items-center gap-2.5 group">
                         <div className="relative w-9 h-9">
                             <div className="absolute inset-0 bg-amber-500 rounded-lg opacity-20 group-hover:opacity-30 transition-opacity blur-sm" />
@@ -33,14 +33,16 @@ function Navigation() {
                         </div>
                     </Link>
 
-                    <div className="flex items-center gap-1">
+                    <div className="flex flex-1 justify-end items-center gap-2 overflow-x-auto hide-scrollbar pb-1 sm:pb-0">
                         {navLinks.map(({ to, icon: Icon, label }) => {
                             const active = location.pathname === to;
                             return (
                                 <Link key={to} to={to} className={`px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-1.5 transition-all ${active
                                     ? 'text-white bg-white/10 border border-white/10'
                                     : 'text-slate-400 hover:text-white hover:bg-white/5'
-                                    }`}>
+                                    }`}
+                                    aria-current={active ? 'page' : undefined}
+                                >
                                     <Icon size={15} />
                                     {label}
                                 </Link>
