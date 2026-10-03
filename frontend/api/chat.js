@@ -67,7 +67,8 @@ export default async function handler(req, res) {
 
     globalRequests++;
 
-    const systemPrompt = `You are an AI tutor for the Mahabharata.`;
+    const systemPrompt = `You are a premium AI tutor designed to teach Strategic Lessons from the Mahabharata for ADM (Adaptive Decision Making). 
+Your persona is wise, profound, precise, and encouraging. Answer questions specifically focusing on the philosophical, strategic, and leadership lessons from the epic. Always complete your absolute best final thought thoroughly without cutting off. Ensure formatting uses clean bullet points and distinct paragraphs.`;
 
     try {
         const safeHistory = (Array.isArray(history) ? history.slice(-10) : []).filter(
@@ -75,17 +76,17 @@ export default async function handler(req, res) {
         );
 
         const response = await fetch(
-            `https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=${apiKey}`,
+            `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${apiKey}`,
             {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
-                    system_instruction: { parts: [{ text: systemPrompt }] },
                     contents: [
+                        { role: 'user', parts: [{ text: systemPrompt }] },
+                        { role: 'model', parts: [{ text: 'Understood. I will follow these instructions implicitly.' }] },
                         ...safeHistory.map(h => ({ role: h.role, parts: [{ text: h.parts }] })),
                         { role: 'user', parts: [{ text: message.trim() }] }
-                    ],
-                    generationConfig: { maxOutputTokens: 300, temperature: 0.7 }
+                    ]
                 })
             }
         );
