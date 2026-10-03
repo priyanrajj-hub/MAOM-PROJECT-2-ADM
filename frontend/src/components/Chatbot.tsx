@@ -85,14 +85,16 @@ export default function Chatbot() {
             <div className="flex-1 p-4 overflow-y-auto space-y-4 bg-slate-800/20">
                 {messages.map((m, i) => (
                     <div key={i} className={`flex ${m.role === 'user' ? 'justify-end' : 'justify-start'}`}>
-                        <div className={`max-w-[85%] rounded-2xl p-3 px-4 text-sm ${m.role === 'user'
-                            ? 'bg-indigo-600 text-white rounded-br-none'
-                            : 'bg-slate-800 text-slate-200 border border-slate-700 rounded-bl-none'}`}>
+                        <div className={`max-w-[85%] rounded-2xl p-4 text-sm ${m.role === 'user'
+                            ? 'bg-indigo-600 text-white rounded-br-none shadow-md'
+                            : 'bg-slate-800 text-slate-100 border border-slate-700/80 rounded-bl-none shadow-md'}`}>
                             {m.role === 'model' ? (
-                                <div className="prose prose-invert prose-sm max-w-none">
+                                <div className="leading-relaxed whitespace-pre-wrap flex flex-col gap-2 [&>p]:m-0 [&>ul]:list-disc [&>ul]:ml-4 [&>ul]:m-0 [&>li]:m-0">
                                     <ReactMarkdown>{m.text}</ReactMarkdown>
                                 </div>
-                            ) : m.text}
+                            ) : (
+                                <div className="whitespace-pre-wrap">{m.text}</div>
+                            )}
                         </div>
                     </div>
                 ))}
