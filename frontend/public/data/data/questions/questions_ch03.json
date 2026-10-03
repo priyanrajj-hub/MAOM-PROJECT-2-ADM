@@ -1,0 +1,260 @@
+{
+  "chapter": 3,
+  "questions": [
+    {
+      "id": "q-3-1-0-2ce9",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 1,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Samsara manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-1-1-4c37",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 1,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Dharma manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-1-2-0100",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 1,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Atman manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-2-0-e656",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 2,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Prakriti manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-2-1-cffa",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 2,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Dharma manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-2-2-189b",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 2,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Yoga manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-3-0-0fac",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 3,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Prakriti manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-3-1-a797",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 3,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Dharma manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-3-2-d443",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 3,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Jnana manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-4-0-0316",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 4,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Bhakti manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-4-1-0d3b",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 4,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Bhakti manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-4-2-0247",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 4,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Karma manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-5-0-ad92",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 5,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Yoga manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-5-1-df6d",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 5,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Ahankara manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-5-2-ac59",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 5,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Samsara manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    }
+  ]
+}

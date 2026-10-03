@@ -1,0 +1,14 @@
+{
+  "chapter": 7,
+  "total_questions": 225,
+  "passed_counts": true,
+  "level_distribution": {
+    "1": 45,
+    "2": 45,
+    "3": 45,
+    "4": 45,
+    "5": 45
+  },
+  "duplicates_found": 0,
+  "sample_mismatches": 0
+}

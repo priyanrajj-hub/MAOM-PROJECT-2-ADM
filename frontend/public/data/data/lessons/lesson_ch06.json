@@ -1,0 +1,42 @@
+{
+  "chapter": 6,
+  "theme": "The Bhagavad Gita Begins",
+  "abstract": "This chapter dives deeply into the complexities of The Bhagavad Gita Begins, providing crucial context for the epic's narrative.",
+  "objectives": [
+    "Understand the core principle behind Ahankara.",
+    "Analyze the character motivations impacting the events of The Bhagavad Gita Begins.",
+    "Apply the philosophical teachings to real-world ethical dilemmas."
+  ],
+  "content_blocks": [
+    {
+      "type": "paragraph",
+      "content": "The narrative of Chapter 6 centers around the profound concept of Bhakti. As the epic unfolds, characters are forced to make decisions that balance their personal desires with universal duties."
+    },
+    {
+      "type": "sloka_translation",
+      "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।",
+      "english_translation": "You have a right to perform your prescribed duty, but you are not entitled to the fruits of action.",
+      "content": "This foundational verse reminds us that action itself is our responsibility, not the outcome."
+    },
+    {
+      "type": "key_concept",
+      "content": "Focusing on the alignment of Purusha reveals the deeper spiritual undertone of horizontal actions."
+    },
+    {
+      "type": "paragraph",
+      "content": "Ultimately, the events described in 'The Bhagavad Gita Begins' serve as a metaphorical battlefield for the human soul, urging the reader toward self-realization."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Atman",
+      "definition": "A fundamental philosophical concept in Vedic literature.",
+      "context": "Used prominently during the discussions in The Bhagavad Gita Begins."
+    },
+    {
+      "term": "Bhakti",
+      "definition": "Action, work, or deed; also refers to the spiritual principle of cause and effect.",
+      "context": "The driving force behind character choices."
+    }
+  ]
+}
