@@ -1,42 +1,75 @@
 {
   "chapter": 4,
   "theme": "Exile in the Forest",
-  "abstract": "Chapter 4 explores Exile in the Forest through the lens of Brahman, revealing the universal truths woven into the Mahabharata narrative.",
+  "abstract": "Chapter 4 of the Mahabharata unveils Exile in the Forest — a moment that tests the moral, spiritual, and philosophical limits of its characters. Through vivid narrative and timeless wisdom, this chapter reveals the stakes of dharmic living.",
   "objectives": [
-    "Understand the role of Brahman in Exile in the Forest.",
-    "Analyze key character motivations in Chapter 4.",
-    "Connect philosophical teachings to real-world ethics."
+    "Understand the key events and their moral significance in Exile in the Forest.",
+    "Analyse the choices made by Pandavas and their consequences.",
+    "Connect the chapter's philosophical teachings to the Bhagavad Gita's framework.",
+    "Identify the central dharmic dilemma and its resolution."
+  ],
+  "highlights": [
+    "The forest years teach humility and spiritual discipline",
+    "Draupadi's questions test philosophical resolve of the Pandavas",
+    "Arjuna gains divine weapons through rigorous tapas",
+    "The exile period forges the Pandavas into warriors of dharma"
+  ],
+  "characters": [
+    {
+      "name": "Pandavas",
+      "role": "Central figure in Chapter 4",
+      "alignment": "Dharma"
+    },
+    {
+      "name": "Draupadi",
+      "role": "Central figure in Chapter 4",
+      "alignment": "Adharma"
+    },
+    {
+      "name": "Bhima",
+      "role": "Central figure in Chapter 4",
+      "alignment": "Neutral"
+    }
   ],
   "content_blocks": [
     {
       "type": "paragraph",
-      "content": "The narrative of Chapter 4 centres on Exile in the Forest. The characters face choices that test the boundaries of Brahman — the cosmic order that governs all actions."
+      "content": "The narrative of Chapter 4 — Exile in the Forest — begins with a pivotal moment that ripples through the entire epic. The characters involved are not merely actors in a tale; they are archetypes of the universal human condition, each embodying a fragment of cosmic truth."
     },
     {
       "type": "sloka_translation",
-      "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।",
-      "english_translation": "You have a right to perform your duty, but not to its fruits.",
-      "content": "This verse defines selfless action — the bedrock of the Gita's teaching."
+      "sanskrit": "आपदः सम्पदः काले दैवादेव हि जायते",
+      "english_translation": "Fortunes and misfortunes come in their season, by fate alone.",
+      "content": "This verse from Chapter 4 captures the essential teaching embedded in Exile in the Forest. Meditate on it as you study the events that follow."
     },
     {
       "type": "key_concept",
-      "content": "Brahman as explored in Exile in the Forest reveals that true freedom lies in detachment from outcome while remaining fully committed to righteous action."
+      "content": "The central dharmic dilemma of Chapter 4: Pandavas must choose between personal desire and universal duty. This choice — repeated throughout the Mahabharata — is the heartbeat of the epic's moral philosophy."
     },
     {
       "type": "paragraph",
-      "content": "By the end of Chapter 4, the reader understands that the battlefield of Kurukshetra is also the battlefield of the human mind — where every soul must choose between ego and truth."
+      "content": "By the end of Exile in the Forest, the reader understands that the Mahabharata is not a story about war. It is a story about the war within — the battle between ego and truth, between attachment and liberation, between what we desire and what is right."
+    },
+    {
+      "type": "key_concept",
+      "content": "Remember: the Mahabharata teaches that every action (karma) creates its ripple in time. What Pandavas does in Chapter 4 echoes across every subsequent chapter of the epic."
     }
   ],
   "glossary": [
     {
-      "term": "Brahman",
-      "definition": "A fundamental philosophical principle in Vedic scripture.",
-      "context": "Central to the dilemmas presented in Exile in the Forest."
+      "term": "Dharma",
+      "definition": "Cosmic order, righteousness, and moral duty — the central axis around which the Mahabharata revolves.",
+      "context": "Tested relentlessly in Chapter 4: Exile in the Forest."
     },
     {
-      "term": "Kurukshetra",
-      "definition": "The sacred battlefield where the Mahabharata war was fought; also a metaphor for inner struggle.",
-      "context": "The physical and spiritual setting of the epic."
+      "term": "Karma",
+      "definition": "The law of cause and effect — every action generates a consequence that must be lived through.",
+      "context": "The actions of Pandavas in this chapter create karma that shapes the epic's future."
+    },
+    {
+      "term": "Moksha",
+      "definition": "Liberation from the cycle of birth, death, and rebirth — the ultimate aim of all dharmic action.",
+      "context": "The distant horizon that every character is unknowingly moving toward."
     }
   ]
 }

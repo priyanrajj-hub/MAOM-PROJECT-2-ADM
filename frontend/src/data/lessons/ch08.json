@@ -1,42 +1,75 @@
 {
   "chapter": 8,
   "theme": "The Cosmic Vision",
-  "abstract": "Chapter 8 explores The Cosmic Vision through the lens of Jnana, revealing the universal truths woven into the Mahabharata narrative.",
+  "abstract": "Chapter 8 of the Mahabharata unveils The Cosmic Vision — a moment that tests the moral, spiritual, and philosophical limits of its characters. Through vivid narrative and timeless wisdom, this chapter reveals the stakes of dharmic living.",
   "objectives": [
-    "Understand the role of Jnana in The Cosmic Vision.",
-    "Analyze key character motivations in Chapter 8.",
-    "Connect philosophical teachings to real-world ethics."
+    "Understand the key events and their moral significance in The Cosmic Vision.",
+    "Analyse the choices made by Arjuna and their consequences.",
+    "Connect the chapter's philosophical teachings to the Bhagavad Gita's framework.",
+    "Identify the central dharmic dilemma and its resolution."
+  ],
+  "highlights": [
+    "Arjuna asks to see Krishna's universal form (Vishvarupa)",
+    "The vision is described as simultaneously beautiful and terrifying",
+    "Sanjaya receives divine sight from Vyasa to narrate the spectacle",
+    "This chapter establishes Krishna's identity as the Supreme Being"
+  ],
+  "characters": [
+    {
+      "name": "Arjuna",
+      "role": "Central figure in Chapter 8",
+      "alignment": "Dharma"
+    },
+    {
+      "name": "Krishna",
+      "role": "Central figure in Chapter 8",
+      "alignment": "Adharma"
+    },
+    {
+      "name": "Vishvarupa",
+      "role": "Central figure in Chapter 8",
+      "alignment": "Neutral"
+    }
   ],
   "content_blocks": [
     {
       "type": "paragraph",
-      "content": "The narrative of Chapter 8 centres on The Cosmic Vision. The characters face choices that test the boundaries of Jnana — the cosmic order that governs all actions."
+      "content": "The narrative of Chapter 8 — The Cosmic Vision — begins with a pivotal moment that ripples through the entire epic. The characters involved are not merely actors in a tale; they are archetypes of the universal human condition, each embodying a fragment of cosmic truth."
     },
     {
       "type": "sloka_translation",
-      "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।",
-      "english_translation": "You have a right to perform your duty, but not to its fruits.",
-      "content": "This verse defines selfless action — the bedrock of the Gita's teaching."
+      "sanskrit": "पश्य मे पार्थ रूपाणि शतशोऽथ सहस्रशः",
+      "english_translation": "Behold, O Partha, my forms — a hundredfold, a thousandfold.",
+      "content": "This verse from Chapter 8 captures the essential teaching embedded in The Cosmic Vision. Meditate on it as you study the events that follow."
     },
     {
       "type": "key_concept",
-      "content": "Jnana as explored in The Cosmic Vision reveals that true freedom lies in detachment from outcome while remaining fully committed to righteous action."
+      "content": "The central dharmic dilemma of Chapter 8: Arjuna must choose between personal desire and universal duty. This choice — repeated throughout the Mahabharata — is the heartbeat of the epic's moral philosophy."
     },
     {
       "type": "paragraph",
-      "content": "By the end of Chapter 8, the reader understands that the battlefield of Kurukshetra is also the battlefield of the human mind — where every soul must choose between ego and truth."
+      "content": "By the end of The Cosmic Vision, the reader understands that the Mahabharata is not a story about war. It is a story about the war within — the battle between ego and truth, between attachment and liberation, between what we desire and what is right."
+    },
+    {
+      "type": "key_concept",
+      "content": "Remember: the Mahabharata teaches that every action (karma) creates its ripple in time. What Arjuna does in Chapter 8 echoes across every subsequent chapter of the epic."
     }
   ],
   "glossary": [
     {
-      "term": "Jnana",
-      "definition": "A fundamental philosophical principle in Vedic scripture.",
-      "context": "Central to the dilemmas presented in The Cosmic Vision."
+      "term": "Dharma",
+      "definition": "Cosmic order, righteousness, and moral duty — the central axis around which the Mahabharata revolves.",
+      "context": "Tested relentlessly in Chapter 8: The Cosmic Vision."
     },
     {
-      "term": "Kurukshetra",
-      "definition": "The sacred battlefield where the Mahabharata war was fought; also a metaphor for inner struggle.",
-      "context": "The physical and spiritual setting of the epic."
+      "term": "Karma",
+      "definition": "The law of cause and effect — every action generates a consequence that must be lived through.",
+      "context": "The actions of Arjuna in this chapter create karma that shapes the epic's future."
+    },
+    {
+      "term": "Moksha",
+      "definition": "Liberation from the cycle of birth, death, and rebirth — the ultimate aim of all dharmic action.",
+      "context": "The distant horizon that every character is unknowingly moving toward."
     }
   ]
 }

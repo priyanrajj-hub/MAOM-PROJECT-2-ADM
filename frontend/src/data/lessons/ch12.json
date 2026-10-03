@@ -1,42 +1,75 @@
 {
   "chapter": 12,
   "theme": "The Night Massacre",
-  "abstract": "Chapter 12 explores The Night Massacre through the lens of Moksha, revealing the universal truths woven into the Mahabharata narrative.",
+  "abstract": "Chapter 12 of the Mahabharata unveils The Night Massacre — a moment that tests the moral, spiritual, and philosophical limits of its characters. Through vivid narrative and timeless wisdom, this chapter reveals the stakes of dharmic living.",
   "objectives": [
-    "Understand the role of Moksha in The Night Massacre.",
-    "Analyze key character motivations in Chapter 12.",
-    "Connect philosophical teachings to real-world ethics."
+    "Understand the key events and their moral significance in The Night Massacre.",
+    "Analyse the choices made by Ashvatthama and their consequences.",
+    "Connect the chapter's philosophical teachings to the Bhagavad Gita's framework.",
+    "Identify the central dharmic dilemma and its resolution."
+  ],
+  "highlights": [
+    "Ashvatthama attacks the sleeping Pandava camp in darkness",
+    "He kills the five sons of Draupadi and Dhrishtadyumna",
+    "This act is universally condemned as the greatest violation of war ethics",
+    "The surviving Pandavas must reckon with this irreversible grief"
+  ],
+  "characters": [
+    {
+      "name": "Ashvatthama",
+      "role": "Central figure in Chapter 12",
+      "alignment": "Dharma"
+    },
+    {
+      "name": "Pandavas",
+      "role": "Central figure in Chapter 12",
+      "alignment": "Adharma"
+    },
+    {
+      "name": "Draupadi",
+      "role": "Central figure in Chapter 12",
+      "alignment": "Neutral"
+    }
   ],
   "content_blocks": [
     {
       "type": "paragraph",
-      "content": "The narrative of Chapter 12 centres on The Night Massacre. The characters face choices that test the boundaries of Moksha — the cosmic order that governs all actions."
+      "content": "The narrative of Chapter 12 — The Night Massacre — begins with a pivotal moment that ripples through the entire epic. The characters involved are not merely actors in a tale; they are archetypes of the universal human condition, each embodying a fragment of cosmic truth."
     },
     {
       "type": "sloka_translation",
-      "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।",
-      "english_translation": "You have a right to perform your duty, but not to its fruits.",
-      "content": "This verse defines selfless action — the bedrock of the Gita's teaching."
+      "sanskrit": "सुप्ते जगत्यनिलबन्धुरेष त्वमप्यसुप्तः",
+      "english_translation": "While the world sleeps, O Wind-friend, thou art awake.",
+      "content": "This verse from Chapter 12 captures the essential teaching embedded in The Night Massacre. Meditate on it as you study the events that follow."
     },
     {
       "type": "key_concept",
-      "content": "Moksha as explored in The Night Massacre reveals that true freedom lies in detachment from outcome while remaining fully committed to righteous action."
+      "content": "The central dharmic dilemma of Chapter 12: Ashvatthama must choose between personal desire and universal duty. This choice — repeated throughout the Mahabharata — is the heartbeat of the epic's moral philosophy."
     },
     {
       "type": "paragraph",
-      "content": "By the end of Chapter 12, the reader understands that the battlefield of Kurukshetra is also the battlefield of the human mind — where every soul must choose between ego and truth."
+      "content": "By the end of The Night Massacre, the reader understands that the Mahabharata is not a story about war. It is a story about the war within — the battle between ego and truth, between attachment and liberation, between what we desire and what is right."
+    },
+    {
+      "type": "key_concept",
+      "content": "Remember: the Mahabharata teaches that every action (karma) creates its ripple in time. What Ashvatthama does in Chapter 12 echoes across every subsequent chapter of the epic."
     }
   ],
   "glossary": [
     {
-      "term": "Moksha",
-      "definition": "A fundamental philosophical principle in Vedic scripture.",
-      "context": "Central to the dilemmas presented in The Night Massacre."
+      "term": "Dharma",
+      "definition": "Cosmic order, righteousness, and moral duty — the central axis around which the Mahabharata revolves.",
+      "context": "Tested relentlessly in Chapter 12: The Night Massacre."
     },
     {
-      "term": "Kurukshetra",
-      "definition": "The sacred battlefield where the Mahabharata war was fought; also a metaphor for inner struggle.",
-      "context": "The physical and spiritual setting of the epic."
+      "term": "Karma",
+      "definition": "The law of cause and effect — every action generates a consequence that must be lived through.",
+      "context": "The actions of Ashvatthama in this chapter create karma that shapes the epic's future."
+    },
+    {
+      "term": "Moksha",
+      "definition": "Liberation from the cycle of birth, death, and rebirth — the ultimate aim of all dharmic action.",
+      "context": "The distant horizon that every character is unknowingly moving toward."
     }
   ]
 }

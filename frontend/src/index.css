@@ -1,9 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Cinzel:wght@400;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --gold: #f59e0b;
+    --indigo: #6366f1;
+  }
+
+  * {
+    scroll-behavior: smooth;
+  }
+
   body {
-    @apply bg-slate-900 text-slate-100 antialiased;
+    @apply bg-[#080b14] text-slate-100 antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0f172a;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #334155;
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6366f1;
+  }
+
+  /* Sanskrit / heading font */
+  .font-cinzel {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/5 backdrop-blur-md border border-white/10;
+  }
+
+  .glow-amber {
+    box-shadow: 0 0 30px rgba(245, 158, 11, 0.15), 0 0 60px rgba(245, 158, 11, 0.05);
+  }
+
+  .glow-indigo {
+    box-shadow: 0 0 30px rgba(99, 102, 241, 0.15), 0 0 60px rgba(99, 102, 241, 0.05);
+  }
+}
+
+@layer utilities {
+  .animate-in {
+    animation: fadeSlideIn 0.5s ease both;
+  }
+
+  .fade-in {
+    --tw-enter-opacity: 0;
+  }
+
+  .slide-in-from-bottom-4 {
+    --tw-enter-translate-y: 1rem;
+  }
+
+  @keyframes fadeSlideIn {
+    from {
+      opacity: var(--tw-enter-opacity, 1);
+      transform: translateY(var(--tw-enter-translate-y, 0));
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .text-gradient-gold {
+    @apply bg-gradient-to-r from-amber-400 to-orange-300 bg-clip-text text-transparent;
+  }
+
+  .text-gradient-indigo {
+    @apply bg-gradient-to-r from-indigo-400 to-cyan-300 bg-clip-text text-transparent;
   }
 }

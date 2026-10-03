@@ -1,42 +1,75 @@
 {
   "chapter": 13,
   "theme": "Aftermath and Grief",
-  "abstract": "Chapter 13 explores Aftermath and Grief through the lens of Yoga, revealing the universal truths woven into the Mahabharata narrative.",
+  "abstract": "Chapter 13 of the Mahabharata unveils Aftermath and Grief — a moment that tests the moral, spiritual, and philosophical limits of its characters. Through vivid narrative and timeless wisdom, this chapter reveals the stakes of dharmic living.",
   "objectives": [
-    "Understand the role of Yoga in Aftermath and Grief.",
-    "Analyze key character motivations in Chapter 13.",
-    "Connect philosophical teachings to real-world ethics."
+    "Understand the key events and their moral significance in Aftermath and Grief.",
+    "Analyse the choices made by Yudhishthira and their consequences.",
+    "Connect the chapter's philosophical teachings to the Bhagavad Gita's framework.",
+    "Identify the central dharmic dilemma and its resolution."
+  ],
+  "highlights": [
+    "Yudhishthira is wracked with guilt for the war's devastation",
+    "Gandhari curses Krishna for allowing the war to happen",
+    "The coronation of Yudhishthira brings no joy — only the weight of a pyrrhic victory",
+    "Bhishma speaks his final teachings from the arrow-bed before departing"
+  ],
+  "characters": [
+    {
+      "name": "Yudhishthira",
+      "role": "Central figure in Chapter 13",
+      "alignment": "Dharma"
+    },
+    {
+      "name": "Gandhari",
+      "role": "Central figure in Chapter 13",
+      "alignment": "Adharma"
+    },
+    {
+      "name": "Dhritarashtra",
+      "role": "Central figure in Chapter 13",
+      "alignment": "Neutral"
+    }
   ],
   "content_blocks": [
     {
       "type": "paragraph",
-      "content": "The narrative of Chapter 13 centres on Aftermath and Grief. The characters face choices that test the boundaries of Yoga — the cosmic order that governs all actions."
+      "content": "The narrative of Chapter 13 — Aftermath and Grief — begins with a pivotal moment that ripples through the entire epic. The characters involved are not merely actors in a tale; they are archetypes of the universal human condition, each embodying a fragment of cosmic truth."
     },
     {
       "type": "sloka_translation",
-      "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।",
-      "english_translation": "You have a right to perform your duty, but not to its fruits.",
-      "content": "This verse defines selfless action — the bedrock of the Gita's teaching."
+      "sanskrit": "धर्म एव हतो हन्ति धर्मो रक्षति रक्षितः",
+      "english_translation": "Dharma, if slain, slays; Dharma, if protected, protects.",
+      "content": "This verse from Chapter 13 captures the essential teaching embedded in Aftermath and Grief. Meditate on it as you study the events that follow."
     },
     {
       "type": "key_concept",
-      "content": "Yoga as explored in Aftermath and Grief reveals that true freedom lies in detachment from outcome while remaining fully committed to righteous action."
+      "content": "The central dharmic dilemma of Chapter 13: Yudhishthira must choose between personal desire and universal duty. This choice — repeated throughout the Mahabharata — is the heartbeat of the epic's moral philosophy."
     },
     {
       "type": "paragraph",
-      "content": "By the end of Chapter 13, the reader understands that the battlefield of Kurukshetra is also the battlefield of the human mind — where every soul must choose between ego and truth."
+      "content": "By the end of Aftermath and Grief, the reader understands that the Mahabharata is not a story about war. It is a story about the war within — the battle between ego and truth, between attachment and liberation, between what we desire and what is right."
+    },
+    {
+      "type": "key_concept",
+      "content": "Remember: the Mahabharata teaches that every action (karma) creates its ripple in time. What Yudhishthira does in Chapter 13 echoes across every subsequent chapter of the epic."
     }
   ],
   "glossary": [
     {
-      "term": "Yoga",
-      "definition": "A fundamental philosophical principle in Vedic scripture.",
-      "context": "Central to the dilemmas presented in Aftermath and Grief."
+      "term": "Dharma",
+      "definition": "Cosmic order, righteousness, and moral duty — the central axis around which the Mahabharata revolves.",
+      "context": "Tested relentlessly in Chapter 13: Aftermath and Grief."
     },
     {
-      "term": "Kurukshetra",
-      "definition": "The sacred battlefield where the Mahabharata war was fought; also a metaphor for inner struggle.",
-      "context": "The physical and spiritual setting of the epic."
+      "term": "Karma",
+      "definition": "The law of cause and effect — every action generates a consequence that must be lived through.",
+      "context": "The actions of Yudhishthira in this chapter create karma that shapes the epic's future."
+    },
+    {
+      "term": "Moksha",
+      "definition": "Liberation from the cycle of birth, death, and rebirth — the ultimate aim of all dharmic action.",
+      "context": "The distant horizon that every character is unknowingly moving toward."
     }
   ]
 }

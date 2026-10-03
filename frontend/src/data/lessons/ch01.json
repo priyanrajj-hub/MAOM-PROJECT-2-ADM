@@ -1,42 +1,75 @@
 {
   "chapter": 1,
   "theme": "Introduction to the Epic",
-  "abstract": "Chapter 1 explores Introduction to the Epic through the lens of Karma, revealing the universal truths woven into the Mahabharata narrative.",
+  "abstract": "Chapter 1 of the Mahabharata unveils Introduction to the Epic — a moment that tests the moral, spiritual, and philosophical limits of its characters. Through vivid narrative and timeless wisdom, this chapter reveals the stakes of dharmic living.",
   "objectives": [
-    "Understand the role of Karma in Introduction to the Epic.",
-    "Analyze key character motivations in Chapter 1.",
-    "Connect philosophical teachings to real-world ethics."
+    "Understand the key events and their moral significance in Introduction to the Epic.",
+    "Analyse the choices made by Vyasa and their consequences.",
+    "Connect the chapter's philosophical teachings to the Bhagavad Gita's framework.",
+    "Identify the central dharmic dilemma and its resolution."
+  ],
+  "highlights": [
+    "The Mahabharata is the longest epic ever composed — 100,000 verses",
+    "Vyasa composed it while Ganesha transcribed it",
+    "It contains 18 Parvas (books) covering the entire arc of the Kuru dynasty",
+    "The central theme is the eternal conflict between Dharma and Adharma"
+  ],
+  "characters": [
+    {
+      "name": "Vyasa",
+      "role": "Central figure in Chapter 1",
+      "alignment": "Dharma"
+    },
+    {
+      "name": "Krishna",
+      "role": "Central figure in Chapter 1",
+      "alignment": "Adharma"
+    },
+    {
+      "name": "Ganesha",
+      "role": "Central figure in Chapter 1",
+      "alignment": "Neutral"
+    }
   ],
   "content_blocks": [
     {
       "type": "paragraph",
-      "content": "The narrative of Chapter 1 centres on Introduction to the Epic. The characters face choices that test the boundaries of Karma — the cosmic order that governs all actions."
+      "content": "The narrative of Chapter 1 — Introduction to the Epic — begins with a pivotal moment that ripples through the entire epic. The characters involved are not merely actors in a tale; they are archetypes of the universal human condition, each embodying a fragment of cosmic truth."
     },
     {
       "type": "sloka_translation",
-      "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।",
-      "english_translation": "You have a right to perform your duty, but not to its fruits.",
-      "content": "This verse defines selfless action — the bedrock of the Gita's teaching."
+      "sanskrit": "धर्मो रक्षति रक्षितः",
+      "english_translation": "By protecting Dharma we are ourselves protected.",
+      "content": "This verse from Chapter 1 captures the essential teaching embedded in Introduction to the Epic. Meditate on it as you study the events that follow."
     },
     {
       "type": "key_concept",
-      "content": "Karma as explored in Introduction to the Epic reveals that true freedom lies in detachment from outcome while remaining fully committed to righteous action."
+      "content": "The central dharmic dilemma of Chapter 1: Vyasa must choose between personal desire and universal duty. This choice — repeated throughout the Mahabharata — is the heartbeat of the epic's moral philosophy."
     },
     {
       "type": "paragraph",
-      "content": "By the end of Chapter 1, the reader understands that the battlefield of Kurukshetra is also the battlefield of the human mind — where every soul must choose between ego and truth."
+      "content": "By the end of Introduction to the Epic, the reader understands that the Mahabharata is not a story about war. It is a story about the war within — the battle between ego and truth, between attachment and liberation, between what we desire and what is right."
+    },
+    {
+      "type": "key_concept",
+      "content": "Remember: the Mahabharata teaches that every action (karma) creates its ripple in time. What Vyasa does in Chapter 1 echoes across every subsequent chapter of the epic."
     }
   ],
   "glossary": [
     {
-      "term": "Karma",
-      "definition": "A fundamental philosophical principle in Vedic scripture.",
-      "context": "Central to the dilemmas presented in Introduction to the Epic."
+      "term": "Dharma",
+      "definition": "Cosmic order, righteousness, and moral duty — the central axis around which the Mahabharata revolves.",
+      "context": "Tested relentlessly in Chapter 1: Introduction to the Epic."
     },
     {
-      "term": "Kurukshetra",
-      "definition": "The sacred battlefield where the Mahabharata war was fought; also a metaphor for inner struggle.",
-      "context": "The physical and spiritual setting of the epic."
+      "term": "Karma",
+      "definition": "The law of cause and effect — every action generates a consequence that must be lived through.",
+      "context": "The actions of Vyasa in this chapter create karma that shapes the epic's future."
+    },
+    {
+      "term": "Moksha",
+      "definition": "Liberation from the cycle of birth, death, and rebirth — the ultimate aim of all dharmic action.",
+      "context": "The distant horizon that every character is unknowingly moving toward."
     }
   ]
 }

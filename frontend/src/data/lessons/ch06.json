@@ -1,42 +1,75 @@
 {
   "chapter": 6,
   "theme": "The Bhagavad Gita Begins",
-  "abstract": "Chapter 6 explores The Bhagavad Gita Begins through the lens of Samsara, revealing the universal truths woven into the Mahabharata narrative.",
+  "abstract": "Chapter 6 of the Mahabharata unveils The Bhagavad Gita Begins — a moment that tests the moral, spiritual, and philosophical limits of its characters. Through vivid narrative and timeless wisdom, this chapter reveals the stakes of dharmic living.",
   "objectives": [
-    "Understand the role of Samsara in The Bhagavad Gita Begins.",
-    "Analyze key character motivations in Chapter 6.",
-    "Connect philosophical teachings to real-world ethics."
+    "Understand the key events and their moral significance in The Bhagavad Gita Begins.",
+    "Analyse the choices made by Arjuna and their consequences.",
+    "Connect the chapter's philosophical teachings to the Bhagavad Gita's framework.",
+    "Identify the central dharmic dilemma and its resolution."
+  ],
+  "highlights": [
+    "Arjuna breaks down at the sight of his kin arrayed for battle",
+    "Krishna begins the Bhagavad Gita — 700 verses of divine instruction",
+    "The core teaching: perform your duty without attachment to reward",
+    "This chapter contains the most quoted philosophy in all of Indian thought"
+  ],
+  "characters": [
+    {
+      "name": "Arjuna",
+      "role": "Central figure in Chapter 6",
+      "alignment": "Dharma"
+    },
+    {
+      "name": "Krishna",
+      "role": "Central figure in Chapter 6",
+      "alignment": "Adharma"
+    },
+    {
+      "name": "Sanjaya",
+      "role": "Central figure in Chapter 6",
+      "alignment": "Neutral"
+    }
   ],
   "content_blocks": [
     {
       "type": "paragraph",
-      "content": "The narrative of Chapter 6 centres on The Bhagavad Gita Begins. The characters face choices that test the boundaries of Samsara — the cosmic order that governs all actions."
+      "content": "The narrative of Chapter 6 — The Bhagavad Gita Begins — begins with a pivotal moment that ripples through the entire epic. The characters involved are not merely actors in a tale; they are archetypes of the universal human condition, each embodying a fragment of cosmic truth."
     },
     {
       "type": "sloka_translation",
-      "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।",
+      "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन",
       "english_translation": "You have a right to perform your duty, but not to its fruits.",
-      "content": "This verse defines selfless action — the bedrock of the Gita's teaching."
+      "content": "This verse from Chapter 6 captures the essential teaching embedded in The Bhagavad Gita Begins. Meditate on it as you study the events that follow."
     },
     {
       "type": "key_concept",
-      "content": "Samsara as explored in The Bhagavad Gita Begins reveals that true freedom lies in detachment from outcome while remaining fully committed to righteous action."
+      "content": "The central dharmic dilemma of Chapter 6: Arjuna must choose between personal desire and universal duty. This choice — repeated throughout the Mahabharata — is the heartbeat of the epic's moral philosophy."
     },
     {
       "type": "paragraph",
-      "content": "By the end of Chapter 6, the reader understands that the battlefield of Kurukshetra is also the battlefield of the human mind — where every soul must choose between ego and truth."
+      "content": "By the end of The Bhagavad Gita Begins, the reader understands that the Mahabharata is not a story about war. It is a story about the war within — the battle between ego and truth, between attachment and liberation, between what we desire and what is right."
+    },
+    {
+      "type": "key_concept",
+      "content": "Remember: the Mahabharata teaches that every action (karma) creates its ripple in time. What Arjuna does in Chapter 6 echoes across every subsequent chapter of the epic."
     }
   ],
   "glossary": [
     {
-      "term": "Samsara",
-      "definition": "A fundamental philosophical principle in Vedic scripture.",
-      "context": "Central to the dilemmas presented in The Bhagavad Gita Begins."
+      "term": "Dharma",
+      "definition": "Cosmic order, righteousness, and moral duty — the central axis around which the Mahabharata revolves.",
+      "context": "Tested relentlessly in Chapter 6: The Bhagavad Gita Begins."
     },
     {
-      "term": "Kurukshetra",
-      "definition": "The sacred battlefield where the Mahabharata war was fought; also a metaphor for inner struggle.",
-      "context": "The physical and spiritual setting of the epic."
+      "term": "Karma",
+      "definition": "The law of cause and effect — every action generates a consequence that must be lived through.",
+      "context": "The actions of Arjuna in this chapter create karma that shapes the epic's future."
+    },
+    {
+      "term": "Moksha",
+      "definition": "Liberation from the cycle of birth, death, and rebirth — the ultimate aim of all dharmic action.",
+      "context": "The distant horizon that every character is unknowingly moving toward."
     }
   ]
 }

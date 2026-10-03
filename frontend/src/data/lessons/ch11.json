@@ -1,42 +1,75 @@
 {
   "chapter": 11,
   "theme": "Karna's Vow",
-  "abstract": "Chapter 11 explores Karna's Vow through the lens of Karma, revealing the universal truths woven into the Mahabharata narrative.",
+  "abstract": "Chapter 11 of the Mahabharata unveils Karna's Vow — a moment that tests the moral, spiritual, and philosophical limits of its characters. Through vivid narrative and timeless wisdom, this chapter reveals the stakes of dharmic living.",
   "objectives": [
-    "Understand the role of Karma in Karna's Vow.",
-    "Analyze key character motivations in Chapter 11.",
-    "Connect philosophical teachings to real-world ethics."
+    "Understand the key events and their moral significance in Karna's Vow.",
+    "Analyse the choices made by Karna and their consequences.",
+    "Connect the chapter's philosophical teachings to the Bhagavad Gita's framework.",
+    "Identify the central dharmic dilemma and its resolution."
+  ],
+  "highlights": [
+    "Kunti reveals Karna is her firstborn — the eldest Pandava",
+    "Karna promises to spare all but Arjuna — a vow that limits the war's casualties",
+    "Karna fights without his natural armor — making the battle fair",
+    "Despite knowing the truth, Karna remains loyal to Duryodhana"
+  ],
+  "characters": [
+    {
+      "name": "Karna",
+      "role": "Central figure in Chapter 11",
+      "alignment": "Dharma"
+    },
+    {
+      "name": "Kunti",
+      "role": "Central figure in Chapter 11",
+      "alignment": "Adharma"
+    },
+    {
+      "name": "Duryodhana",
+      "role": "Central figure in Chapter 11",
+      "alignment": "Neutral"
+    }
   ],
   "content_blocks": [
     {
       "type": "paragraph",
-      "content": "The narrative of Chapter 11 centres on Karna's Vow. The characters face choices that test the boundaries of Karma — the cosmic order that governs all actions."
+      "content": "The narrative of Chapter 11 — Karna's Vow — begins with a pivotal moment that ripples through the entire epic. The characters involved are not merely actors in a tale; they are archetypes of the universal human condition, each embodying a fragment of cosmic truth."
     },
     {
       "type": "sloka_translation",
-      "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।",
-      "english_translation": "You have a right to perform your duty, but not to its fruits.",
-      "content": "This verse defines selfless action — the bedrock of the Gita's teaching."
+      "sanskrit": "वयमत्र महाभागा यथार्हं भवता कृतम्",
+      "english_translation": "We are fortunate that you acted toward us as we deserved.",
+      "content": "This verse from Chapter 11 captures the essential teaching embedded in Karna's Vow. Meditate on it as you study the events that follow."
     },
     {
       "type": "key_concept",
-      "content": "Karma as explored in Karna's Vow reveals that true freedom lies in detachment from outcome while remaining fully committed to righteous action."
+      "content": "The central dharmic dilemma of Chapter 11: Karna must choose between personal desire and universal duty. This choice — repeated throughout the Mahabharata — is the heartbeat of the epic's moral philosophy."
     },
     {
       "type": "paragraph",
-      "content": "By the end of Chapter 11, the reader understands that the battlefield of Kurukshetra is also the battlefield of the human mind — where every soul must choose between ego and truth."
+      "content": "By the end of Karna's Vow, the reader understands that the Mahabharata is not a story about war. It is a story about the war within — the battle between ego and truth, between attachment and liberation, between what we desire and what is right."
+    },
+    {
+      "type": "key_concept",
+      "content": "Remember: the Mahabharata teaches that every action (karma) creates its ripple in time. What Karna does in Chapter 11 echoes across every subsequent chapter of the epic."
     }
   ],
   "glossary": [
     {
-      "term": "Karma",
-      "definition": "A fundamental philosophical principle in Vedic scripture.",
-      "context": "Central to the dilemmas presented in Karna's Vow."
+      "term": "Dharma",
+      "definition": "Cosmic order, righteousness, and moral duty — the central axis around which the Mahabharata revolves.",
+      "context": "Tested relentlessly in Chapter 11: Karna's Vow."
     },
     {
-      "term": "Kurukshetra",
-      "definition": "The sacred battlefield where the Mahabharata war was fought; also a metaphor for inner struggle.",
-      "context": "The physical and spiritual setting of the epic."
+      "term": "Karma",
+      "definition": "The law of cause and effect — every action generates a consequence that must be lived through.",
+      "context": "The actions of Karna in this chapter create karma that shapes the epic's future."
+    },
+    {
+      "term": "Moksha",
+      "definition": "Liberation from the cycle of birth, death, and rebirth — the ultimate aim of all dharmic action.",
+      "context": "The distant horizon that every character is unknowingly moving toward."
     }
   ]
 }
