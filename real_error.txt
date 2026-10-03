@@ -1,0 +1,70 @@
+Traceback (most recent call last):
+  File "C:\Users\PRIYANRAJ J\.gemini\antigravity\scratch\MAOM-PROJECT-2-ADM-app\scripts\05_lessons.py", line 53, in generate_lesson
+    response = client.models.generate_content(
+        model=TEXT_MODEL,
+    ...<5 lines>...
+        ),
+    )
+  File "C:\Users\PRIYANRAJ J\AppData\Roaming\Python\Python314\site-packages\google\genai\models.py", line 6269, in generate_content
+    response = self._generate_content(
+        model=model, contents=contents, config=parsed_config_to_call
+    )
+  File "C:\Users\PRIYANRAJ J\AppData\Roaming\Python\Python314\site-packages\google\genai\models.py", line 4682, in _generate_content
+    request_dict = _GenerateContentParameters_to_mldev(
+        self._api_client, parameter_model, None, parameter_model
+    )
+  File "C:\Users\PRIYANRAJ J\AppData\Roaming\Python\Python314\site-packages\google\genai\models.py", line 1619, in _GenerateContentParameters_to_mldev
+    _GenerateContentConfig_to_mldev(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        api_client, getv(from_object, ['config']), to_object, root_object
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ),
+    ^
+  File "C:\Users\PRIYANRAJ J\AppData\Roaming\Python\Python314\site-packages\google\genai\models.py", line 1254, in _GenerateContentConfig_to_mldev
+    t.t_schema(api_client, getv(from_object, ['response_schema'])),
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRIYANRAJ J\AppData\Roaming\Python\Python314\site-packages\google\genai\_transformers.py", line 897, in t_schema
+    process_schema(schema, client)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\PRIYANRAJ J\AppData\Roaming\Python\Python314\site-packages\google\genai\_transformers.py", line 755, in process_schema
+    process_schema(
+    ~~~~~~~~~~~~~~^
+        sub_schema,
+        ^^^^^^^^^^^
+    ...<3 lines>...
+        visited_dicts_path=visited_dicts_path,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\PRIYANRAJ J\AppData\Roaming\Python\Python314\site-packages\google\genai\_transformers.py", line 811, in process_schema
+    properties[name] = _recurse(sub_schema)
+                       ~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\PRIYANRAJ J\AppData\Roaming\Python\Python314\site-packages\google\genai\_transformers.py", line 778, in _recurse
+    process_schema(
+    ~~~~~~~~~~~~~~^
+        sub_schema,
+        ^^^^^^^^^^^
+    ...<3 lines>...
+        visited_dicts_path=visited_dicts_path,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\PRIYANRAJ J\AppData\Roaming\Python\Python314\site-packages\google\genai\_transformers.py", line 825, in process_schema
+    schema['items'] = _recurse(items)
+                      ~~~~~~~~^^^^^^^
+  File "C:\Users\PRIYANRAJ J\AppData\Roaming\Python\Python314\site-packages\google\genai\_transformers.py", line 778, in _recurse
+    process_schema(
+    ~~~~~~~~~~~~~~^
+        sub_schema,
+        ^^^^^^^^^^^
+    ...<3 lines>...
+        visited_dicts_path=visited_dicts_path,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\PRIYANRAJ J\AppData\Roaming\Python\Python314\site-packages\google\genai\_transformers.py", line 735, in process_schema
+    _raise_for_unsupported_mldev_properties(schema, client)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\PRIYANRAJ J\AppData\Roaming\Python\Python314\site-packages\google\genai\_transformers.py", line 654, in _raise_for_unsupported_mldev_properties
+    raise ValueError('additionalProperties is only supported in Gemini Enterprise Agent Platform mode, , not in Gemini Developer API mode.')
+ValueError: additionalProperties is only supported in Gemini Enterprise Agent Platform mode, , not in Gemini Developer API mode.
