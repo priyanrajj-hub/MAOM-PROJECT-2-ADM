@@ -1,20 +1,34 @@
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, BookOpen, Quote, Bookmark, Target } from 'lucide-react';
+import { ArrowLeft, BookOpen, Quote, Bookmark, Target, AlertCircle } from 'lucide-react';
 import Mindmap from '../components/Mindmap';
 
 export default function Lesson() {
     const { chapterId } = useParams();
     const [data, setData] = useState<any>(null);
+    const [error, setError] = useState<string | null>(null);
 
     useEffect(() => {
-        fetch(`/data/lessons/lesson_ch${chapterId?.padStart(2, '0')}.json`)
-            .then(res => res.json())
-            .then(json => setData(json))
-            .catch(err => console.error(err));
+        if (!chapterId) return;
+        const id = String(chapterId).padStart(2, '0');
+        import(`../data/lessons/ch${id}.json`)
+            .then(mod => setData(mod.default))
+            .catch(err => setError(`Could not load lesson data for Chapter ${chapterId}. (${err.message})`));
     }, [chapterId]);
 
-    if (!data) return <div className="text-center p-12 text-slate-400">Loading lesson {chapterId}...</div>;
+    if (error) return (
+        <div className="flex flex-col items-center gap-4 py-24 text-center">
+            <AlertCircle size={48} className="text-red-400" />
+            <p className="text-red-300">{error}</p>
+            <button onClick={() => window.location.reload()} className="mt-2 px-6 py-2 bg-indigo-600 rounded-xl text-white hover:bg-indigo-500">Retry</button>
+        </div>
+    );
+
+    if (!data) return (
+        <div className="flex items-center justify-center py-24">
+            <div className="animate-spin w-10 h-10 border-4 border-indigo-500 border-t-transparent rounded-full"></div>
+        </div>
+    );
 
     return (
         <div className="max-w-4xl mx-auto space-y-8 pb-32 animate-in fade-in slide-in-from-bottom-4 duration-700">
@@ -47,15 +61,7 @@ export default function Lesson() {
 
             <Mindmap
                 title="Chapter Architectural Flow"
-                chart={`graph TD
-                    A[Chapter ${data.chapter}: ${data.theme}] --> B(Core Dilemma)
-                    A --> C(Philosophical Resolution)
-                    B --> D[Personal Attachments]
-                    B --> E[Social Duty (Dharma)]
-                    C --> F[Action without Attachment]
-                    C --> G[Universal Truth]
-                    F --> H{Self-Mastery}
-                    G --> H`}
+                chart={`graph TD\n  A["Chapter ${data.chapter}: ${data.theme}"] --> B(Core Dilemma)\n  A --> C(Philosophical Resolution)\n  B --> D[Personal Attachments]\n  B --> E["Social Duty (Dharma)"]\n  C --> F[Action without Attachment]\n  C --> G[Universal Truth]\n  F --> H{Self-Mastery}\n  G --> H`}
             />
 
             <div className="space-y-8 text-slate-200 text-lg leading-relaxed font-serif">
@@ -94,8 +100,7 @@ export default function Lesson() {
             {data.glossary && data.glossary.length > 0 && (
                 <section className="mt-16 bg-slate-800/40 rounded-3xl p-8 border border-slate-700/50">
                     <h2 className="text-2xl font-bold flex items-center gap-2 mb-6">
-                        <Bookmark size={24} className="text-purple-400" />
-                        Vedic Glossary
+                        <Bookmark size={24} className="text-purple-400" /> Vedic Glossary
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         {data.glossary.map((item: any, i: number) => (
@@ -110,9 +115,8 @@ export default function Lesson() {
             )}
 
             <div className="fixed bottom-0 left-0 right-0 p-4 bg-slate-900/90 backdrop-blur-lg border-t border-slate-700 flex justify-center shadow-[0_-10px_40px_rgba(0,0,0,0.5)] z-40">
-                <Link to={`/quiz/${chapterId}`} className="bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-3 px-12 rounded-xl shadow-lg shadow-indigo-500/25 transition-all focus:ring-4 focus:ring-indigo-500/50 hover:scale-105 active:scale-95 flex items-center gap-2">
-                    <Target size={20} />
-                    Start Chapter {data.chapter} Quiz
+                <Link to={`/quiz/${chapterId}`} className="bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-3 px-12 rounded-xl shadow-lg shadow-indigo-500/25 transition-all hover:scale-105 active:scale-95 flex items-center gap-2">
+                    <Target size={20} /> Start Chapter {data.chapter} Quiz
                 </Link>
             </div>
         </div>

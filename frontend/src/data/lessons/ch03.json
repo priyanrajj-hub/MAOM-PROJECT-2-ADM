@@ -1,0 +1,42 @@
+{
+  "chapter": 3,
+  "theme": "The Dice Game",
+  "abstract": "Chapter 3 explores The Dice Game through the lens of Yoga, revealing the universal truths woven into the Mahabharata narrative.",
+  "objectives": [
+    "Understand the role of Yoga in The Dice Game.",
+    "Analyze key character motivations in Chapter 3.",
+    "Connect philosophical teachings to real-world ethics."
+  ],
+  "content_blocks": [
+    {
+      "type": "paragraph",
+      "content": "The narrative of Chapter 3 centres on The Dice Game. The characters face choices that test the boundaries of Yoga — the cosmic order that governs all actions."
+    },
+    {
+      "type": "sloka_translation",
+      "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।",
+      "english_translation": "You have a right to perform your duty, but not to its fruits.",
+      "content": "This verse defines selfless action — the bedrock of the Gita's teaching."
+    },
+    {
+      "type": "key_concept",
+      "content": "Yoga as explored in The Dice Game reveals that true freedom lies in detachment from outcome while remaining fully committed to righteous action."
+    },
+    {
+      "type": "paragraph",
+      "content": "By the end of Chapter 3, the reader understands that the battlefield of Kurukshetra is also the battlefield of the human mind — where every soul must choose between ego and truth."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Yoga",
+      "definition": "A fundamental philosophical principle in Vedic scripture.",
+      "context": "Central to the dilemmas presented in The Dice Game."
+    },
+    {
+      "term": "Kurukshetra",
+      "definition": "The sacred battlefield where the Mahabharata war was fought; also a metaphor for inner struggle.",
+      "context": "The physical and spiritual setting of the epic."
+    }
+  ]
+}

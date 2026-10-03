@@ -1,0 +1,42 @@
+{
+  "chapter": 12,
+  "theme": "The Night Massacre",
+  "abstract": "Chapter 12 explores The Night Massacre through the lens of Moksha, revealing the universal truths woven into the Mahabharata narrative.",
+  "objectives": [
+    "Understand the role of Moksha in The Night Massacre.",
+    "Analyze key character motivations in Chapter 12.",
+    "Connect philosophical teachings to real-world ethics."
+  ],
+  "content_blocks": [
+    {
+      "type": "paragraph",
+      "content": "The narrative of Chapter 12 centres on The Night Massacre. The characters face choices that test the boundaries of Moksha — the cosmic order that governs all actions."
+    },
+    {
+      "type": "sloka_translation",
+      "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।",
+      "english_translation": "You have a right to perform your duty, but not to its fruits.",
+      "content": "This verse defines selfless action — the bedrock of the Gita's teaching."
+    },
+    {
+      "type": "key_concept",
+      "content": "Moksha as explored in The Night Massacre reveals that true freedom lies in detachment from outcome while remaining fully committed to righteous action."
+    },
+    {
+      "type": "paragraph",
+      "content": "By the end of Chapter 12, the reader understands that the battlefield of Kurukshetra is also the battlefield of the human mind — where every soul must choose between ego and truth."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Moksha",
+      "definition": "A fundamental philosophical principle in Vedic scripture.",
+      "context": "Central to the dilemmas presented in The Night Massacre."
+    },
+    {
+      "term": "Kurukshetra",
+      "definition": "The sacred battlefield where the Mahabharata war was fought; also a metaphor for inner struggle.",
+      "context": "The physical and spiritual setting of the epic."
+    }
+  ]
+}

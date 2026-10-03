@@ -1,0 +1,42 @@
+{
+  "chapter": 9,
+  "theme": "The Fall of Bhishma",
+  "abstract": "Chapter 9 explores The Fall of Bhishma through the lens of Vairagya, revealing the universal truths woven into the Mahabharata narrative.",
+  "objectives": [
+    "Understand the role of Vairagya in The Fall of Bhishma.",
+    "Analyze key character motivations in Chapter 9.",
+    "Connect philosophical teachings to real-world ethics."
+  ],
+  "content_blocks": [
+    {
+      "type": "paragraph",
+      "content": "The narrative of Chapter 9 centres on The Fall of Bhishma. The characters face choices that test the boundaries of Vairagya — the cosmic order that governs all actions."
+    },
+    {
+      "type": "sloka_translation",
+      "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।",
+      "english_translation": "You have a right to perform your duty, but not to its fruits.",
+      "content": "This verse defines selfless action — the bedrock of the Gita's teaching."
+    },
+    {
+      "type": "key_concept",
+      "content": "Vairagya as explored in The Fall of Bhishma reveals that true freedom lies in detachment from outcome while remaining fully committed to righteous action."
+    },
+    {
+      "type": "paragraph",
+      "content": "By the end of Chapter 9, the reader understands that the battlefield of Kurukshetra is also the battlefield of the human mind — where every soul must choose between ego and truth."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Vairagya",
+      "definition": "A fundamental philosophical principle in Vedic scripture.",
+      "context": "Central to the dilemmas presented in The Fall of Bhishma."
+    },
+    {
+      "term": "Kurukshetra",
+      "definition": "The sacred battlefield where the Mahabharata war was fought; also a metaphor for inner struggle.",
+      "context": "The physical and spiritual setting of the epic."
+    }
+  ]
+}
