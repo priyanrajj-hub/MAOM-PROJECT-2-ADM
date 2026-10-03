@@ -18,10 +18,8 @@ export interface QuizState {
 
 export class QuizEngine {
     state: QuizState;
-    private initialQuestions: Question[];
 
     constructor(questions: Question[], length: number = 15) {
-        this.initialQuestions = [...questions];
         this.state = {
             pool: this.selectQuestions(questions, length),
             currentIndex: 0,
