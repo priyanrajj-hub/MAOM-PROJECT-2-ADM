@@ -5,7 +5,7 @@ import ReactMarkdown from 'react-markdown';
 
 export default function Chatbot() {
     const [isOpen, setIsOpen] = useState(false);
-    const [apiKey, setApiKey] = useState(() => localStorage.getItem('GEMINI_API_KEY') || '');
+    const [apiKey, setApiKey] = useState(() => localStorage.getItem('GEMINI_API_KEY') || import.meta.env.VITE_GEMINI_API_KEY || '');
     const [isConfiguring, setIsConfiguring] = useState(!apiKey);
     const [input, setInput] = useState('');
     const [messages, setMessages] = useState<{ role: 'user' | 'model', text: string }[]>([
