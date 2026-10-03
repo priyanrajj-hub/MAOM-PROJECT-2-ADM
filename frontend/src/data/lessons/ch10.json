@@ -17,18 +17,18 @@
   "characters": [
     {
       "name": "Drona",
-      "role": "Central figure in Chapter 10",
-      "alignment": "Dharma"
+      "role": "Brilliant teacher caught between duty and grief",
+      "alignment": "Neutral"
     },
     {
       "name": "Yudhishthira",
-      "role": "Central figure in Chapter 10",
-      "alignment": "Adharma"
+      "role": "Forced to utter a half-lie — his first moral fall",
+      "alignment": "Dharma"
     },
     {
       "name": "Abhimanyu",
-      "role": "Central figure in Chapter 10",
-      "alignment": "Neutral"
+      "role": "Young hero trapped in Chakravyuha and slain",
+      "alignment": "Dharma"
     }
   ],
   "content_blocks": [

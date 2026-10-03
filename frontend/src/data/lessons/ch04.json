@@ -17,18 +17,18 @@
   "characters": [
     {
       "name": "Pandavas",
-      "role": "Central figure in Chapter 4",
+      "role": "Brothers tempered by hardship into dharmic warriors",
       "alignment": "Dharma"
     },
     {
       "name": "Draupadi",
-      "role": "Central figure in Chapter 4",
-      "alignment": "Adharma"
+      "role": "Source of steadfast moral courage through exile",
+      "alignment": "Dharma"
     },
     {
       "name": "Bhima",
-      "role": "Central figure in Chapter 4",
-      "alignment": "Neutral"
+      "role": "Hot-tempered but fiercely loyal protector",
+      "alignment": "Dharma"
     }
   ],
   "content_blocks": [

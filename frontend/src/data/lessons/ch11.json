@@ -17,18 +17,18 @@
   "characters": [
     {
       "name": "Karna",
-      "role": "Central figure in Chapter 11",
-      "alignment": "Dharma"
+      "role": "Noble but tragic — loyal to the wrong side",
+      "alignment": "Neutral"
     },
     {
       "name": "Kunti",
-      "role": "Central figure in Chapter 11",
-      "alignment": "Adharma"
+      "role": "Reveals a devastating secret too late",
+      "alignment": "Dharma"
     },
     {
       "name": "Duryodhana",
-      "role": "Central figure in Chapter 11",
-      "alignment": "Neutral"
+      "role": "Exploits Karna's loyalty to sustain his ambitions",
+      "alignment": "Adharma"
     }
   ],
   "content_blocks": [

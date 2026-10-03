@@ -17,18 +17,18 @@
   "characters": [
     {
       "name": "Krishna",
-      "role": "Central figure in Chapter 5",
+      "role": "Peace ambassador; chooses dharma over war repeatedly",
       "alignment": "Dharma"
     },
     {
       "name": "Arjuna",
-      "role": "Central figure in Chapter 5",
-      "alignment": "Adharma"
+      "role": "Supreme archer whose resolve will be tested",
+      "alignment": "Dharma"
     },
     {
       "name": "Duryodhana",
-      "role": "Central figure in Chapter 5",
-      "alignment": "Neutral"
+      "role": "Chooses pride over peace, triggering the war",
+      "alignment": "Adharma"
     }
   ],
   "content_blocks": [

@@ -17,18 +17,18 @@
   "characters": [
     {
       "name": "Dhritarashtra",
-      "role": "Central figure in Chapter 2",
-      "alignment": "Dharma"
+      "role": "Blind king swayed by attachment to his son",
+      "alignment": "Adharma"
     },
     {
       "name": "Duryodhana",
-      "role": "Central figure in Chapter 2",
+      "role": "Crown prince driven by envy and arrogance",
       "alignment": "Adharma"
     },
     {
       "name": "Shakuni",
-      "role": "Central figure in Chapter 2",
-      "alignment": "Neutral"
+      "role": "Devious schemer who engineers the downfall",
+      "alignment": "Adharma"
     }
   ],
   "content_blocks": [

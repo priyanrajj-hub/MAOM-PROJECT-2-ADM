@@ -17,17 +17,17 @@
   "characters": [
     {
       "name": "Yudhishthira",
-      "role": "Central figure in Chapter 14",
+      "role": "Only he reaches Heaven's gate; passes the final test",
       "alignment": "Dharma"
     },
     {
       "name": "Pandavas",
-      "role": "Central figure in Chapter 14",
-      "alignment": "Adharma"
+      "role": "Each falls during the final journey, ego by ego",
+      "alignment": "Dharma"
     },
     {
       "name": "Draupadi",
-      "role": "Central figure in Chapter 14",
+      "role": "First to fall — her love was unequal, her flaw",
       "alignment": "Neutral"
     }
   ],

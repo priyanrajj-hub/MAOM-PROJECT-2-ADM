@@ -17,18 +17,18 @@
   "characters": [
     {
       "name": "Yudhishthira",
-      "role": "Central figure in Chapter 3",
+      "role": "Righteous king undone by dharmic confusion",
       "alignment": "Dharma"
     },
     {
       "name": "Draupadi",
-      "role": "Central figure in Chapter 3",
-      "alignment": "Adharma"
+      "role": "Victim of injustice; her question changes everything",
+      "alignment": "Dharma"
     },
     {
       "name": "Shakuni",
-      "role": "Central figure in Chapter 3",
-      "alignment": "Neutral"
+      "role": "Engineer of the loaded dice and moral destruction",
+      "alignment": "Adharma"
     }
   ],
   "content_blocks": [

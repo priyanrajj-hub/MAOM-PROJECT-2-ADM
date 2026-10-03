@@ -17,17 +17,17 @@
   "characters": [
     {
       "name": "Arjuna",
-      "role": "Central figure in Chapter 7",
+      "role": "Transformed from grief to divine resolve",
       "alignment": "Dharma"
     },
     {
       "name": "Krishna",
-      "role": "Central figure in Chapter 7",
-      "alignment": "Adharma"
+      "role": "Reveals the eternal nature of the Self (Atman)",
+      "alignment": "Dharma"
     },
     {
       "name": "Drona",
-      "role": "Central figure in Chapter 7",
+      "role": "Guru of both sides; bound by feudal duty",
       "alignment": "Neutral"
     }
   ],

@@ -17,18 +17,18 @@
   "characters": [
     {
       "name": "Ashvatthama",
-      "role": "Central figure in Chapter 12",
-      "alignment": "Dharma"
-    },
-    {
-      "name": "Pandavas",
-      "role": "Central figure in Chapter 12",
+      "role": "Commits the greatest war crime in the epic",
       "alignment": "Adharma"
     },
     {
+      "name": "Pandavas",
+      "role": "Survivors who must process irreversible loss",
+      "alignment": "Dharma"
+    },
+    {
       "name": "Draupadi",
-      "role": "Central figure in Chapter 12",
-      "alignment": "Neutral"
+      "role": "Demands justice for her slain sons",
+      "alignment": "Dharma"
     }
   ],
   "content_blocks": [

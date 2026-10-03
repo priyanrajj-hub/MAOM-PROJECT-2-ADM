@@ -17,18 +17,18 @@
   "characters": [
     {
       "name": "Vyasa",
-      "role": "Central figure in Chapter 1",
+      "role": "Author of the epic, keeper of cosmic truth",
       "alignment": "Dharma"
     },
     {
       "name": "Krishna",
-      "role": "Central figure in Chapter 1",
-      "alignment": "Adharma"
+      "role": "Divine guide, embodiment of Dharma itself",
+      "alignment": "Dharma"
     },
     {
       "name": "Ganesha",
-      "role": "Central figure in Chapter 1",
-      "alignment": "Neutral"
+      "role": "Scribe of the epic, remover of obstacles",
+      "alignment": "Dharma"
     }
   ],
   "content_blocks": [

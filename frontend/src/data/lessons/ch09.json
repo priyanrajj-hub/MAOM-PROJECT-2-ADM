@@ -17,18 +17,18 @@
   "characters": [
     {
       "name": "Bhishma",
-      "role": "Central figure in Chapter 9",
-      "alignment": "Dharma"
+      "role": "Greatest warrior, loyal to throne over dharma",
+      "alignment": "Neutral"
     },
     {
       "name": "Arjuna",
-      "role": "Central figure in Chapter 9",
-      "alignment": "Adharma"
+      "role": "Must overcome love for grandfather to do his duty",
+      "alignment": "Dharma"
     },
     {
       "name": "Shikhandi",
-      "role": "Central figure in Chapter 9",
-      "alignment": "Neutral"
+      "role": "Becomes the instrument of Bhishma's fall",
+      "alignment": "Dharma"
     }
   ],
   "content_blocks": [

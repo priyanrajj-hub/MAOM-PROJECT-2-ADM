@@ -17,18 +17,18 @@
   "characters": [
     {
       "name": "Yudhishthira",
-      "role": "Central figure in Chapter 15",
+      "role": "Refuses heaven without his companions — ultimate dharma",
       "alignment": "Dharma"
     },
     {
-      "name": "Draupadi",
-      "role": "Central figure in Chapter 15",
-      "alignment": "Adharma"
+      "name": "Pandavas",
+      "role": "Reunited in the divine realm after all trials",
+      "alignment": "Dharma"
     },
     {
       "name": "Dharma",
-      "role": "Central figure in Chapter 15",
-      "alignment": "Neutral"
+      "role": "The dog who walked beside — revealed as God himself",
+      "alignment": "Dharma"
     }
   ],
   "content_blocks": [

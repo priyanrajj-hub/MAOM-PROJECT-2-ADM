@@ -17,17 +17,17 @@
   "characters": [
     {
       "name": "Yudhishthira",
-      "role": "Central figure in Chapter 13",
+      "role": "Wins the war but drowns in survivor's guilt",
       "alignment": "Dharma"
     },
     {
       "name": "Gandhari",
-      "role": "Central figure in Chapter 13",
-      "alignment": "Adharma"
+      "role": "Curses Krishna — the most human response to loss",
+      "alignment": "Neutral"
     },
     {
       "name": "Dhritarashtra",
-      "role": "Central figure in Chapter 13",
+      "role": "Finally confronts consequences of blind partiality",
       "alignment": "Neutral"
     }
   ],

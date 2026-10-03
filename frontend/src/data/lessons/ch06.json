@@ -17,17 +17,17 @@
   "characters": [
     {
       "name": "Arjuna",
-      "role": "Central figure in Chapter 6",
+      "role": "Warrior paralysed by grief — the student",
       "alignment": "Dharma"
     },
     {
       "name": "Krishna",
-      "role": "Central figure in Chapter 6",
-      "alignment": "Adharma"
+      "role": "The divine teacher; source of all Gita wisdom",
+      "alignment": "Dharma"
     },
     {
       "name": "Sanjaya",
-      "role": "Central figure in Chapter 6",
+      "role": "Divine narrator who witnesses the battlefield",
       "alignment": "Neutral"
     }
   ],

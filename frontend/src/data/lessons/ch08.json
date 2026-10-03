@@ -17,17 +17,17 @@
   "characters": [
     {
       "name": "Arjuna",
-      "role": "Central figure in Chapter 8",
+      "role": "Witness to the terrifying Vishvarupa form",
       "alignment": "Dharma"
     },
     {
       "name": "Krishna",
-      "role": "Central figure in Chapter 8",
-      "alignment": "Adharma"
+      "role": "Reveals his Universal Form to Arjuna",
+      "alignment": "Dharma"
     },
     {
-      "name": "Vishvarupa",
-      "role": "Central figure in Chapter 8",
+      "name": "Sanjaya",
+      "role": "Blessed with divine sight by Vyasa",
       "alignment": "Neutral"
     }
   ],
