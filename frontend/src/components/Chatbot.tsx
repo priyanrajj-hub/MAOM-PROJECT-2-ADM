@@ -1,52 +1,57 @@
 import { useState, useEffect, useRef } from 'react';
-import { MessageSquare, X, Send, KeyRound, Sparkles } from 'lucide-react';
-import { GoogleGenAI } from '@google/genai';
+import { MessageSquare, X, Send, Sparkles, AlertCircle } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
+
+type Message = { role: 'user' | 'model'; text: string };
 
 export default function Chatbot() {
     const [isOpen, setIsOpen] = useState(false);
-    const [apiKey, setApiKey] = useState(() => localStorage.getItem('GEMINI_API_KEY') || '');
-    const [isConfiguring, setIsConfiguring] = useState(!apiKey);
     const [input, setInput] = useState('');
-    const [messages, setMessages] = useState<{ role: 'user' | 'model', text: string }[]>([
-        { role: 'model', text: 'Namaste! I am your AI assistant for the Mahabharata ADM Platform. How can I help you summarize or understand the material today?' }
+    const [messages, setMessages] = useState<Message[]>([
+        { role: 'model', text: 'Namaste! I am your AI tutor for the Mahabharata ADM Platform. Ask me anything about the chapters, characters, dharma, or the philosophical teachings of the epic.' }
     ]);
     const [isLoading, setIsLoading] = useState(false);
-
+    const [error, setError] = useState<string | null>(null);
     const endRef = useRef<HTMLDivElement>(null);
-
-    useEffect(() => {
-        if (apiKey) {
-            localStorage.setItem('GEMINI_API_KEY', apiKey);
-        }
-    }, [apiKey]);
 
     useEffect(() => {
         if (isOpen) endRef.current?.scrollIntoView({ behavior: 'smooth' });
     }, [messages, isOpen]);
 
     const handleSend = async () => {
-        if (!input.trim() || !apiKey) return;
+        const text = input.trim();
+        if (!text || isLoading) return;
+        if (text.length > 2000) {
+            setError('Message too long (max 2000 characters).');
+            return;
+        }
 
-        setMessages(prev => [...prev, { role: 'user', text: input }]);
-        const currentInput = input;
+        setMessages(prev => [...prev, { role: 'user', text }]);
         setInput('');
         setIsLoading(true);
+        setError(null);
 
         try {
-            // @ts-ignore - Bypass strict typing for browser safety flag if it exists in this SDK version
-            const ai = new GoogleGenAI({ apiKey, dangerouslyAllowBrowser: true } as any);
-            const response = await ai.models.generateContent({
-                model: 'gemini-2.5-flash',
-                contents: [
-                    { role: 'user', parts: [{ text: "You are a philosophical and empathetic tutor for a Mahabharata course. Keep answers extremely concise and insightful. User asks: " + currentInput }] }
-                ]
+            const history = messages.slice(-10).map(m => ({ role: m.role, parts: m.text }));
+            const res = await fetch('/api/chat', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ message: text, history })
             });
 
-            const answer = response.text || "I am unable to formulate an answer right now.";
-            setMessages(prev => [...prev, { role: 'model', text: answer }]);
+            if (!res.ok) {
+                const errData = await res.json().catch(() => ({ error: 'Server error' }));
+                throw new Error(errData.error || `HTTP ${res.status}`);
+            }
+
+            const data = await res.json();
+            setMessages(prev => [...prev, { role: 'model', text: data.text }]);
         } catch (e: any) {
-            setMessages(prev => [...prev, { role: 'model', text: `Error: ${e.message}. (Is your API key valid? If you are facing rate limits, please wait.)` }]);
+            const msg = e.message?.includes('Failed to fetch')
+                ? 'Network error — please check your connection.'
+                : `Error: ${e.message}`;
+            setError(msg);
+            setMessages(prev => [...prev, { role: 'model', text: '⚠️ ' + msg }]);
         } finally {
             setIsLoading(false);
         }
@@ -56,101 +61,79 @@ export default function Chatbot() {
         return (
             <button
                 onClick={() => setIsOpen(true)}
-                className="fixed bottom-6 right-6 bg-indigo-600 hover:bg-indigo-500 text-white p-4 rounded-full shadow-[0_10px_25px_rgba(79,70,229,0.5)] transition-all hover:scale-110 active:scale-95 z-50 flex items-center justify-center animate-bounce"
+                aria-label="Open AI tutor"
+                className="fixed bottom-6 right-6 bg-indigo-600 hover:bg-indigo-500 text-white p-4 rounded-full shadow-[0_10px_25px_rgba(79,70,229,0.5)] transition-all hover:scale-110 active:scale-95 z-50 flex items-center justify-center"
             >
-                <Sparkles size={28} />
+                <Sparkles size={24} />
             </button>
         );
     }
 
     return (
-        <div className="fixed bottom-6 right-6 w-96 max-w-[calc(100vw-2rem)] h-[550px] bg-slate-900 border border-slate-700/50 rounded-2xl shadow-2xl flex flex-col overflow-hidden z-50 animate-in slide-in-from-bottom-5 duration-300">
-
-            <div className="bg-indigo-600 p-4 flex justify-between items-center shadow-md z-10">
+        <div className="fixed bottom-6 right-6 w-96 max-w-[calc(100vw-2rem)] h-[550px] bg-slate-900 border border-slate-700/50 rounded-2xl shadow-2xl flex flex-col overflow-hidden z-50 animate-in slide-in-from-bottom-4 duration-300">
+            {/* Header */}
+            <div className="bg-indigo-600 p-4 flex justify-between items-center">
                 <h3 className="text-white font-bold flex items-center gap-2">
-                    <MessageSquare size={18} /> Mahabharata AI
+                    <MessageSquare size={18} /> Mahabharata AI Tutor
                 </h3>
-                <button onClick={() => setIsOpen(false)} className="text-indigo-200 hover:text-white transition-colors">
+                <button onClick={() => setIsOpen(false)} aria-label="Close chat" className="text-indigo-200 hover:text-white">
                     <X size={20} />
                 </button>
             </div>
 
-            {isConfiguring ? (
-                <div className="flex-1 p-6 flex flex-col justify-center space-y-4 bg-slate-800/50">
-                    <div className="text-center space-y-2 mb-2">
-                        <KeyRound size={40} className="mx-auto text-indigo-400" />
-                        <h4 className="font-bold text-white text-lg">Configure AI Access</h4>
-                        <p className="text-slate-400 text-sm">Provide your Gemini API Key directly in your browser. This is strictly local and never sent to our servers.</p>
-                    </div>
-                    <input
-                        type="password"
-                        value={apiKey}
-                        onChange={e => setApiKey(e.target.value)}
-                        placeholder="AIza..."
-                        className="w-full bg-slate-900 border border-slate-700 rounded-lg p-3 text-white focus:ring-2 focus:ring-indigo-500 outline-none"
-                    />
-                    <button
-                        disabled={!apiKey}
-                        onClick={() => setIsConfiguring(false)}
-                        className="w-full bg-indigo-600 hover:bg-indigo-500 disabled:bg-slate-700 text-white font-bold py-3 rounded-xl transition-all"
-                    >
-                        Save & Start Chatting
-                    </button>
-                </div>
-            ) : (
-                <>
-                    <div className="flex-1 p-4 overflow-y-auto space-y-4 bg-slate-800/20">
-                        {messages.map((m, i) => (
-                            <div key={i} className={`flex ${m.role === 'user' ? 'justify-end' : 'justify-start'}`}>
-                                <div className={`max-w-[85%] rounded-2xl p-3 px-4 ${m.role === 'user' ? 'bg-indigo-600 text-white rounded-br-none' : 'bg-slate-800 text-slate-200 border border-slate-700 rounded-bl-none'}`}>
-                                    {m.role === 'model' ? (
-                                        <div className="prose prose-invert prose-sm">
-                                            <ReactMarkdown>{m.text}</ReactMarkdown>
-                                        </div>
-                                    ) : (
-                                        m.text
-                                    )}
+            {/* Messages */}
+            <div className="flex-1 p-4 overflow-y-auto space-y-4 bg-slate-800/20">
+                {messages.map((m, i) => (
+                    <div key={i} className={`flex ${m.role === 'user' ? 'justify-end' : 'justify-start'}`}>
+                        <div className={`max-w-[85%] rounded-2xl p-3 px-4 text-sm ${m.role === 'user'
+                            ? 'bg-indigo-600 text-white rounded-br-none'
+                            : 'bg-slate-800 text-slate-200 border border-slate-700 rounded-bl-none'}`}>
+                            {m.role === 'model' ? (
+                                <div className="prose prose-invert prose-sm max-w-none">
+                                    <ReactMarkdown>{m.text}</ReactMarkdown>
                                 </div>
-                            </div>
-                        ))}
-                        {isLoading && (
-                            <div className="flex justify-start">
-                                <div className="bg-slate-800 text-slate-400 border border-slate-700 rounded-2xl p-3 px-4 rounded-bl-none flex gap-1">
-                                    <span className="w-2 h-2 rounded-full bg-indigo-400 animate-bounce"></span>
-                                    <span className="w-2 h-2 rounded-full bg-indigo-400 animate-bounce" style={{ animationDelay: '150ms' }}></span>
-                                    <span className="w-2 h-2 rounded-full bg-indigo-400 animate-bounce" style={{ animationDelay: '300ms' }}></span>
-                                </div>
-                            </div>
-                        )}
-                        <div ref={endRef} />
+                            ) : m.text}
+                        </div>
                     </div>
+                ))}
+                {isLoading && (
+                    <div className="flex justify-start">
+                        <div className="bg-slate-800 border border-slate-700 rounded-2xl rounded-bl-none p-3 px-4 flex gap-1">
+                            {[0, 150, 300].map(d => (
+                                <span key={d} className="w-2 h-2 rounded-full bg-indigo-400 animate-bounce" style={{ animationDelay: `${d}ms` }} />
+                            ))}
+                        </div>
+                    </div>
+                )}
+                {error && !isLoading && (
+                    <div className="flex items-center gap-2 text-xs text-red-400 bg-red-400/10 border border-red-400/20 rounded-lg p-2">
+                        <AlertCircle size={14} /> {error}
+                    </div>
+                )}
+                <div ref={endRef} />
+            </div>
 
-                    <div className="p-3 bg-slate-900 border-t border-slate-700 flex gap-2">
-                        <button
-                            onClick={() => setIsConfiguring(true)}
-                            title="Configure API Key"
-                            className="p-3 hover:bg-slate-800 text-slate-500 hover:text-slate-300 rounded-xl transition-colors border border-transparent hover:border-slate-700"
-                        >
-                            <KeyRound size={20} />
-                        </button>
-                        <input
-                            type="text"
-                            value={input}
-                            onChange={e => setInput(e.target.value)}
-                            onKeyDown={e => e.key === 'Enter' && handleSend()}
-                            placeholder="Ask about a chapter..."
-                            className="flex-1 bg-slate-800 border border-slate-700 rounded-xl px-4 py-2 text-white focus:outline-none focus:border-indigo-500"
-                        />
-                        <button
-                            onClick={handleSend}
-                            disabled={!input.trim() || isLoading}
-                            className="p-3 bg-indigo-600 hover:bg-indigo-500 disabled:bg-slate-700 text-white rounded-xl transition-colors disabled:cursor-not-allowed"
-                        >
-                            <Send size={20} />
-                        </button>
-                    </div>
-                </>
-            )}
+            {/* Input */}
+            <div className="p-3 bg-slate-900 border-t border-slate-700 flex gap-2">
+                <input
+                    type="text"
+                    value={input}
+                    onChange={e => setInput(e.target.value)}
+                    onKeyDown={e => e.key === 'Enter' && !e.shiftKey && handleSend()}
+                    placeholder="Ask about a chapter…"
+                    maxLength={2000}
+                    disabled={isLoading}
+                    className="flex-1 bg-slate-800 border border-slate-700 rounded-xl px-4 py-2 text-white text-sm focus:outline-none focus:border-indigo-500 disabled:opacity-50"
+                />
+                <button
+                    onClick={handleSend}
+                    disabled={!input.trim() || isLoading}
+                    aria-label="Send message"
+                    className="p-3 bg-indigo-600 hover:bg-indigo-500 disabled:bg-slate-700 text-white rounded-xl transition-colors disabled:cursor-not-allowed"
+                >
+                    <Send size={18} />
+                </button>
+            </div>
         </div>
     );
 }

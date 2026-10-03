@@ -5,6 +5,7 @@ import Quiz from './pages/Quiz';
 import Review from './pages/Review';
 import Analytics from './pages/Analytics';
 import Chatbot from './components/Chatbot';
+import NotFound from './pages/NotFound';
 import { LayoutDashboard, Activity, Clock, BookMarked } from 'lucide-react';
 
 const navLinks = [
@@ -37,8 +38,8 @@ function Navigation() {
                             const active = location.pathname === to;
                             return (
                                 <Link key={to} to={to} className={`px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-1.5 transition-all ${active
-                                        ? 'text-white bg-white/10 border border-white/10'
-                                        : 'text-slate-400 hover:text-white hover:bg-white/5'
+                                    ? 'text-white bg-white/10 border border-white/10'
+                                    : 'text-slate-400 hover:text-white hover:bg-white/5'
                                     }`}>
                                     <Icon size={15} />
                                     {label}
@@ -64,6 +65,7 @@ function App() {
                         <Route path="/quiz/:chapterId" element={<Quiz />} />
                         <Route path="/review" element={<Review />} />
                         <Route path="/analytics" element={<Analytics />} />
+                        <Route path="*" element={<NotFound />} />
                     </Routes>
                 </main>
                 <Chatbot />
