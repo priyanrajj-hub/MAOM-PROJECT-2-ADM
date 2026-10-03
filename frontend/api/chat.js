@@ -13,7 +13,7 @@ export default async function handler(req, res) {
     // CORS & Origin check
     const origin = req.headers.origin || req.headers.referer || '';
     const isLocal = origin.includes('localhost') || origin.includes('127.0.0.1');
-    const isProd = origin.includes('maom-project-2-adm.vercel.app');
+    const isProd = origin.includes('maom-project-2-adm.vercel.app') || (origin.includes('maom-project-2') && origin.includes('.vercel.app'));
 
     if (!isLocal && !isProd && process.env.NODE_ENV === 'production') {
         return res.status(403).json({ error: 'Forbidden origin' });
