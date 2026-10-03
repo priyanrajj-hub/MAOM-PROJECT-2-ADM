@@ -1,16 +1,9 @@
-import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { BookOpen, Target, ChevronRight, CheckCircle2 } from 'lucide-react';
+import chaptersData from '../data/chapters';
 
 export default function Dashboard() {
-    const [chapters, setChapters] = useState<any[]>([]);
-
-    useEffect(() => {
-        fetch('/data/chapters/chapters.json')
-            .then(res => res.json())
-            .then(data => setChapters(data.chapters || []))
-            .catch(err => console.error("Could not load chapters:", err));
-    }, []);
+    const chapters = chaptersData.chapters;
 
     return (
         <div className="space-y-8 animate-in fade-in duration-500">
