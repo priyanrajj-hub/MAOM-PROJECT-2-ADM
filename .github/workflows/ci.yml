@@ -30,7 +30,7 @@ jobs:
         run: npx tsc --noEmit
 
       - name: Lint
-        run: npm run lint
+        run: npm run lint --if-present
 
       - name: Build
         run: npm run build
@@ -45,6 +45,6 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: "3.12"
       - name: Run data audit
         run: python scripts/audit_data.py

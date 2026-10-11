@@ -4,19 +4,15 @@ import glob
 from docx import Document
 from google import genai
 
-k1 = 'AQ.Ab8RN6Ju'
-k2 = 'iG2iZTIuso_3'
-k3 = 'YSNUowkPoT5r2'
-k4 = 'QJ6N3Hp6ASk62lB4A'
-api_key = os.environ.get('GEMINI_API_KEY', k1 + k2 + k3 + k4)
-client = genai.Client(api_key=api_key)
+api_key = os.environ.get('GEMINI_API_KEY', '')
+client = genai.Client(api_key=api_key) if api_key else genai.Client()
 
 def extract_docx_text(path):
     doc = Document(path)
     return "\n".join([p.text for p in doc.paragraphs if p.text.strip()])
 
 def enrich_all():
-    docx_files = sorted(glob.glob("Chapter_*.docx"))
+    docx_files = sorted(glob.glob("manuscripts/Chapter_*.docx") or glob.glob("Chapter_*.docx"))
     for fpath in docx_files:
         base = os.path.basename(fpath)
         parts = base.split('_')

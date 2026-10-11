@@ -70,7 +70,7 @@ def generate_for_chapter(chapter_num, doc_text):
     return json.loads(text.strip())
 
 def main():
-    docx_files = glob.glob("Chapter_*.docx")
+    docx_files = glob.glob("manuscripts/Chapter_*.docx") or glob.glob("Chapter_*.docx")
     for doc in sorted(docx_files):
         try:
             chap_num_str = doc.split("_")[1]
