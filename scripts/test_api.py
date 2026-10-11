@@ -3,7 +3,8 @@ from google import genai
 from dotenv import load_dotenv
 
 load_dotenv()
-client = genai.Client()
+api_key = os.environ.get("GEMINI_API_KEY", "")
+client = genai.Client(api_key=api_key) if api_key else genai.Client()
 
 for m in ["gemini-2.5-flash", "gemini-2.5-pro", "gemini-1.5-flash", "gemini-flash-latest"]:
     print(f"\n--- Testing {m} ---")

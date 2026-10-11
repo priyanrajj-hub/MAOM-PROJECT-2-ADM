@@ -255,6 +255,195 @@
       ],
       "answer": "Op A (Correct)",
       "explanation": "In Chapter 11, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-ch11-1",
+      "chapter": 11,
+      "section": "1",
+      "concept_id": "aravan_parentage",
+      "difficulty": 1,
+      "type": "mcq",
+      "stem": "According to the epic and regional traditions, who was the mother of Aravan (Iravān)?",
+      "stem_variants": [
+        "Who was the mother of the warrior Aravan?",
+        "Aravan was born to Arjuna and which princess?"
+      ],
+      "options": [
+        "Ulūpī",
+        "Citrāṅgadā",
+        "Subhadrā",
+        "Hiḍimbā"
+      ],
+      "distractor_pool": [
+        "Citrāṅgadā",
+        "Subhadrā",
+        "Hiḍimbā"
+      ],
+      "answer": "Ulūpī",
+      "accepted_answers": [
+        "Ulūpī"
+      ],
+      "explanation": "Arjuna met the Nāga princess Ulūpī in the Gaṅgā during his twelve-year exile for breaking the privacy covenant with Draupadī; their son was Aravan (Iravān).",
+      "page_ref": "137",
+      "source_quote": "While bathing in the Gaṅgā he met the Nāga princess Ulūpī, who wished to marry him; their son was Iravān (Irāvat/Aravan)...",
+      "tags": [
+        "aravan",
+        "characters",
+        "lineage"
+      ],
+      "angle": "factual"
+    },
+    {
+      "id": "q-ch11-2",
+      "chapter": 11,
+      "section": "1",
+      "concept_id": "barbarika_source_text",
+      "difficulty": 2,
+      "type": "mcq",
+      "stem": "The narrative of Barbarīka (Khāṭū Śyām) and his three divine arrows is absent from Vyāsa's Mahābhārata. In which ancient text is this account primarily found?",
+      "stem_variants": [
+        "Which purāṇic text contains the detailed legend of Barbarīka?",
+        "Where is the textual account of Khāṭū Śyām / Barbarīka recorded outside regional folklore?"
+      ],
+      "options": [
+        "Skanda Purāṇa",
+        "Bhāgavata Purāṇa",
+        "Viṣṇu Purāṇa",
+        "Padma Purāṇa"
+      ],
+      "distractor_pool": [
+        "Bhāgavata Purāṇa",
+        "Viṣṇu Purāṇa",
+        "Padma Purāṇa"
+      ],
+      "answer": "Skanda Purāṇa",
+      "accepted_answers": [
+        "Skanda Purāṇa"
+      ],
+      "explanation": "The story of Barbarīka, his boons from Durgā, and the sacrifice of his head to Kṛṣṇa is recorded in the Skanda Purāṇa rather than the core Mahābhārata of Vyāsa.",
+      "page_ref": "145",
+      "source_quote": "Barbarīka is not in Vyāsa Mahābhārata; the account is in the Skanda Purāṇa.",
+      "tags": [
+        "barbarika",
+        "puranas",
+        "sources"
+      ],
+      "angle": "literary_source"
+    },
+    {
+      "id": "q-ch11-3",
+      "chapter": 11,
+      "section": "1",
+      "concept_id": "vyasa_vs_kalidasa_sakuntala",
+      "difficulty": 3,
+      "type": "mcq",
+      "stem": "In Vyāsa's Sambhava Parva, why does King Duṣyanta initially reject Śakuntalā when she brings their young son to his royal court?",
+      "stem_variants": [
+        "What motivated Duṣyanta to feign ignorance of Śakuntalā in Vyāsa's original account?",
+        "Why did Duṣyanta deny knowing Śakuntalā in the Mahābhārata prior to the divine voice?"
+      ],
+      "options": [
+        "He feigned ignorance to prevent public suspicion and ensure royal legitimacy through an objective divine witness.",
+        "He was afflicted by Sage Durvāsā's curse of memory loss.",
+        "He had lost the gold signet ring given to her as a pledge of union.",
+        "He had genuinely forgotten her due to the passage of many decades in governance."
+      ],
+      "distractor_pool": [
+        "He was afflicted by Sage Durvāsā's curse of memory loss.",
+        "He had lost the gold signet ring given to her as a pledge of union.",
+        "He had genuinely forgotten her due to the passage of many decades in governance."
+      ],
+      "answer": "He feigned ignorance to prevent public suspicion and ensure royal legitimacy through an objective divine witness.",
+      "accepted_answers": [
+        "He feigned ignorance to prevent public suspicion and ensure royal legitimacy through an objective divine witness."
+      ],
+      "explanation": "In Vyāsa's text, there is neither a curse nor a lost ring. Duṣyanta knew her perfectly well, but explained that accepting her word alone without public proof would cast suspicion on the heir's true legitimacy.",
+      "page_ref": "140",
+      "source_quote": "Duṣyanta, delighted, said he knew it but that accepting them on her word alone would have raised suspicion and the son would never be accepted as true...",
+      "tags": [
+        "sakuntala",
+        "dushyanta",
+        "vyasa_vs_kalidasa",
+        "rajadharma"
+      ],
+      "angle": "comparative_analysis"
+    },
+    {
+      "id": "q-ch11-4",
+      "chapter": 11,
+      "section": "1",
+      "concept_id": "kuvagam_ritual_calendar",
+      "difficulty": 4,
+      "type": "mcq",
+      "stem": "During the 18-day Kūvāgam festival in Tamil Nadu, what specific ritual sequence takes place on the 14th and 16th days?",
+      "stem_variants": [
+        "What events occur on the 14th and 16th days of the Kūvāgam Aravan festival?",
+        "How do the 14th and 16th days correspond to the marital and widowhood rituals at Kūvāgam?"
+      ],
+      "options": [
+        "The Aravānis marry Aravan on the 14th day and proceed to Aḻukaḷam to enact symbolic widowhood on the 16th day.",
+        "The effigy is carved on the 14th day and the kaḷappali sacrifice takes place on the 16th day without any marriage ceremony.",
+        "The Aravānis break their bangles on the 14th day and celebrate the wedding of Mohinī on the 16th day.",
+        "The flag is hoisted on the 14th day and the severed head is buried at the temple site on the 16th day."
+      ],
+      "distractor_pool": [
+        "The effigy is carved on the 14th day and the kaḷappali sacrifice takes place on the 16th day without any marriage ceremony.",
+        "The Aravānis break their bangles on the 14th day and celebrate the wedding of Mohinī on the 16th day.",
+        "The flag is hoisted on the 14th day and the severed head is buried at the temple site on the 16th day."
+      ],
+      "answer": "The Aravānis marry Aravan on the 14th day and proceed to Aḻukaḷam to enact symbolic widowhood on the 16th day.",
+      "accepted_answers": [
+        "The Aravānis marry Aravan on the 14th day and proceed to Aḻukaḷam to enact symbolic widowhood on the 16th day."
+      ],
+      "explanation": "On the 14th day, priests tie the tāli and apply sindūra as Aravānis marry Aravan. On the 16th day, the procession moves to Aḻukaḷam (the mourning ground), where decorations are stripped from the effigy and the Aravānis remove their mangalasūtras, smash their bangles, and weep.",
+      "page_ref": "138",
+      "source_quote": "On the 14th day Aravānis dressed as Mohinī in bridal finery... priests, representing Aravan, tie the tāli and apply sindūra. On the 16th day the image is carried in procession to the mourning ground (Aḻukaḷam)... the Aravānis remove their mangalasūtras, smash their bangles and weep.",
+      "tags": [
+        "kuvagam",
+        "rituals",
+        "aravan",
+        "timeline"
+      ],
+      "angle": "ritual_procedure"
+    },
+    {
+      "id": "q-ch11-5",
+      "chapter": 11,
+      "section": "1",
+      "concept_id": "malanada_institutional_features",
+      "difficulty": 5,
+      "type": "mcq",
+      "stem": "Which combination of architectural, ritual, and legal characteristics uniquely defines the Poruvazhi Malanada Duryodhana Temple in Kerala?",
+      "stem_variants": [
+        "What unique cluster of institutional traits characterizes the Malanada Duryodhana Temple?",
+        "Identify the correct combination of ritual and structural attributes of the Malanada temple."
+      ],
+      "options": [
+        "Absence of an idol/sanctum, a raised platform with Nandis, a priest serving as Duryodhana's surrogate son (prati-puruṣa), and land revenue tax paid in Duryodhana's name.",
+        "A granite idol of Duryodhana holding a mace, priesthood reserved for royal Kṣatriyas, and an annual ratha-yātrā commemorating the Kauravas.",
+        "A subterranean cave shrine dedicated to Duryodhana and Karṇa, animal sacrifices during Mīnam, and state exemption from all property taxes.",
+        "A traditional sanctum sanctorum housing Gāndhārī and Duryodhana together, officiated by Namboodiri priests using Vedic mantras."
+      ],
+      "distractor_pool": [
+        "A granite idol of Duryodhana holding a mace, priesthood reserved for royal Kṣatriyas, and an annual ratha-yātrā commemorating the Kauravas.",
+        "A subterranean cave shrine dedicated to Duryodhana and Karṇa, animal sacrifices during Mīnam, and state exemption from all property taxes.",
+        "A traditional sanctum sanctorum housing Gāndhārī and Duryodhana together, officiated by Namboodiri priests using Vedic mantras."
+      ],
+      "answer": "Absence of an idol/sanctum, a raised platform with Nandis, a priest serving as Duryodhana's surrogate son (prati-puruṣa), and land revenue tax paid in Duryodhana's name.",
+      "accepted_answers": [
+        "Absence of an idol/sanctum, a raised platform with Nandis, a priest serving as Duryodhana's surrogate son (prati-puruṣa), and land revenue tax paid in Duryodhana's name."
+      ],
+      "explanation": "Malanada has no sanctum or conventional murti—only a raised platform reflecting Śiva Caitanya with Nandis. The priest (arāli) acts as a prati-puruṣa fulfilling Duryodhana's death rites as requested to the Kuruva elder, and the temple pays local property taxes in Duryodhana's name.",
+      "page_ref": "142-143",
+      "source_quote": "There is no sanctum or deity, only a raised platform where he is considered absorbed in Śiva Caitanya, with Nandis symbolising Śiva... the priest (arāli) is a prati-puruṣa, a representative of Duryodhana's son. Ancestor worship is followed... the temple pays property tax in Duryodhana's name.",
+      "tags": [
+        "malanada",
+        "duryodhana",
+        "kerala",
+        "temple_architecture",
+        "subaltern_traditions"
+      ],
+      "angle": "deep_analysis"
     }
   ]
 }

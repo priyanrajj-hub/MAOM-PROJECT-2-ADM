@@ -38,5 +38,33 @@
       "definition": "Action, work, or deed; also refers to the spiritual principle of cause and effect.",
       "context": "The driving force behind character choices."
     }
+  ],
+  "summary": "Chapter 3 explores the epistemological and structural foundations of the Mahābhārata as an Itihāsa and the 'Fifth Veda'. It outlines how Ṛṣis acted as mantra-draṣṭās (seers who experienced universal truths in deep meditation) rather than authors, while Kṛṣṇa Dvaipāyana (Veda Vyāsa) systematically classified these insights into the fourfold Vedic corpus (Saṃhitā, Brāhmaṇa, Āraṇyaka, Upaniṣad). The Vedic statements are categorized into three types: Praśasti Vākyas (eulogistic or depreciative statements colored by personal bias), Vidhi Vākyas (context-dependent dos and don'ts), and Jñāna Vākyas (immutable statements of truth that function like mathematical equations). The chapter introduces the functional hierarchy of philosophical literature: the Vedas/Upaniṣads serve as the sourcebook, the Brahma Sūtra organizes them into systematic text, and the Bhagavadgītā/Mahābhārata acts as the practical 'technology' of living. Vyāsa composed the Mahābhārata to bridge the gap between universal eligibility for liberation (mokṣa) and the rare competence required for Vedic ascetic disciplines. Finally, it demonstrates that Niṣkāma Karma (desireless, selfless action with mastery over senses and mind) is the operational core of Dharma pulsating through every anecdote of the epic, asserting that dynamic embodiment makes inaction impossible and personal accountability mandatory.",
+  "in_depth_explanation": "### Mahābhārata What's and Whatnots: Hermeneutic Pitfalls — Point-by-Point Analysis\n\n#### 1. Avoiding Decontextualized Modern Moral Imperialism\n- Judging Bronze-age Vedic civilization strictly through 21st-century secular lenses distorts the epic's core messages.\n- Every character's actions must be analyzed within their Svadharma (individual duty), Kuladharma (lineage duty), and Āpaddharma (emergency ethics).\n- Premature judgment without historical and spiritual empathy prevents deep cognitive transformation.\n\n#### 2. Narrative Polyphony vs. Single Author Dogma\n- The epic refuses to offer single-line simplistic maxims; instead, it juxtaposes opposing philosophical debates in open council.\n- Yudhiṣṭhira's pacificism is challenged by Draupadī's kṣatriya pragmatism and Bhīma's muscular realism.\n- Leadership lesson: True wisdom emerges from cognitive synthesis of opposing viewpoints rather than ideological echo chambers.\n",
+  "mindmap_chart": "graph TD\n  A[Universal Truth in Itihāsa] --> B[Mantra-draṣṭās: Ṛṣis]\n  B --> C[Veda Vyāsa: Classification]\n  C --> D[Four Vedic Divisions]\n  D --> E1[Praśasti Vākyas: Eulogy/Blame]\n  D --> E2[Vidhi Vākyas: Contextual Injunctions]\n  D --> E3[Jñāna Vākyas: Invariant Truths]\n  E3 --> F[Hierarchy of Vedānta]\n  F --> G1[Sourcebook: Vedas & Upaniṣads]\n  F --> G2[Systematic Text: Brahma Sūtra]\n  F --> G3[Technology: Bhagavadgītā & Mahābhārata]\n  G3 --> H[The Fifth Veda]\n  H --> I1[Eligibility vs. Competence]\n  H --> I2[Heaven Impermanent vs. Mokṣa Permanent]\n  H --> I3[Niṣkāma Karma: Dynamic Essence of Dharma]",
+  "highlights": [
+    "Ṛṣis are mantra-draṣṭās who experienced truth in meditation rather than inventing aphorisms.",
+    "Saṃhitā statements are categorized as Praśasti Vākyas because praise and blame reflect personal bias and affect veracity.",
+    "Vedas are sourcebooks, Brahma Sūtra is the text, and the Bhagavadgītā is the operational technology of Vedānta.",
+    "While all beings are eligible for mokṣa, not all possess the competence for rigorous Vedic vratas.",
+    "Niṣkāma Karma is not isolated to the Bhagavadgītā but forms the operational core of every anecdote across the Mahābhārata."
+  ],
+  "point_by_point_explanation": [
+    {
+      "section_title": "1. Avoiding Decontextualized Modern Moral Imperialism",
+      "points": [
+        "Judging Bronze-age Vedic civilization strictly through 21st-century secular lenses distorts the epic's core messages.",
+        "Every character's actions must be analyzed within their Svadharma (individual duty), Kuladharma (lineage duty), and Āpaddharma (emergency ethics).",
+        "Premature judgment without historical and spiritual empathy prevents deep cognitive transformation."
+      ]
+    },
+    {
+      "section_title": "2. Narrative Polyphony vs. Single Author Dogma",
+      "points": [
+        "The epic refuses to offer single-line simplistic maxims; instead, it juxtaposes opposing philosophical debates in open council.",
+        "Yudhiṣṭhira's pacificism is challenged by Draupadī's kṣatriya pragmatism and Bhīma's muscular realism.",
+        "Leadership lesson: True wisdom emerges from cognitive synthesis of opposing viewpoints rather than ideological echo chambers."
+      ]
+    }
   ]
 }

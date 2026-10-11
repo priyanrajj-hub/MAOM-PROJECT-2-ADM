@@ -210,6 +210,434 @@
       ],
       "answer": "It inspires detachment from outcome while embracing duty",
       "explanation": "In Chapter 3, the principle of Atman ultimately guides the characters toward spiritual clarity over personal attachment. This is the central teaching that runs through The Dice Game."
+    },
+    {
+      "id": "q-3-1-0-2ce9",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 1,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Samsara manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-1-1-4c37",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 1,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Dharma manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-1-2-0100",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 1,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Atman manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-2-0-e656",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 2,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Prakriti manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-2-1-cffa",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 2,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Dharma manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-2-2-189b",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 2,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Yoga manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-3-0-0fac",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 3,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Prakriti manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-3-1-a797",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 3,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Dharma manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-3-2-d443",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 3,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Jnana manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-4-0-0316",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 4,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Bhakti manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-4-1-0d3b",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 4,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Bhakti manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-4-2-0247",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 4,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Karma manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-5-0-ad92",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 5,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Yoga manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-5-1-df6d",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 5,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Ahankara manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-3-5-2-ac59",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 5,
+      "type": "mcq",
+      "stem": "In the context of The Dice Game, how does Samsara manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 3, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-ch3-1",
+      "chapter": 3,
+      "section": "1",
+      "concept_id": "mantra_drasta_definition",
+      "difficulty": 1,
+      "type": "mcq",
+      "stem": "According to Chapter 3, why are the ancient Ṛṣis referred to as 'mantra-draṣṭās'?",
+      "stem_variants": [
+        "What is the precise meaning and role of a mantra-draṣṭā described in the text?"
+      ],
+      "options": [
+        "They authored and invented poetic philosophical meters.",
+        "They experienced universal truths directly in meditation and verbalized them.",
+        "They enforced religious laws across ancient kingdoms.",
+        "They memorized texts composed by Veda Vyāsa."
+      ],
+      "distractor_pool": [
+        "They authored and invented poetic philosophical meters.",
+        "They enforced religious laws across ancient kingdoms.",
+        "They memorized texts composed by Veda Vyāsa."
+      ],
+      "answer": "They experienced universal truths directly in meditation and verbalized them.",
+      "accepted_answers": [],
+      "explanation": "The text states that Ṛṣis are called mantra-draṣṭās because they are those who have directly experienced the truth in meditation; they did not invent the aphorisms, but merely verbalized what they witnessed.",
+      "page_ref": "35",
+      "source_quote": "These truths come from thousands of years of observation, study and analysis by Ṛṣis, who are called mantra-draṣṭās: those who have experienced the truth. They did not create the aphorisms; they verbalised what they experienced in meditation.",
+      "tags": [
+        "epistemology",
+        "mantra-drasta",
+        "vedic-tradition"
+      ],
+      "angle": "factual_definition"
+    },
+    {
+      "id": "q-ch3-2",
+      "chapter": 3,
+      "section": "2",
+      "concept_id": "vedic_statements_classification",
+      "difficulty": 2,
+      "type": "mcq",
+      "stem": "Which category of Vedic statements is characterized as having the invariance of a mathematical equation, where reversing the order of words leaves the meaning unaltered?",
+      "stem_variants": [
+        "Statements of truth like 'Aham Brahmāsmi' and 'tat tvam asi' belong to which classification?"
+      ],
+      "options": [
+        "Praśasti Vākyas",
+        "Vidhi Vākyas",
+        "Jñāna Vākyas",
+        "Saṃhitā Vākyas"
+      ],
+      "distractor_pool": [
+        "Praśasti Vākyas",
+        "Vidhi Vākyas",
+        "Saṃhitā Vākyas"
+      ],
+      "answer": "Jñāna Vākyas",
+      "accepted_answers": [],
+      "explanation": "Jñāna Vākyas are statements of truth found predominantly in the Upaniṣads. Like 2+2=4 or 'Aham Brahmāsmi', their truth value is invariant regardless of phrasing order, unlike subjective Praśasti or contextual Vidhi statements.",
+      "page_ref": "35-36",
+      "source_quote": "The third kind, the statement of truth, is like an equation: changing the word order does not change the meaning... The Upaniṣads mainly consist of such statements.",
+      "tags": [
+        "vedic-statements",
+        "hermeneutics",
+        "jnana-vakya"
+      ],
+      "angle": "classification"
+    },
+    {
+      "id": "q-ch3-3",
+      "chapter": 3,
+      "section": "2",
+      "concept_id": "vedanta_triad_analogy",
+      "difficulty": 3,
+      "type": "mcq",
+      "stem": "In the epistemological framework comparing ancient texts to modern disciplines, what role does the Bhagavadgītā play in relation to the Upaniṣads and the Brahma Sūtra?",
+      "stem_variants": [
+        "In the triad of Source, Text, and Technology, which component corresponds to the Bhagavadgītā?"
+      ],
+      "options": [
+        "It acts as the raw sourcebook.",
+        "It serves as the systematic theoretical text.",
+        "It is the practical technology applying the lessons to real-world dilemmas.",
+        "It is a decorative commentary of praśasti statements."
+      ],
+      "distractor_pool": [
+        "It acts as the raw sourcebook.",
+        "It serves as the systematic theoretical text.",
+        "It is a decorative commentary of praśasti statements."
+      ],
+      "answer": "It is the practical technology applying the lessons to real-world dilemmas.",
+      "accepted_answers": [],
+      "explanation": "According to Chapter 3, the Vedas and Upaniṣads are the sourcebooks, the Brahma Sūtra is the systematic text, and the Bhagavadgītā is the 'technology' that practically enacts these principles in lived circumstances.",
+      "page_ref": "36",
+      "source_quote": "So the Vedas and Upaniṣads are the sourcebooks, Brahma Sūtra is the text, and the Bhagavadgītā is the technology by which the lessons are enacted.",
+      "tags": [
+        "gita",
+        "brahma-sutra",
+        "vedanta",
+        "analogy"
+      ],
+      "angle": "conceptual_mapping"
+    },
+    {
+      "id": "q-ch3-4",
+      "chapter": 3,
+      "section": "2",
+      "concept_id": "eligibility_vs_competence",
+      "difficulty": 4,
+      "type": "mcq",
+      "stem": "How does Chapter 3 resolve the necessity of the Mahābhārata as a 'Fifth Veda' using the distinction between eligibility and competence?",
+      "stem_variants": [
+        "Why was the Mahābhārata composed as the Fifth Veda despite the existing four Vedas?"
+      ],
+      "options": [
+        "Because Vedic wisdom had been corrupted and needed to be rewritten entirely.",
+        "Because all beings are eligible for mokṣa, yet many lack the competence to follow strict Vedic training and rituals.",
+        "Because the older Vedas did not acknowledge the concept of heaven and rebirth.",
+        "Because only members of the civil service were permitted to read the original Saṃhitās."
+      ],
+      "distractor_pool": [
+        "Because Vedic wisdom had been corrupted and needed to be rewritten entirely.",
+        "Because the older Vedas did not acknowledge the concept of heaven and rebirth.",
+        "Because only members of the civil service were permitted to read the original Saṃhitās."
+      ],
+      "answer": "Because all beings are eligible for mokṣa, yet many lack the competence to follow strict Vedic training and rituals.",
+      "accepted_answers": [],
+      "explanation": "The text explains that all beings possess universal eligibility for mokṣa, but lack the competence (discipline, strict vratas, linguistic training) required to master the Vedas. The Mahābhārata conveys these profound truths through relatable human narratives.",
+      "page_ref": "36-37",
+      "source_quote": "Likewise, in Indian thought all beings, human and non-human, are eligible for mokṣa, the ultimate aim... But not all humans are competent to learn the Vedas, which demands strict rules, vratas and systematic training. Mahābhārata expresses lofty ideas in simple language...",
+      "tags": [
+        "adhikara",
+        "samarthya",
+        "fifth-veda",
+        "moksha"
+      ],
+      "angle": "philosophical_rationale"
+    },
+    {
+      "id": "q-ch3-5",
+      "chapter": 3,
+      "section": "2",
+      "concept_id": "niskama_karma_nature",
+      "difficulty": 5,
+      "type": "mcq",
+      "stem": "Based on the philosophical rationale presented in the chapter, why is absolute inaction considered an impossibility for human beings?",
+      "stem_variants": [
+        "Why can an individual not choose total physical inaction according to Vyāsa's discourse on Niṣkāma Karma?"
+      ],
+      "options": [
+        "Because societal pressures inevitably force individuals to seek public validation.",
+        "Because rituals in the Brāhmaṇas mandate continuous sacrifice without pause.",
+        "Because the human body is inherently dynamic, making action and reaction continuous and inescapable.",
+        "Because divine intervention supersedes personal volition in every context."
+      ],
+      "distractor_pool": [
+        "Because societal pressures inevitably force individuals to seek public validation.",
+        "Because rituals in the Brāhmaṇas mandate continuous sacrifice without pause.",
+        "Because divine intervention supersedes personal volition in every context."
+      ],
+      "answer": "Because the human body is inherently dynamic, making action and reaction continuous and inescapable.",
+      "accepted_answers": [],
+      "explanation": "Chapter 3 emphasizes that the human physical organism is fundamentally dynamic. Because dynamism continually entails action and reaction, complete inaction is inconceivable; hence, duty lies in directing inevitable actions selflessly (Niṣkāma Karma) for the collective good.",
+      "page_ref": "37",
+      "source_quote": "The human body is dynamic, so action and reaction are unavoidable and complete inaction is inconceivable. One should act with the benefit of all in mind.",
+      "tags": [
+        "niskama-karma",
+        "dharma",
+        "existential-ethics",
+        "metaphysics"
+      ],
+      "angle": "deep_philosophical_insight"
     }
   ]
 }

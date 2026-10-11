@@ -9,10 +9,11 @@
     "Identify the central dharmic dilemma and its resolution."
   ],
   "highlights": [
-    "Dhritarashtra's blindness is symbolic — he is blind to dharma, not just sight",
-    "Duryodhana refuses to give the Pandavas even a needlepoint of land",
-    "Vidura warns the king of the consequences of injustice",
-    "The court becomes complicit in its silence over unrighteousness"
+    "Vyāsa's 100-Parva archetype classified into 18 Parvas by Ugraśravas at Naimiṣāraṇya",
+    "The dialectic between personal righteousness and systemic chaos initiated by the Bhīṣma Pratijñā",
+    "Droṇa's pedagogical demand for gurudakṣiṇā as the structural catalyst for Dhṛṣṭadyumna and Draupadī's birth",
+    "The deployment of the Brahmaśira astra and Kṛṣṇa's resurrection of the unborn Parīkṣit",
+    "Vyāsa's ultimate exclamation on the ontological supremacy of Dharma over Artha and Kāma"
   ],
   "characters": [
     {
@@ -67,6 +68,36 @@
       "term": "Moksha",
       "definition": "Liberation from the cycle of birth, death, and rebirth — the ultimate aim of all dharmic action.",
       "context": "The distant horizon that every character is unknowingly moving toward."
+    }
+  ],
+  "summary": "Chapter 2 provides a comprehensive structural and narrative overview of the Mahābhārata, spanning its meta-narrative framing down to the 18 Parvas. Originally conceived in 100 Parvas by Vyāsa, it is framed through narrations from Vaiśampāyana to King Janamejaya at the Sarpa Satra, and later consolidated into 18 Parvas by Ugraśravas at Naimiṣāraṇya. The chronicle begins in Ādi Parva with the Kuru lineage, Bharata, Bhīṣma's supreme vow of celibacy, and the divine origins of the Pāṇḍavas and Kauravas. Escalating hostilities—seeded by the Droṇa-Drupada feud and the wax palace conspiracy—culminate in the fateful dice matches of Sabhā Parva, leading to the disrobing of Draupadī and the exile of the Pāṇḍavas through Āraṇya and Virāṭa Parvas. Diplomatic failure in Udyoga Parva triggers the Kurukṣetra War. The war Parvas (Bhīṣma through Sauptika) detail the Bhagavadgītā, the tactical falls of great marshals, and Aśvatthāmā's nocturnal massacre. The epic concludes through profound pedagogical discourses on statecraft and liberation in Śānti and Anuśāsana Parvas, the destruction of the Yādavas in Mausala Parva, the solitary ascent in Mahāprasthānika Parva, and Vyāsa's concluding aphorism on the supremacy of eternal Dharma in Svargārohaṇa Parva.",
+  "in_depth_explanation": "### Mahābhārata: A Brief Summary & Structural Overview — Point-by-Point Analysis\n\n#### 1. Multi-Generational Karmic Cascade\n- The conflict of Kurukṣetra is not an isolated border skirmish but the convergence of multi-generational moral compromises beginning with Śantanu and Satyavatī.\n- Each generation attempts short-term political fixes that seed catastrophic long-term institutional vulnerabilities.\n- Strategic leadership requires anticipating how today's expediency becomes tomorrow's generational curse.\n\n#### 2. The Three Concentric Layers of the Text\n- Jaya (24,000 verses): The original core focusing on victory and divine will composed by Vyāsa.\n- Bhārata (24,000–60,000 verses): Recited by Vaiśampāyana at Janamejaya's snake sacrifice.\n- Mahābhārata (100,000 verses): The expansive oral tradition recited by Sūta Ugraśravas to the sages in Naimiṣāraṇya.\n- The triadic expansion reflects how local clan history matures into universal human philosophy.\n\n#### 3. The Paradox of Virtuous Flaws and Righteous Failures\n- Righteous figures (Yudhiṣṭhira, Bhīṣma, Droṇa) exhibit fatal blind spots: gambling addiction, excessive literalism, and state subordination.\n- Villainous figures (Karṇa, Duryodhana) exhibit exceptional loyalty, martial brilliance, and indomitable courage.\n- The narrative deliberately rejects naive moral dichotomies to train students in real-world nuanced ethical discernment.\n",
+  "mindmap_chart": "graph TD\n  A[Sanātana Dharma & Destiny] --> B[Framing & Origins: Ādi Parva]\n  B --> C[Seeds of Hostility: Droṇa-Drupada & Wax Palace]\n  C --> D[Sabhā Parva: The Dice Game & Draupadī's Humiliation]\n  D --> E[Exile & Preparation: Āraṇya & Virāṭa]\n  E --> F[Udyoga Parva: Failed Peace & Viśvarūpa]\n  F --> G[Kurukṣetra War: Bhīṣma to Sauptika]\n  G --> H[Reconstruction & Wisdom: Śānti & Anuśāsana]\n  H --> I[Dissolution & Ascent: Mausala to Svargārohaṇa]\n  I --> J[Final Realisation: Dharma is Eternal, Pleasures Transient]",
+  "point_by_point_explanation": [
+    {
+      "section_title": "1. Multi-Generational Karmic Cascade",
+      "points": [
+        "The conflict of Kurukṣetra is not an isolated border skirmish but the convergence of multi-generational moral compromises beginning with Śantanu and Satyavatī.",
+        "Each generation attempts short-term political fixes that seed catastrophic long-term institutional vulnerabilities.",
+        "Strategic leadership requires anticipating how today's expediency becomes tomorrow's generational curse."
+      ]
+    },
+    {
+      "section_title": "2. The Three Concentric Layers of the Text",
+      "points": [
+        "Jaya (24,000 verses): The original core focusing on victory and divine will composed by Vyāsa.",
+        "Bhārata (24,000–60,000 verses): Recited by Vaiśampāyana at Janamejaya's snake sacrifice.",
+        "Mahābhārata (100,000 verses): The expansive oral tradition recited by Sūta Ugraśravas to the sages in Naimiṣāraṇya.",
+        "The triadic expansion reflects how local clan history matures into universal human philosophy."
+      ]
+    },
+    {
+      "section_title": "3. The Paradox of Virtuous Flaws and Righteous Failures",
+      "points": [
+        "Righteous figures (Yudhiṣṭhira, Bhīṣma, Droṇa) exhibit fatal blind spots: gambling addiction, excessive literalism, and state subordination.",
+        "Villainous figures (Karṇa, Duryodhana) exhibit exceptional loyalty, martial brilliance, and indomitable courage.",
+        "The narrative deliberately rejects naive moral dichotomies to train students in real-world nuanced ethical discernment."
+      ]
     }
   ]
 }

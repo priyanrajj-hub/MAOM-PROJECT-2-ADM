@@ -38,5 +38,22 @@
       "definition": "Action, work, or deed; also refers to the spiritual principle of cause and effect.",
       "context": "The driving force behind character choices."
     }
+  ],
+  "summary": "Chapter 10 explores how the Mahābhārata has permeated Indian vernacular culture, literature, and legal institutions through enduring adages, maxims (nyāyas), and idioms. Core maxims examined include 'Yato dharmas tato jayaḥ' (Where there is Dharma, there is victory), the epic's primary refrain used by Gāndhārī and featured on the Supreme Court of India's crest; 'Ati sarvatra varjayet' (Excess in anything should be avoided), illustrated by Karṇa's extreme charity, Duryodhana's greed, and Rāvaṇa's lust; 'Mahājano yena gataḥ sa panthāḥ' (The path trodden by great souls is the way), delivered by Yudhiṣṭhira during the Yakṣa Praśna in the Dvaita forest; and 'Vayaṃ pañcādhikaṃ śatam' (We are one hundred and five), Yudhiṣṭhira's imperative of familial and collective solidarity when facing external adversaries. The chapter also outlines classical nyāyas compiled by Col. G. A. Jacob, such as Kūrmāṅga Nyāya (the tortoise withdrawing its limbs) and Sundopasunda Nyāya (mutual self-destruction), alongside colloquial idioms like 'Urvaśī Śāpa Upakāram' and 'Vyāsa Ghaṭ'.",
+  "in_depth_explanation": "### Mahābhārata in Adages: Practical Wisdom for Modern Life — Point-by-Point Analysis\n\n#### 1. Proverbial Truths Distilled Across Generations\n- 'Dharmo rakṣati rakṣitaḥ' (Dharma protects those who protect it) is not blind mysticism but a psychological and sociological law of reciprocal stability.\n- 'Yato dharmas tato jayaḥ' (Where there is Dharma, there is victory) redefines victory from short-term conquest to ultimate spiritual alignment.\n",
+  "mindmap_chart": "graph TD\n  A[Mahābhārata in Adages] --> B[Foundational Refrains]\n  B --> B1[Yato Dharmas Tato Jayaḥ - Gāndhārī / SC Crest]\n  B --> B2[Mahājano Yena Gataḥ - Yakṣa Praśna]\n  A --> C[Prudential & Strategic Maxims]\n  C --> C1[Ati Sarvatra Varjayet - Danger of Extremes]\n  C1 --> C1a[Karṇa: Ati-dāna]\n  C1 --> C1b[Duryodhana: Ati-lobha]\n  C1 --> C1c[Rāvaṇa: Ati-kāma]\n  C --> C2[Vayaṃ Pañcādhikaṃ Śatam - External Unity]\n  A --> D[Nyāyas and Idiomatic Tropes]\n  D --> D1[Kūrmāṅga Nyāya - Sensory Withdrawal Gītā 2.58]\n  D --> D2[Sundopasunda Nyāya - Mutual Annihilation]\n  D --> D3[Col. G. A. Jacob - Popular Maxims]",
+  "highlights": [
+    "The phrase 'Yato dharmas tato jayaḥ' was first uttered by Karṇa in the epic narrative, though most famously used by Gāndhārī to bless Duryodhana.",
+    "The subhāṣita 'Ati sarvatra varjayet' synthesizes figures across Itihāsa and Purāṇa: Karṇa for extreme charity, Duryodhana for excessive greed, and Rāvaṇa for excessive desire.",
+    "Yudhiṣṭhira's 'Vayaṃ pañcādhikaṃ śatam' sets down an early framework of tiered conflict resolution: domestic dispute yields to collective survival when external aggressors strike."
+  ],
+  "point_by_point_explanation": [
+    {
+      "section_title": "1. Proverbial Truths Distilled Across Generations",
+      "points": [
+        "'Dharmo rakṣati rakṣitaḥ' (Dharma protects those who protect it) is not blind mysticism but a psychological and sociological law of reciprocal stability.",
+        "'Yato dharmas tato jayaḥ' (Where there is Dharma, there is victory) redefines victory from short-term conquest to ultimate spiritual alignment."
+      ]
+    }
   ]
 }

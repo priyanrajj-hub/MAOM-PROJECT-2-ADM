@@ -210,6 +210,443 @@
       ],
       "answer": "It transforms personal grief into universal understanding",
       "explanation": "In Chapter 6, the principle of Jnana ultimately guides the characters toward spiritual clarity over personal attachment. This is the central teaching that runs through The Bhagavad Gita Begins."
+    },
+    {
+      "id": "q-6-1-0-048a",
+      "chapter": 6,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 1,
+      "type": "mcq",
+      "stem": "In the context of The Bhagavad Gita Begins, how does Ahankara manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 6, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-6-1-1-942b",
+      "chapter": 6,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 1,
+      "type": "mcq",
+      "stem": "In the context of The Bhagavad Gita Begins, how does Prakriti manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 6, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-6-1-2-4864",
+      "chapter": 6,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 1,
+      "type": "mcq",
+      "stem": "In the context of The Bhagavad Gita Begins, how does Dharma manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 6, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-6-2-0-4e3a",
+      "chapter": 6,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 2,
+      "type": "mcq",
+      "stem": "In the context of The Bhagavad Gita Begins, how does Ahankara manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 6, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-6-2-1-2c64",
+      "chapter": 6,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 2,
+      "type": "mcq",
+      "stem": "In the context of The Bhagavad Gita Begins, how does Yoga manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 6, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-6-2-2-721d",
+      "chapter": 6,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 2,
+      "type": "mcq",
+      "stem": "In the context of The Bhagavad Gita Begins, how does Vairagya manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 6, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-6-3-0-e8ee",
+      "chapter": 6,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 3,
+      "type": "mcq",
+      "stem": "In the context of The Bhagavad Gita Begins, how does Karma manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 6, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-6-3-1-ef32",
+      "chapter": 6,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 3,
+      "type": "mcq",
+      "stem": "In the context of The Bhagavad Gita Begins, how does Prakriti manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 6, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-6-3-2-3d78",
+      "chapter": 6,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 3,
+      "type": "mcq",
+      "stem": "In the context of The Bhagavad Gita Begins, how does Vairagya manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 6, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-6-4-0-41ca",
+      "chapter": 6,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 4,
+      "type": "mcq",
+      "stem": "In the context of The Bhagavad Gita Begins, how does Atman manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 6, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-6-4-1-ee3a",
+      "chapter": 6,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 4,
+      "type": "mcq",
+      "stem": "In the context of The Bhagavad Gita Begins, how does Atman manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 6, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-6-4-2-0d50",
+      "chapter": 6,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 4,
+      "type": "mcq",
+      "stem": "In the context of The Bhagavad Gita Begins, how does Ahankara manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 6, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-6-5-0-d3e0",
+      "chapter": 6,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 5,
+      "type": "mcq",
+      "stem": "In the context of The Bhagavad Gita Begins, how does Moksha manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 6, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-6-5-1-f44c",
+      "chapter": 6,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 5,
+      "type": "mcq",
+      "stem": "In the context of The Bhagavad Gita Begins, how does Prakriti manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 6, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-6-5-2-3404",
+      "chapter": 6,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 5,
+      "type": "mcq",
+      "stem": "In the context of The Bhagavad Gita Begins, how does Moksha manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 6, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-ch6-1",
+      "chapter": 6,
+      "section": "1",
+      "concept_id": "epistemic_hermeneutics",
+      "difficulty": 1,
+      "type": "mcq",
+      "stem": "In the author's critique of modern scholarship on the Mahābhārata, what does the scholar studying the 'chemical composition of Shakespeare's ink' represent?",
+      "stem_variants": [
+        "What does the analogy of Shakespeare's ink illustrate regarding Mahābhārata scholarship?",
+        "According to Chapter 6, an analyst of Shakespeare's ink represents which type of scholar?"
+      ],
+      "options": [
+        "A core scholar who deeply understands the poet's value system",
+        "A periphery scholar who obsesses over external technicalities while missing the spiritual essence",
+        "A traditional commentator preserving oral transmission",
+        "An enlightened seer discovering the hidden allegories of the text"
+      ],
+      "distractor_pool": [
+        "A revisionist historian uncovering political facts",
+        "A linguist translating ancient Sanskrit meters"
+      ],
+      "answer": "A periphery scholar who obsesses over external technicalities while missing the spiritual essence",
+      "accepted_answers": [
+        "A periphery scholar who obsesses over external technicalities while missing the spiritual essence"
+      ],
+      "explanation": "The book compares scholars who analyze peripheral, subaltern, or purely material aspects to someone testing the chemistry of Shakespeare's ink—they study an external physical facet without comprehending the core spiritual or ethical values of the work.",
+      "page_ref": "69-70",
+      "source_quote": "Both study Shakespeare, but only one is entitled to speak on his values. Likewise, Indian epics were studied by periphery scholars who judged as if they were core scholars...",
+      "tags": [
+        "hermeneutics",
+        "scholarship",
+        "itihasa"
+      ],
+      "angle": "analogy_interpretation"
+    },
+    {
+      "id": "q-ch6-2",
+      "chapter": 6,
+      "section": "1",
+      "concept_id": "asuric_qualities_gita16_18",
+      "difficulty": 2,
+      "type": "mcq",
+      "stem": "According to Gītā 16.18 as discussed in the text, which of the following is NOT one of the five asuric traits that drive oppression and social prejudice?",
+      "stem_variants": [
+        "Which trait is absent from the five asuric characteristics identified in Gītā 16.18?",
+        "Gītā 16.18 names five negative qualities forming the mental disease of untouchability; which is NOT among them?"
+      ],
+      "options": [
+        "Darpa (showing off/flaunting power)",
+        "Krodha (anger and hostility)",
+        "Moha (delusion/attachment)",
+        "Ahaṅkāra (egoism)"
+      ],
+      "distractor_pool": [
+        "Bala (power without moral value)",
+        "Kāma (lust for resources and control)"
+      ],
+      "answer": "Moha (delusion/attachment)",
+      "accepted_answers": [
+        "Moha (delusion/attachment)"
+      ],
+      "explanation": "Gītā 16.18 specifically lists the five mutually reinforcing asuric traits as Ahaṅkāra (egoism), Bala (raw power), Darpa (flaunting power), Kāma (lust/craving for control), and Krodha (anger). Moha is a general vice but not one of the five listed in this specific formula (A-B-D-K-K).",
+      "page_ref": "71-72",
+      "source_quote": "Gītā 16.18 names five asuric traits: ahaṅkāra (egoism), bala (power without moral value, for its own sake), darpa (showing off that power), kāma (lust for resources and control of others) and krodha (anger).",
+      "tags": [
+        "gita_16_18",
+        "ethics",
+        "social_philosophy"
+      ],
+      "angle": "textual_factual"
+    },
+    {
+      "id": "q-ch6-3",
+      "chapter": 6,
+      "section": "1",
+      "concept_id": "feminine_virtues_gita10_34",
+      "difficulty": 3,
+      "type": "mcq",
+      "stem": "How does the text contrast Sāvitrī's demonstration of 'dhṛti' (steadfastness) with Ruru's action regarding Priyamvadā?",
+      "stem_variants": [
+        "In the discussion of Gītā 10.34, what distinguishes Sāvitrī's actions from Ruru's?",
+        "Why is Sāvitrī cited as an exemplar of dhṛti in contrast to Ruru?"
+      ],
+      "options": [
+        "Sāvitrī engaged Yama in philosophical discourse and steadfast resolve to reclaim Satyavān, whereas Ruru passively gave up half his own lifespan",
+        "Sāvitrī took up arms against Yama, whereas Ruru surrendered peacefully",
+        "Sāvitrī abandoned her kingdom to mourn, whereas Ruru performed penance to Brahma",
+        "Sāvitrī accepted fate without questioning, whereas Ruru cursed the gods"
+      ],
+      "distractor_pool": [
+        "Sāvitrī sacrificed half her longevity, whereas Ruru outsmarted Yama with riddles",
+        "Sāvitrī relied on her father's boons, while Ruru challenged the serpent world"
+      ],
+      "answer": "Sāvitrī engaged Yama in philosophical discourse and steadfast resolve to reclaim Satyavān, whereas Ruru passively gave up half his own lifespan",
+      "accepted_answers": [
+        "Sāvitrī engaged Yama in philosophical discourse and steadfast resolve to reclaim Satyavān, whereas Ruru passively gave up half his own lifespan"
+      ],
+      "explanation": "Sāvitrī exemplified dhṛti by standing unwavering in her decision, following Yama and debating him until she won Satyavān back whole. Ruru, on the other hand, merely bartered away half of his own life to restore Priyamvadā. This contrast is why Sri Aurobindo wrote a brief poem on Ruru but a monumentally profound epic on Savitri.",
+      "page_ref": "73-74",
+      "source_quote": "dhṛti (steadfastness: Sāvitrī stood by her decision and won Satyavān back from Yama, whereas Ruru gave half his life to Yama for Priyamvadā; Sri Aurobindo wrote a long poem on Ruru-Priyamvadā but a full epic on Savitri)...",
+      "tags": [
+        "gita_10_34",
+        "savitri",
+        "dhriti",
+        "narrative_comparison"
+      ],
+      "angle": "comparative_analysis"
+    },
+    {
+      "id": "q-ch6-4",
+      "chapter": 6,
+      "section": "1",
+      "concept_id": "pluralism_and_science",
+      "difficulty": 4,
+      "type": "mcq",
+      "stem": "How does Chapter 6 link Gītā 13.31's metaphysical vision to Erwin Schrödinger's seminal work 'What is Life?'?",
+      "stem_variants": [
+        "What philosophical synthesis is made between Gītā 13.31 and Schrödinger's scientific inquiries?",
+        "Why does the author cite Schrödinger's 'What is Life?' alongside Gītā 13.31?"
+      ],
+      "options": [
+        "Both argue that physical matter is entirely an illusion with no underlying atomic order",
+        "Both identify a fundamental principle where a unified foundational mechanism maintains its identity while manifesting as vast, organized diversity",
+        "Both claim that genetic mutations are purely random reactions against monocultural forces",
+        "Both assert that biological consciousness terminates at physical death without spiritual residue"
+      ],
+      "distractor_pool": [
+        "Both propose that multi-cellular life forms violate the second law of thermodynamics",
+        "Both reject empirical biology in favor of strict theological determinism"
+      ],
+      "answer": "Both identify a fundamental principle where a unified foundational mechanism maintains its identity while manifesting as vast, organized diversity",
+      "accepted_answers": [
+        "Both identify a fundamental principle where a unified foundational mechanism maintains its identity while manifesting as vast, organized diversity"
+      ],
+      "explanation": "Gītā 13.31 describes realizing Brahman by seeing the One manifest as the many and the many resting in the One. Schrödinger similarly searched for a mechanism that retains its unity while generating rich diversity (which pointed modern science toward the aperiodic crystal of DNA). The text uses this to validate Indian civilisational pluralism and scientific insight.",
+      "page_ref": "76-77",
+      "source_quote": "Gītā 13.31 says one who sees the One become the many and the many rest in the One realises Brahman. This unity in diversity is the civilisational cornerstone. The book links it to Schrödinger's 'What is Life?', which looked for a mechanism that keeps itself while producing diversity and led toward DNA...",
+      "tags": [
+        "gita_13_31",
+        "schroedinger",
+        "science_and_vedanta",
+        "pluralism"
+      ],
+      "angle": "cross_disciplinary_synthesis"
+    },
+    {
+      "id": "q-ch6-5",
+      "chapter": 6,
+      "section": "1",
+      "concept_id": "moksha_shastra_nature",
+      "difficulty": 5,
+      "type": "mcq",
+      "stem": "Why does the author insist that treating the Mahābhārata primarily as an ethnological, subaltern, or clan property dispute commits a category error?",
+      "stem_variants": [
+        "What fundamental philosophical distortion occurs when the Mahābhārata is reduced to a sociopolitical clan conflict?",
+        "Why is reducing the Kurukshetra war to a property dispute rejected by the author?"
+      ],
+      "options": [
+        "It ignores the archaeological radiocarbon dating confirming the antiquity of Hastinapura",
+        "It mistakes an incidental historical setting for the text's primary teleological purpose as a Mokṣa Śāstra aimed at spiritual liberation",
+        "It fails to recognize that the Pandavas were politically illegitimate claimants under Kuru law",
+        "It contradicts the strictly pacifist doctrine taught by Krishna in the outer parvas"
+      ],
+      "distractor_pool": [
+        "It overlooks the linguistic differences between the Jaya, Bharata, and Mahabharata compositional layers",
+        "It dismisses the role of non-Kshatriya warriors who fought in the 18 Akshauhinis"
+      ],
+      "answer": "It mistakes an incidental historical setting for the text's primary teleological purpose as a Mokṣa Śāstra aimed at spiritual liberation",
+      "accepted_answers": [
+        "It mistakes an incidental historical setting for the text's primary teleological purpose as a Mokṣa Śāstra aimed at spiritual liberation"
+      ],
+      "explanation": "The text concludes that the Mahābhārata is fundamentally a Mokṣa Śāstra (a sacred scripture directed toward spiritual liberation). While it has historical and sociopolitical peripheries, treating it merely as a land dispute or an ethnological artifact is akin to mistaking the chemical ink for Shakespeare's dramatic genius; it empties the work of its transcendent teleology.",
+      "page_ref": "78-80",
+      "source_quote": "Finally, Mahābhārata is a timely and timeless sacred text aimed at Mokṣa, a Mokṣa Śāstra. If we concentrate only on social, political or ethnological aspects, we are discussing the chemical composition of Shakespeare's ink and not the play.",
+      "tags": [
+        "moksha_shastra",
+        "teleology",
+        "philosophical_hermeneutics"
+      ],
+      "angle": "conceptual_evaluation"
     }
   ]
 }

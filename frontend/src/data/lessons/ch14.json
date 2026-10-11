@@ -9,10 +9,9 @@
     "Identify the central dharmic dilemma and its resolution."
   ],
   "highlights": [
-    "The Pandavas renounce the kingdom and begin their final journey",
-    "One by one, each Pandava falls — only Yudhishthira and a dog reach heaven's gate",
-    "Yudhishthira refuses to enter heaven without his companions",
-    "The dog reveals itself as Dharma in disguise — the final test passes"
+    "The contrast between 'mama' (mine, leading to death) and 'na mama' (not mine, leading to Brahman) from Aśvamedha Parva 14.13.03.",
+    "The fall of the five companions exposes subtle egoistic flaws (ahaṃkāra) rather than gross sins.",
+    "Yudhiṣṭhira's refusal to enter Svarga without the devoted dog demonstrates that steadfastness in compassion (dharmaniṣṭhā) supersedes religious reward."
   ],
   "characters": [
     {
@@ -67,6 +66,18 @@
       "term": "Moksha",
       "definition": "Liberation from the cycle of birth, death, and rebirth — the ultimate aim of all dharmic action.",
       "context": "The distant horizon that every character is unknowingly moving toward."
+    }
+  ],
+  "summary": "Chapter 14 explores the philosophical distinction between 'death' and 'deathlessness' as framed by the Bṛhadāraṇyaka Upaniṣad prayer ('asato mā sad gamaya') and the Mahāprasthānika Parva of the Mahābhārata. After renouncing the kingdom and crowning Parīkṣit, the Pāṇḍavas and Draupadī embark on their final journey to the Himalayas accompanied by a stray dog. Along the ascent, each falls due to subtle egoistic attachments: Draupadī due to partiality for Arjuna, Sahadeva for intellectual arrogance, Nakula for vanity in appearance, Arjuna for boasting and disrespecting other warriors, and Bhīma for gluttony and pride in his physical power. Yudhiṣṭhira presses forward and is offered bodily ascension to Svarga by Indra. However, Yudhiṣṭhira refuses to abandon the devoted dog, showing that true Dharma transcends personal gain. The dog reveals itself as Dharma Deva, affirming Yudhiṣṭhira's steadfast virtue (dharmaniṣṭhā). The chapter reinforces that while the identification with 'I' and 'mine' (mama) leads to spiritual death, renunciation of ego (na mama) leads to immortality (Brahman), illustrated further through parables from Swami Rāma Tīrtha and Amma.",
+  "in_depth_explanation": "### Death and Deathlessness: Sanatsujātīya Teachings — Point-by-Point Analysis\n\n#### 1. Overcoming the Illusion of Mortality\n- Sage Sanatsujāta teaches Dhṛtarāṣṭra that 'Pramāda' (heedlessness / spiritual negligence) is the true cause of death.\n- Physical death is a mere biological event; spiritual extinction occurs when one identifies completely with the ego and sensory attachments.\n",
+  "mindmap_chart": "graph TD\n  A[Final Journey: Mahāprasthānika Parva] --> B[The Falls of the Companions]\n  A --> C[Yudhiṣṭhira's Final Test]\n  B --> B1[Draupadī: Partiality]\n  B --> B2[Sahadeva: Pride in Wisdom]\n  B --> B3[Nakula: Vanity of Beauty]\n  B --> B4[Arjuna: Boasting & Disrespect]\n  B --> B5[Bhīma: Gluttony & Pride in Strength]\n  C --> D[Indra Offers Svarga in Flesh]\n  D --> E[Yudhiṣṭhira Demands Dog Accompanies Him]\n  E --> F[Dog Revealed as Dharma Deva]\n  F --> G[True Immortality: na mama / Selflessness]",
+  "point_by_point_explanation": [
+    {
+      "section_title": "1. Overcoming the Illusion of Mortality",
+      "points": [
+        "Sage Sanatsujāta teaches Dhṛtarāṣṭra that 'Pramāda' (heedlessness / spiritual negligence) is the true cause of death.",
+        "Physical death is a mere biological event; spiritual extinction occurs when one identifies completely with the ego and sensory attachments."
+      ]
     }
   ]
 }

@@ -38,5 +38,31 @@
       "definition": "Action, work, or deed; also refers to the spiritual principle of cause and effect.",
       "context": "The driving force behind character choices."
     }
+  ],
+  "summary": "Chapter 4 explores the Vyādha Gītā, embedded in the Vana Parva of the Mahābhārata, contrasting empty ascetic renunciation with the genuine spirit of Karma Yoga. A young Brāhmaṇa abandons his dependent parents to practice severe forest austerities. After acquiring mystic powers—evidenced when his wrathful glance burns a defecating crane to ashes—he falls prey to spiritual pride. Seeking alms in a village, he is humbled by a devoted housewife who intuitively perceives his hidden act of anger and delays serving him until she attends to her exhausted husband. She directs him to Dharmavyādha, a butcher who also possesses extraordinary insight while dutifully running a slaughterhouse and caring tenderly for his aged parents. Dharmavyādha instructs him on the core tenets of Advaita and Karma Yoga: that no duty ordained by circumstance is inherently impure when performed without attachment and as an offering to the Divine. Humbled by these two householders, the ascetic realizes that true spirituality lies in fulfilling one's svadharma rather than escaping basic familial duties.",
+  "in_depth_explanation": "### Dharmic Insights of a Butcher: The Vyādha Gītā — Point-by-Point Analysis\n\n#### 1. Spiritual Hierarchy Subverted: The Ascetic vs. The Butcher\n- The ascetic brāhmaṇa Kauśika, proud of incinerating a crane with yogic gaze, is humbled by a humble householder woman and sent to learn Dharma from a meat-seller in Mithilā.\n- Dharma is not determined by external ritual purity, caste prestige, or severe penance, but by selfless execution of one's svadharma.\n- The Vyādha practices Ahimsā of the mind while performing his ancestral trade without cruelty or greed.\n\n#### 2. Filial Duty and Household Life as Supreme Sādhanā\n- The Vyādha reveals his supreme spiritual altar: devoted, selfless service to his aging parents.\n- Abandoning family and social obligations under the guise of spiritual renunciation is an act of subtle escapism and adharma.\n- Realized spirituality must manifest in daily domestic integrity, emotional responsibility, and humility.\n",
+  "mindmap_chart": "graph TD\n  A[Young Brāhmaṇa Ascetic] -->|Abandons Parents| B[Forest Tapas & Powers]\n  B -->|Wrathful Glance| C[Crane Incinerated]\n  C -->|Ego & Pride| D[Visits Housewife for Bhikṣā]\n  D -->|Housewife's Intuition| E[Humbled: 'I am not a crane']\n  E -->|Sent to Dharmavyādha| F[Butcher's Abode]\n  F -->|Teaches Karma Yoga| G['No duty is ugly or impure']\n  G -->|Fulfills Svadharma| H[Work as Worship & Care for Parents]\n  H -->|Resolution| I[Ascetic Returns Home to Serve Parents]",
+  "highlights": [
+    "No duty is ugly, no duty is impure.",
+    "The Vyādha Gītā contains the highest heights of Advaita lived as householder Karma Yoga.",
+    "Audacity turned Dakṣa's yajña into a battlefield, whereas faith turned Arjuna's Kurukṣetra into worship."
+  ],
+  "point_by_point_explanation": [
+    {
+      "section_title": "1. Spiritual Hierarchy Subverted: The Ascetic vs. The Butcher",
+      "points": [
+        "The ascetic brāhmaṇa Kauśika, proud of incinerating a crane with yogic gaze, is humbled by a humble householder woman and sent to learn Dharma from a meat-seller in Mithilā.",
+        "Dharma is not determined by external ritual purity, caste prestige, or severe penance, but by selfless execution of one's svadharma.",
+        "The Vyādha practices Ahimsā of the mind while performing his ancestral trade without cruelty or greed."
+      ]
+    },
+    {
+      "section_title": "2. Filial Duty and Household Life as Supreme Sādhanā",
+      "points": [
+        "The Vyādha reveals his supreme spiritual altar: devoted, selfless service to his aging parents.",
+        "Abandoning family and social obligations under the guise of spiritual renunciation is an act of subtle escapism and adharma.",
+        "Realized spirituality must manifest in daily domestic integrity, emotional responsibility, and humility."
+      ]
+    }
   ]
 }

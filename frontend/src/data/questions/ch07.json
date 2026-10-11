@@ -210,6 +210,440 @@
       ],
       "answer": "It reveals that ego is the root of all suffering",
       "explanation": "In Chapter 7, the principle of Vairagya ultimately guides the characters toward spiritual clarity over personal attachment. This is the central teaching that runs through Dharma in Crisis."
+    },
+    {
+      "id": "q-7-1-0-57ea",
+      "chapter": 7,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 1,
+      "type": "mcq",
+      "stem": "In the context of Dharma in Crisis, how does Prakriti manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 7, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-7-1-1-5c0d",
+      "chapter": 7,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 1,
+      "type": "mcq",
+      "stem": "In the context of Dharma in Crisis, how does Bhakti manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 7, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-7-1-2-a64e",
+      "chapter": 7,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 1,
+      "type": "mcq",
+      "stem": "In the context of Dharma in Crisis, how does Bhakti manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 7, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-7-2-0-aa8b",
+      "chapter": 7,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 2,
+      "type": "mcq",
+      "stem": "In the context of Dharma in Crisis, how does Bhakti manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 7, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-7-2-1-a433",
+      "chapter": 7,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 2,
+      "type": "mcq",
+      "stem": "In the context of Dharma in Crisis, how does Karma manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 7, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-7-2-2-ee15",
+      "chapter": 7,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 2,
+      "type": "mcq",
+      "stem": "In the context of Dharma in Crisis, how does Jnana manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 7, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-7-3-0-c90b",
+      "chapter": 7,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 3,
+      "type": "mcq",
+      "stem": "In the context of Dharma in Crisis, how does Moksha manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 7, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-7-3-1-3f92",
+      "chapter": 7,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 3,
+      "type": "mcq",
+      "stem": "In the context of Dharma in Crisis, how does Vairagya manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 7, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-7-3-2-3372",
+      "chapter": 7,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 3,
+      "type": "mcq",
+      "stem": "In the context of Dharma in Crisis, how does Dharma manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 7, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-7-4-0-cfa0",
+      "chapter": 7,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 4,
+      "type": "mcq",
+      "stem": "In the context of Dharma in Crisis, how does Brahman manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 7, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-7-4-1-d464",
+      "chapter": 7,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 4,
+      "type": "mcq",
+      "stem": "In the context of Dharma in Crisis, how does Yoga manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 7, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-7-4-2-6fec",
+      "chapter": 7,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 4,
+      "type": "mcq",
+      "stem": "In the context of Dharma in Crisis, how does Purusha manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 7, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-7-5-0-80cc",
+      "chapter": 7,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 5,
+      "type": "mcq",
+      "stem": "In the context of Dharma in Crisis, how does Prakriti manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 7, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-7-5-1-66bf",
+      "chapter": 7,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 5,
+      "type": "mcq",
+      "stem": "In the context of Dharma in Crisis, how does Moksha manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 7, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-7-5-2-c5fe",
+      "chapter": 7,
+      "section": "1",
+      "concept_id": "concept_1",
+      "difficulty": 5,
+      "type": "mcq",
+      "stem": "In the context of Dharma in Crisis, how does Atman manifest?",
+      "options": [
+        "Op A (Correct)",
+        "Op B",
+        "Op C",
+        "Op D"
+      ],
+      "answer": "Op A (Correct)",
+      "explanation": "In Chapter 7, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-ch7-1",
+      "chapter": 7,
+      "section": "A",
+      "concept_id": "animandavya_curse",
+      "difficulty": 1,
+      "type": "mcq",
+      "stem": "Why did Maharṣi Aṇīmāṇḍavya curse Yama-Dharma?",
+      "stem_variants": [
+        "What was the reason behind Sage Aṇīmāṇḍavya placing a curse on Yama?"
+      ],
+      "options": [
+        "For misinterpreting and disproportionately executing Dharma",
+        "For refusing to let him enter heaven",
+        "For causing the death of his disciples",
+        "For failing to punish the king who impaled him"
+      ],
+      "distractor_pool": [
+        "For ignoring the theft in his hermitage",
+        "For delaying his reincarnation"
+      ],
+      "answer": "For misinterpreting and disproportionately executing Dharma",
+      "accepted_answers": [
+        "For misinterpreting and disproportionately executing Dharma"
+      ],
+      "explanation": "Aṇīmāṇḍavya lived on the spear and later cursed Yama-Dharma for misinterpreting Dharma by punishing a child's innocent actions disproportionately, demonstrating that even Dharmadeva is not above Dharma.",
+      "page_ref": "83",
+      "source_quote": "When he reached Yama's abode, he cursed Yama-Dharma for misinterpreting Dharma. Even Dharmadeva is not above Dharma.",
+      "tags": [
+        "animandavya",
+        "dharma",
+        "adi-parva"
+      ],
+      "angle": "textual_fact"
+    },
+    {
+      "id": "q-ch7-2",
+      "chapter": 7,
+      "section": "B",
+      "concept_id": "bhisma_critique",
+      "difficulty": 2,
+      "type": "mcq",
+      "stem": "According to the critique presented in the chapter, what fundamental flaw characterized Devavrata's vow?",
+      "stem_variants": [
+        "Why does the text criticize Bhīṣma's renunciation and vow of celibacy?"
+      ],
+      "options": [
+        "It was taken without counsel and served only his father's personal desire (kāma) rather than state survival",
+        "It directly violated the explicit commands of the sage Vasiṣṭha",
+        "It was coerced by Satyavatī's father under threat of war",
+        "It prevented him from gaining the boon of choosing his time of death"
+      ],
+      "distractor_pool": [
+        "It caused the immediate death of King Śantanu",
+        "It led to the abandonment of the ancestral capital of Hastināpura"
+      ],
+      "answer": "It was taken without counsel and served only his father's personal desire (kāma) rather than state survival",
+      "accepted_answers": [
+        "It was taken without counsel and served only his father's personal desire (kāma) rather than state survival"
+      ],
+      "explanation": "The text notes that neither the king's life nor the security of the realm was threatened; the vow was enacted without counsel to satisfy Śantanu's kāma, ultimately leaving the throne vulnerable and unstable.",
+      "page_ref": "84-85",
+      "source_quote": "The book questions it: his father's life, the kingdom and his own life did not depend on it; it only served his father's kāma.",
+      "tags": [
+        "bhisma",
+        "pratijna",
+        "ethics",
+        "kama"
+      ],
+      "angle": "critical_analysis"
+    },
+    {
+      "id": "q-ch7-3",
+      "chapter": 7,
+      "section": "C",
+      "concept_id": "gandhari_critique",
+      "difficulty": 3,
+      "type": "mcq",
+      "stem": "How does the text evaluate Gāndhārī's decision to blindfold herself throughout her marital life?",
+      "stem_variants": [
+        "What strategic and moral flaw is attributed to Gāndhārī's vow of lifelong blindfolding?"
+      ],
+      "options": [
+        "It was an emotional impulse that disabled her ability to perceive and correct Duryodhana's growing adharma",
+        "It was an act of explicit rebellion against the Kuru elders that divided the court",
+        "It breached the Vedic injunctions governing the duties of a kṣatriya queen",
+        "It was done solely to express contempt toward Bhīṣma for arranging the marriage"
+      ],
+      "distractor_pool": [
+        "It compelled Dhṛtarāṣṭra to abdicate the throne in favor of Pāṇḍu",
+        "It prevented her from participating in state sacrifices"
+      ],
+      "answer": "It was an emotional impulse that disabled her ability to perceive and correct Duryodhana's growing adharma",
+      "accepted_answers": [
+        "It was an emotional impulse that disabled her ability to perceive and correct Duryodhana's growing adharma"
+      ],
+      "explanation": "Rather than being her blind husband's vision and guiding her sons, Gāndhārī's hasty vow resulted in turning a blind eye to Duryodhana's ego and misconduct, failing the true role of maternal influence.",
+      "page_ref": "86-87",
+      "source_quote": "The hasty vow blinded her to Duryodhana's stubbornness and ego... Had she instead been her husband's eyes, things might differ.",
+      "tags": [
+        "gandhari",
+        "parenting",
+        "dharma",
+        "pratijna"
+      ],
+      "angle": "philosophical_interpretation"
+    },
+    {
+      "id": "q-ch7-4",
+      "chapter": 7,
+      "section": "E",
+      "concept_id": "bhima_vows",
+      "difficulty": 4,
+      "type": "mcq",
+      "stem": "In what crucial manner did Bhīma's relationship with his vows differ from that of Bhīṣma or Arjuna?",
+      "stem_variants": [
+        "Why does the text argue that Bhīma's vows did not cloud his judgment during the conflict?"
+      ],
+      "options": [
+        "He remained open to abandoning his vows for peace during diplomatic consultations and struck Duryodhana upon Kṛṣṇa's tactical instruction",
+        "He systematically broke all his oaths prior to the commencement of the Kurukṣetra war",
+        "He sought formal expiation through a rājasūya yajña before confronting Duḥśāsana",
+        "He allowed Yudhiṣṭhira to fulfill his vows on his behalf to preserve ritual purity"
+      ],
+      "distractor_pool": [
+        "He refused to fight until Kṛṣṇa absolved him of his previous declarations",
+        "He replaced martial retaliation with spiritual austerities in the forest"
+      ],
+      "answer": "He remained open to abandoning his vows for peace during diplomatic consultations and struck Duryodhana upon Kṛṣṇa's tactical instruction",
+      "accepted_answers": [
+        "He remained open to abandoning his vows for peace during diplomatic consultations and struck Duryodhana upon Kṛṣṇa's tactical instruction"
+      ],
+      "explanation": "During the Udyoga Parva peace mission, Bhīma favored peace even if it meant foregoing his vows. Furthermore, his decisive action in the mace duel followed Kṛṣṇa's real-time guidance rather than blind vengeance.",
+      "page_ref": "88-89",
+      "source_quote": "Yet in Udyoga Parva, when Kṛṣṇa consulted all the Pāṇḍavas... Bhīma favoured peace, willing to forgo his vows... Bhīma tired and Kṛṣṇa signalled him to strike the thigh; so the thigh-blow followed Kṛṣṇa's instruction, not merely his vow.",
+      "tags": [
+        "bhima",
+        "krsna",
+        "udyoga-parva",
+        "dharma"
+      ],
+      "angle": "comparative_analysis"
+    },
+    {
+      "id": "q-ch7-5",
+      "chapter": 7,
+      "section": "F",
+      "concept_id": "archetype_of_pratijna",
+      "difficulty": 5,
+      "type": "mcq",
+      "stem": "Why does the author designate Śrī Kṛṣṇa, rather than Bhīṣma, as the true archetype of Pratijñā (The Vow)?",
+      "stem_variants": [
+        "What defines Kṛṣṇa as the genuine archetype of Pratijñā compared to Bhīṣma's tragic archetype?"
+      ],
+      "options": [
+        "Kṛṣṇa treated vows dynamically as instruments of universal Dharma, refusing to let a personal pledge obstruct the destruction of adharma",
+        "Kṛṣṇa never made any verbal commitments, thereby remaining immune to ethical compromises",
+        "Kṛṣṇa strictly observed every minor austerity without changing his stance under any battle condition",
+        "Kṛṣṇa coerced both sides into adopting identical rules of engagement prior to the war"
+      ],
+      "distractor_pool": [
+        "Kṛṣṇa passed his vows onto Arjuna through the teachings of the Bhagavad Gītā",
+        "Kṛṣṇa's vows were sanctioned by the devas through celestial showers of flowers"
+      ],
+      "answer": "Kṛṣṇa treated vows dynamically as instruments of universal Dharma, refusing to let a personal pledge obstruct the destruction of adharma",
+      "accepted_answers": [
+        "Kṛṣṇa treated vows dynamically as instruments of universal Dharma, refusing to let a personal pledge obstruct the destruction of adharma"
+      ],
+      "explanation": "While Bhīṣma was trapped and rendered helpless by his inflexible vow, Kṛṣṇa showed that an oath must yield to higher Dharma when necessary—demonstrated when he charged at Bhīṣma with a chariot wheel despite having pledged not to bear arms.",
+      "page_ref": "90-91",
+      "source_quote": "Kṛṣṇa was not held back by his vow and acted with clarity for Dharma: the true Pratijñā archetype, unlike Bhīṣma who trapped himself.",
+      "tags": [
+        "krsna",
+        "bhisma",
+        "dharma",
+        "pratijna_archetype"
+      ],
+      "angle": "synthesis_and_evaluation"
     }
   ]
 }

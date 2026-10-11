@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, BookOpen, Quote, Bookmark, Target, AlertCircle, Users, Lightbulb, Zap } from 'lucide-react';
+import { ArrowLeft, ArrowRight, BookOpen, Quote, Bookmark, Target, AlertCircle, Users, Lightbulb, Zap, Layers, CheckCircle2 } from 'lucide-react';
+import ReactMarkdown from 'react-markdown';
 import Mindmap from '../components/Mindmap';
 
 export default function Lesson() {
@@ -31,12 +32,18 @@ export default function Lesson() {
     );
 
     return (
-        <div className="max-w-4xl mx-auto space-y-10 pb-32 animate-in fade-in slide-in-from-bottom-4 duration-700">
-            <Link to="/" className="inline-flex items-center text-sm font-medium text-slate-400 hover:text-amber-400 transition-colors">
-                <ArrowLeft size={16} className="mr-2" /> Back to Dashboard
-            </Link>
+        <div className="max-w-4xl mx-auto space-y-12 pb-24">
+            {/* Top Navigation */}
+            <div className="flex items-center justify-between">
+                <Link to="/" className="inline-flex items-center gap-2 text-slate-400 hover:text-white transition-colors text-sm font-medium">
+                    <ArrowLeft size={16} /> Back to Dashboard
+                </Link>
+                <div className="flex items-center gap-2">
+                    <span className="text-xs text-slate-500 font-mono">ADM-V3.8</span>
+                </div>
+            </div>
 
-            {/* Header */}
+            {/* Chapter Header */}
             <header className="space-y-5 border-b border-slate-800 pb-8">
                 <div className="flex items-center gap-3">
                     <div className="bg-amber-500/10 p-2.5 rounded-xl text-amber-400 border border-amber-500/20 shadow-lg shadow-amber-500/10">
@@ -46,6 +53,14 @@ export default function Lesson() {
                 </div>
                 <h1 className="text-4xl font-black tracking-tight text-white font-cinzel">{data.theme}</h1>
                 <p className="text-slate-400 text-base leading-relaxed">{data.abstract}</p>
+                {data.summary && (
+                    <div className="mt-4 bg-slate-900/70 p-5 rounded-2xl border border-amber-500/20 shadow-lg">
+                        <div className="flex items-center gap-2 text-amber-400 font-bold text-sm uppercase tracking-wider mb-2">
+                            <Lightbulb size={16} /> Executive Summary
+                        </div>
+                        <p className="text-slate-300 text-sm leading-relaxed whitespace-pre-wrap">{data.summary}</p>
+                    </div>
+                )}
             </header>
 
             {/* Key Highlights */}
@@ -101,8 +116,58 @@ export default function Lesson() {
                 </section>
             )}
 
+            {/* Point-by-Point In-Depth Explanation */}
+            {data.point_by_point_explanation && data.point_by_point_explanation.length > 0 ? (
+                <section className="space-y-6">
+                    <div className="flex items-center justify-between border-b border-slate-800 pb-4">
+                        <div className="flex items-center gap-3">
+                            <div className="bg-indigo-500/10 p-2.5 rounded-xl text-indigo-400 border border-indigo-500/20 shadow-lg shadow-indigo-500/10">
+                                <Layers size={22} />
+                            </div>
+                            <div>
+                                <h2 className="text-xl font-bold text-white font-cinzel">Point-by-Point In-Depth Explanation</h2>
+                                <p className="text-xs text-slate-400">Detailed philosophical breakdown, ethical dilemmas & strategic takeaways</p>
+                            </div>
+                        </div>
+                        <span className="text-xs font-semibold px-3 py-1 bg-indigo-500/10 border border-indigo-500/30 text-indigo-300 rounded-full">
+                            {data.point_by_point_explanation.length} Sections
+                        </span>
+                    </div>
+
+                    <div className="space-y-4">
+                        {data.point_by_point_explanation.map((item: any, idx: number) => (
+                            <div key={idx} className="bg-slate-900/90 rounded-2xl border border-indigo-500/20 hover:border-indigo-500/40 transition-colors p-6 shadow-xl space-y-4">
+                                <h3 className="text-lg font-bold text-indigo-300 flex items-center gap-3">
+                                    <span className="w-7 h-7 rounded-lg bg-indigo-600/30 text-indigo-300 text-xs flex items-center justify-center font-bold border border-indigo-500/30 flex-shrink-0">
+                                        {idx + 1}
+                                    </span>
+                                    <span>{item.section_title}</span>
+                                </h3>
+                                <ul className="space-y-3 pl-2">
+                                    {item.points?.map((pt: string, pIdx: number) => (
+                                        <li key={pIdx} className="flex items-start gap-3 text-slate-200 text-sm leading-relaxed">
+                                            <CheckCircle2 size={16} className="text-indigo-400 mt-1 flex-shrink-0" />
+                                            <span>{pt}</span>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        ))}
+                    </div>
+                </section>
+            ) : data.in_depth_explanation && (
+                <section className="bg-slate-900/90 rounded-2xl border border-indigo-500/20 p-6 shadow-xl space-y-4">
+                    <h2 className="text-lg font-bold text-indigo-300 flex items-center gap-2">
+                        <Layers size={18} /> In-Depth Explanation
+                    </h2>
+                    <div className="prose prose-invert max-w-none text-slate-300 text-sm leading-relaxed">
+                        <ReactMarkdown>{data.in_depth_explanation}</ReactMarkdown>
+                    </div>
+                </section>
+            )}
+
             {/* Mindmap */}
-            <Mindmap title="Chapter Flow" chart={`graph TD\n  A["Ch.${data.chapter}: ${data.theme}"] --> B(Core Dilemma)\n  A --> C(Resolution)\n  B --> D[Personal Desire]\n  B --> E["Dharmic Duty"]\n  C --> F[Selfless Action]\n  C --> G[Universal Truth]\n  F --> H{Liberation}\n  G --> H`} />
+            <Mindmap title="Chapter Flow" chart={data.mindmap_chart || `graph TD\n  A["Ch.${data.chapter}: ${data.theme}"] --> B(Core Dilemma)\n  A --> C(Resolution)\n  B --> D[Personal Desire]\n  B --> E["Dharmic Duty"]\n  C --> F[Selfless Action]\n  C --> G[Universal Truth]\n  F --> H{Liberation}\n  G --> H`} />
 
             {/* Content Blocks */}
             <div className="space-y-8 text-slate-300 text-base leading-relaxed">
@@ -148,6 +213,21 @@ export default function Lesson() {
                     </div>
                 </section>
             )}
+
+            {/* Chapter Navigation Footer */}
+            <div className="flex items-center justify-between border-t border-slate-800 pt-8 pb-12">
+                {Number(chapterId) > 1 ? (
+                    <Link to={`/lesson/${Number(chapterId) - 1}`} className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-sm font-medium text-slate-300 hover:text-white hover:border-slate-700 transition-all hover:scale-105">
+                        <ArrowLeft size={16} /> Previous: Chapter {Number(chapterId) - 1}
+                    </Link>
+                ) : <div />}
+
+                {Number(chapterId) < 15 ? (
+                    <Link to={`/lesson/${Number(chapterId) + 1}`} className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-sm font-medium text-slate-300 hover:text-white hover:border-slate-700 transition-all hover:scale-105">
+                        Next: Chapter {Number(chapterId) + 1} <ArrowRight size={16} />
+                    </Link>
+                ) : <div />}
+            </div>
 
             {/* Sticky CTA */}
             <div className="fixed bottom-0 left-0 right-0 p-4 bg-[#080b14]/95 backdrop-blur-xl border-t border-white/5 flex justify-center z-40">

@@ -5,28 +5,41 @@ export default function Review() {
     const [cardState, setCardState] = useState<'question' | 'answer'>('question');
     const [currentIndex, setCurrentIndex] = useState(0);
 
-    // Mock data based on the epic's themes
     const flashcards = [
         {
             id: 1,
-            chapter: "Ch 7: Dharma in Crisis",
-            concept: "Dharma vs. Duty",
-            question: "Why did Arjuna hesitate to fight although he was a Kshatriya (warrior)?",
-            answer: "His personal duty (dharma as a family member) conflicted with his cosmic duty (dharma as a warrior to uphold justice). He faced a crisis of identifying which ethical framework superseded the other in a civil war context."
+            chapter: "Ch 7: Pratijñā (The Ethics of Vows)",
+            concept: "Teleological Ethics",
+            question: "Why does the ADM framework classify Bhīṣma's vow of celibacy as an ethical failure rather than pure virtue?",
+            answer: "Bhīṣma subordinated the welfare of the state (Loka-saṅgraha) to personal ascetic reputation and emotional filial devotion. By refusing Niyoga and political leadership, his vow created power vacuums that led directly to the Kuru civil war."
         },
         {
             id: 2,
-            chapter: "Ch 6: The Bhagavad Gita Begins",
-            concept: "Nishkama Karma",
-            question: "What is the core principle of 'Nishkama Karma'?",
-            answer: "Action without attachment to the fruits or results. Performing one's duty purely because it is the right thing to do, relinquishing ego and desire for reward."
+            chapter: "Ch 4: Dharmic Insights of a Butcher",
+            concept: "Svadharma vs. Ritual Purity",
+            question: "Why did Sage Kauśika have to learn supreme Dharma from a meat-seller (Dharmavyādha) in Mithilā?",
+            answer: "Kauśika possessed ascetic powers (tapas) but lacked compassion and abandoned his aging parents. Dharmavyādha demonstrated that fulfilling one's hereditary social duties with dedication, filial piety, and humility outweighs external ascetic austerity."
         },
         {
             id: 3,
-            chapter: "Ch 3: The Dice Game",
-            concept: "Systemic Adharma",
-            question: "How did the Dice Game illustrate systemic enabling of Adharma?",
-            answer: "The elders (Bhishma, Drona, Dhritarashtra) remained silent bound by arbitrary rules and blind loyalty, allowing severe ethical violations to occur under the guise of legal or traditional protocol."
+            chapter: "Ch 8: Karṇa: The Maestro Wide of Mark",
+            concept: "Toxic Loyalty & Moral Blindness",
+            question: "How does the Mahābhārata analyze Karṇa's unconditional loyalty to Duryodhana?",
+            answer: "Karṇa prioritized personal gratitude and ego validation over cosmic justice. Loyalty to an adharmic patron does not sanitize adharmic actions; it actively compounds systemic evil, leading to moral compromise and tragic downfall."
+        },
+        {
+            id: 4,
+            chapter: "Ch 14: Sanatsujātīya",
+            concept: "Pramāda (Heedlessness)",
+            question: "What is Sage Sanatsujāta's fundamental definition of Death in his discourse to Dhṛtarāṣṭra?",
+            answer: "Sanatsujāta declares that physical death is an illusion; the true 'Death' is Pramāda (spiritual heedlessness and distraction of the senses). Overcoming ego and desire confers immortality."
+        },
+        {
+            id: 5,
+            chapter: "Ch 12: Extraordinary Peace Mission",
+            concept: "Exhaustion of Recourse",
+            question: "Why did Śrī Kṛṣṇa proceed on a peace mission to Hastināpura despite knowing war was inevitable?",
+            answer: "To secure the moral high ground and establish that every peaceful diplomatic avenue was exhausted before lethal force. In righteous conflict, war must only be a last resort after unequivocal refusal of compromise by the aggressor."
         }
     ];
 

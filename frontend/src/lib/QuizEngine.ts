@@ -67,10 +67,12 @@ export class QuizEngine {
     }
 
     public getProgress(): number {
+        if (!this.state.pool.length) return 0;
         return (this.state.currentIndex / this.state.pool.length) * 100;
     }
 
     public getPercentage(): number {
+        if (!this.state.pool.length) return 0;
         return Math.round((this.state.score / this.state.pool.length) * 100);
     }
 }

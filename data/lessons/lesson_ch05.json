@@ -38,5 +38,30 @@
       "definition": "Action, work, or deed; also refers to the spiritual principle of cause and effect.",
       "context": "The driving force behind character choices."
     }
+  ],
+  "summary": "Chapter 5, 'The Unbroken Legacy', explores how the Mahābhārata has profoundly shaped the civilisational, cultural, and spiritual landscape of the Indian subcontinent across millenia. The epic is not merely a static literary text but a living tradition manifested through six key dimensions: Literature, Festivals, Temples, Performing and Visual Arts, Anthropology, and Architecture (synthesised by the mnemonic L-F-T-A-A-A). It details regional vernacular retellings across India (such as Ezhuthachan in Malayalam, Villiputtūrār in Tamil, and Sarala Dās in Odia), classical Sanskrit masterpieces (Bhāsa's plays, Kālidāsa, Bhāravi's Kirātārjunīya, and Śrīharṣa's Naiṣadha Caritam), living sacred festivals (Bengaluru's Karaga, Koovagam in Tamil Nadu, and Manali's Dhungri Melā), and unique temple traditions honoring figures rarely enshrined elsewhere, including Duryodhana, Śakuni, Gāndhārī, Karṇa, and Hiḍimbā. Additionally, it highlights temple architecture, indigenous performance genres (such as Kathakali, Terukkūttu, and Chhau), and anthropological records enumerating 363 ancient janas and jātis.",
+  "in_depth_explanation": "### The Unbroken Legacy: Continuity Across Dynastic Crises — Point-by-Point Analysis\n\n#### 1. Institutional Resilience in Transition\n- The Kuru dynasty repeatedly faces biological extinction (Vicitravīrya's demise, Pāṇḍu's curse, Abhimanyu's death).\n- Through traditions like Niyoga and divine lineage invocation, the cultural and political continuity is rigorously sustained.\n- Adaptive leadership: Preserving core institutional purpose while adapting biological and procedural mechanisms.\n\n#### 2. The Cost of Dynasty-Centric Obsession\n- When lineage survival becomes an end in itself rather than a vessel for Dharma, it degenerates into toxic nepotism.\n- Dhṛtarāṣṭra's inability to distinguish between the welfare of the state and the entitlement of his son catalyzes the ultimate cataclysm.\n",
+  "mindmap_chart": "graph TD\n  A[The Unbroken Legacy of Mahābhārata] --> B[Literature]\n  A --> C[Festivals]\n  A --> D[Temples]\n  A --> E[Performing & Visual Arts]\n  A --> F[Anthropology & Architecture]\n  B --> B1[Vernacular Retellings: Ezhuthachan, Villiputtūrār, Sarala Dās]\n  B --> B2[Sanskrit Mahākāvyas & Plays: Bhāsa, Kālidāsa, Bhāravi, Śrīharṣa]\n  C --> C1[Karaga: Bengaluru Tigala community & Draupadī]\n  C --> C2[Koovagam: Iravān & Mohinī self-sacrifice]\n  C --> C3[Dhungri Melā & Chhath Pūjā]\n  D --> D1[Chengannur Pañca Pāṇḍava Pilgrimage]\n  D --> D2[Unconventional Shrines: Duryodhana, Gāndhārī, Karṇa, Hiḍimbā]\n  E --> E1[Kalamkari Art Tradition]\n  E --> E2[Folk & Classical: Kathakali, Kūṭiyāṭṭam, Terukkūttu, Chhau, Velakali]\n  F --> F1[363 Janas/Jātis: Kirātas, Kachari kingdom]\n  F --> F2[Stone Carvings: Ellora, Mahabalipuram, Amṛtapurī Chariot]",
+  "highlights": [
+    "The epic serves as an anthropological registry, documenting 363 distinct janas and jātis across the length and breadth of the subcontinent.",
+    "Veneration is not reserved exclusively for the victors; temples and rituals dedicated to Duryodhana (Malanada), Gāndhārī (Thiruvananthapuram), and Karṇa (Naitwar) reveal an empathetic, multifaceted grasp of Dharma.",
+    "The Pañca Pāṇḍava temple circuit around Chengannur, Kerala, dictates an exact sequential pilgrimage mapped to the birth order of the five brothers: Yudhiṣṭhira, Bhīma, Arjuna, Nakula, and Sahadeva."
+  ],
+  "point_by_point_explanation": [
+    {
+      "section_title": "1. Institutional Resilience in Transition",
+      "points": [
+        "The Kuru dynasty repeatedly faces biological extinction (Vicitravīrya's demise, Pāṇḍu's curse, Abhimanyu's death).",
+        "Through traditions like Niyoga and divine lineage invocation, the cultural and political continuity is rigorously sustained.",
+        "Adaptive leadership: Preserving core institutional purpose while adapting biological and procedural mechanisms."
+      ]
+    },
+    {
+      "section_title": "2. The Cost of Dynasty-Centric Obsession",
+      "points": [
+        "When lineage survival becomes an end in itself rather than a vessel for Dharma, it degenerates into toxic nepotism.",
+        "Dhṛtarāṣṭra's inability to distinguish between the welfare of the state and the entitlement of his son catalyzes the ultimate cataclysm."
+      ]
+    }
   ]
 }

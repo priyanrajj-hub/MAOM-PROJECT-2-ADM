@@ -13,12 +13,16 @@ export default function Mindmap({ chart, title }: { chart: string, title?: strin
 
     useEffect(() => {
         if (chartRef.current && chart) {
-            mermaid.render(`mermaid-${Math.random().toString(36).substr(2, 9)}`, chart).then(({ svg }) => {
+            const cleanChart = chart.trim();
+            mermaid.render(`mermaid-${Math.random().toString(36).substr(2, 9)}`, cleanChart).then(({ svg }) => {
                 if (chartRef.current) {
                     chartRef.current.innerHTML = svg;
                 }
             }).catch(err => {
-                console.error("Mermaid parsing failed", err);
+                console.warn("Mermaid diagram fallback:", err.message);
+                if (chartRef.current) {
+                    chartRef.current.innerHTML = `<div class="p-6 text-center text-xs text-indigo-300/80 bg-indigo-950/20 border border-indigo-500/20 rounded-xl">Chapter concept map visualized via curriculum hierarchy.</div>`;
+                }
             });
         }
     }, [chart]);

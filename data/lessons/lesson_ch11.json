@@ -38,5 +38,23 @@
       "definition": "Action, work, or deed; also refers to the spiritual principle of cause and effect.",
       "context": "The driving force behind character choices."
     }
+  ],
+  "summary": "Chapter 11 explores how the Mahābhārata expanded beyond Vyāsa's Sanskrit epic into vibrant regional oral traditions, literature, and temple rituals across India. It focuses on four prominent non-Vyāsa or divergent regional narratives: (1) The Tamil tradition of Aravan (son of Arjuna and Ulūpī), who offers himself as a battlefield sacrifice (kaḷappali) to Goddess Kālī, marries Kṛṣṇa in the form of Mohinī, and is commemorated at the annual 18-day Kūvāgam festival by transgender devotees (Aravānis); (2) The divergence between Kālidāsa's romantic drama Abhijñānaśākuntalam (featuring Durvāsā's curse and the signet ring) and Vyāsa's Sambhava Parva, where King Duṣyanta feigns ignorance of Śakuntalā purely out of political prudence until a divine voice authenticates his son Bharata; (3) The Malanada Duryodhana Temple in Poruvazhi, Kerala, South India's only temple dedicated to Duryodhana, rooted in a legend of indigenous hospitality from the Kuruva community and celebrated through ancestor worship and the Malakkuda festival; and (4) The folk-puranic tradition of Barbarīka (Khāṭū Śyām, from the Skanda Purāṇa), the son of Ghaṭotkaca, whose vow to fight for the losing side and possession of three infallible arrows led Kṛṣṇa to request his head as an auspicious pre-war sacrifice.",
+  "in_depth_explanation": "### Popular Regional Tales: Polyphony of the Living Tradition — Point-by-Point Analysis\n\n#### 1. Grassroots Retellings and Folk Interpretations\n- Across Indian languages (Tamil Villiputturar, Bengali Kashiram Das, Malayalam Ezhuthachan), local adaptations introduce folk characters and sub-narratives.\n- These variations highlight regional perspectives on justice, gender, and devotion without eroding the core Vedic framework.\n",
+  "mindmap_chart": "graph TD\n  A[Regional Mahābhārata Traditions] --> B[Aravan / Tamil Tradition]\n  A --> C[Duṣyanta & Śakuntalā]\n  A --> D[Malanada Duryodhana Temple]\n  A --> E[Barbarīka / Khāṭū Śyām]\n  B --> B1[Son of Arjuna & Ulūpī]\n  B --> B2[Kaḷappali to Kālī]\n  B --> B3[Marriage to Mohinī]\n  B --> B4[Kūvāgam Festival & Aravānis]\n  C --> C1[Kālidāsa: Curse, Ring, Fish]\n  C --> C2[Vyāsa: Political Caution & Sky Voice]\n  D --> D1[Poruvazhi, Kerala]\n  D --> D2[Kuruva Hospitality & Toddy]\n  D --> D3[No Idol: Raised Platform with Nandis]\n  D --> D4[Malakkuda Festival & Ancestor Worship]\n  E --> E1[Ghaṭotkaca & Morvī]\n  E --> E2[3 Infallible Arrows from Durgā]\n  E --> E3[Vow: Fight for Losing Side]\n  E --> E4[Head Sacrificed to Kṛṣṇa; Skanda Purāṇa]",
+  "highlights": [
+    "Highlights the sociological significance of the 18-day Kūvāgam festival, where Aravānis undergo sacred marriage on the 14th day and ritual widowhood on the 16th day.",
+    "Sharp contrast between Kālidāsa's romantic literary adaptations and the strictly pragmatic, statecraft-oriented depiction of Duṣyanta in Vyāsa's Sambhava Parva.",
+    "Details the unique ritual architecture of Malanada Temple, where Duryodhana is worshipped without a sanctum or idol, represented by Śiva Caitanya and paying property taxes in his name.",
+    "Explains Barbarīka's strategic paradox regarding his vow to defend the weaker side and his post-war cosmic vision of the battlefield."
+  ],
+  "point_by_point_explanation": [
+    {
+      "section_title": "1. Grassroots Retellings and Folk Interpretations",
+      "points": [
+        "Across Indian languages (Tamil Villiputturar, Bengali Kashiram Das, Malayalam Ezhuthachan), local adaptations introduce folk characters and sub-narratives.",
+        "These variations highlight regional perspectives on justice, gender, and devotion without eroding the core Vedic framework."
+      ]
+    }
   ]
 }

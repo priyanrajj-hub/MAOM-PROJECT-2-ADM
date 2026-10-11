@@ -255,6 +255,188 @@
       ],
       "answer": "Op A (Correct)",
       "explanation": "In Chapter 4, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-ch4-1",
+      "chapter": 4,
+      "section": "A",
+      "concept_id": "three_gitas_vana_parva",
+      "difficulty": 1,
+      "type": "mcq",
+      "stem": "In which Parva of the Mahābhārata does the narrative of the Vyādha Gītā take place?",
+      "stem_variants": [
+        "Where is the Vyādha Gītā situated within the Mahābhārata?"
+      ],
+      "options": [
+        "Vana Parva",
+        "Sabhā Parva",
+        "Śānti Parva",
+        "Udyoga Parva"
+      ],
+      "distractor_pool": [
+        "Sabhā Parva",
+        "Śānti Parva",
+        "Udyoga Parva"
+      ],
+      "answer": "Vana Parva",
+      "accepted_answers": [
+        "Vana Parva"
+      ],
+      "explanation": "The Vyādha Gītā occurs in the Vana Parva (Forest Book) of the Mahābhārata, narrated during the Pāṇḍavas' period of exile.",
+      "page_ref": "43-45",
+      "source_quote": "Story is in Vana Parva... in the time when the Pāṇḍavas were in exile.",
+      "tags": [
+        "Vyādha Gītā",
+        "Vana Parva",
+        "Structure"
+      ],
+      "angle": "factual"
+    },
+    {
+      "id": "q-ch4-2",
+      "chapter": 4,
+      "section": "B-C",
+      "concept_id": "ascetic_housewife_encounter",
+      "difficulty": 2,
+      "type": "mcq",
+      "stem": "How did the housewife shatter the pride of the young Brāhmaṇa who demanded immediate alms?",
+      "stem_variants": [
+        "What caused the young ascetic to be stunned when the housewife asked him to wait?"
+      ],
+      "options": [
+        "She revealed she knew he had burned a crane to ashes with his angry glare in the forest.",
+        "She cursed him to lose all the mystical powers accumulated through his tapas.",
+        "She recited the Vedas more fluently than he could and challenged him to debate.",
+        "She summoned Dharmavyādha magically to reprimand him on the spot."
+      ],
+      "distractor_pool": [
+        "She cursed him to lose all the mystical powers accumulated through his tapas.",
+        "She recited the Vedas more fluently than he could and challenged him to debate.",
+        "She summoned Dharmavyādha magically to reprimand him on the spot."
+      ],
+      "answer": "She revealed she knew he had burned a crane to ashes with his angry glare in the forest.",
+      "accepted_answers": [
+        "She revealed she knew he had burned a crane to ashes with his angry glare in the forest."
+      ],
+      "explanation": "When the Brāhmaṇa flared up in anger because she made him wait while feeding her tired husband, she smiled and asked: 'Do you think I am a crane that you can burn me up?'",
+      "page_ref": "43-44",
+      "source_quote": "She smiled and said, 'Do you think I am a crane that you can burn me up?'",
+      "tags": [
+        "Housewife",
+        "Tapas",
+        "Crane"
+      ],
+      "angle": "narrative-comprehension"
+    },
+    {
+      "id": "q-ch4-3",
+      "chapter": 4,
+      "section": "D",
+      "concept_id": "dharmavyadha_work_as_worship",
+      "difficulty": 3,
+      "type": "mcq",
+      "stem": "What core philosophical principle did Dharmavyādha use to justify his profession as a butcher?",
+      "stem_variants": [
+        "According to Dharmavyādha, why is his gruesome work not a spiritual disqualifier?"
+      ],
+      "options": [
+        "No duty is inherently impure or ugly when performed with detachment and devotion as service.",
+        "Slaughtering animals is a Vedic sacrifice exempt from all karmic repercussion.",
+        "Birth in a specific caste cancels the spiritual law of karma altogether.",
+        "Ascetic forest life is spiritually forbidden for anyone born into a trade."
+      ],
+      "distractor_pool": [
+        "Slaughtering animals is a Vedic sacrifice exempt from all karmic repercussion.",
+        "Birth in a specific caste cancels the spiritual law of karma altogether.",
+        "Ascetic forest life is spiritually forbidden for anyone born into a trade."
+      ],
+      "answer": "No duty is inherently impure or ugly when performed with detachment and devotion as service.",
+      "accepted_answers": [
+        "No duty is inherently impure or ugly when performed with detachment and devotion as service."
+      ],
+      "explanation": "Dharmavyādha stated: 'No duty is ugly, no duty is impure. Birth placed me in these circumstances... I am unattached and try to do my duty well.' Treating work as worship transforms any duty into Karma Yoga.",
+      "page_ref": "44",
+      "source_quote": "No duty is ugly, no duty is impure. Birth placed me in these circumstances. I learned this trade as a boy; I am unattached and try to do my duty well.",
+      "tags": [
+        "Karma Yoga",
+        "Svadharma",
+        "Dharmavyādha"
+      ],
+      "angle": "conceptual"
+    },
+    {
+      "id": "q-ch4-4",
+      "chapter": 4,
+      "section": "E",
+      "concept_id": "amma_daksha_arjuna_comparison",
+      "difficulty": 4,
+      "type": "mcq",
+      "stem": "In the comparison cited from Amma, how are King Dakṣa's yajña and Arjuna's Kurukṣetra contrasted regarding inner attitude?",
+      "stem_variants": [
+        "What contrast does Amma draw between Dakṣa's sacrifice and Arjuna's battlefield?"
+      ],
+      "options": [
+        "Dakṣa turned a holy sacrifice into a battleground through ego, while Arjuna turned a battleground into worship through faith.",
+        "Dakṣa renounced action prematurely, while Arjuna abandoned devotion to embrace mere warfare.",
+        "Dakṣa attained enlightenment through rigid rites, while Arjuna attained it by fleeing battle to the forest.",
+        "Dakṣa prioritized family duty above all, while Arjuna abandoned his kinsmen for ascetic powers."
+      ],
+      "distractor_pool": [
+        "Dakṣa renounced action prematurely, while Arjuna abandoned devotion to embrace mere warfare.",
+        "Dakṣa attained enlightenment through rigid rites, while Arjuna attained it by fleeing battle to the forest.",
+        "Dakṣa prioritized family duty above all, while Arjuna abandoned his kinsmen for ascetic powers."
+      ],
+      "answer": "Dakṣa turned a holy sacrifice into a battleground through ego, while Arjuna turned a battleground into worship through faith.",
+      "accepted_answers": [
+        "Dakṣa turned a holy sacrifice into a battleground through ego, while Arjuna turned a battleground into worship through faith."
+      ],
+      "explanation": "Amma contrasts Dakṣa's yajña, which deteriorated into a violent battlefield due to pride and audacity, with Arjuna, whose surrender and faith in Kṛṣṇa turned the battlefield of Kurukṣetra into a sacred place of worship.",
+      "page_ref": "45",
+      "source_quote": "contrasted Dakṣa's yajña, which became a battlefield through his audacity, with Arjuna who, through faith in Kṛṣṇa, turned Kurukṣetra into a place of worship.",
+      "tags": [
+        "Amma",
+        "Dakṣa",
+        "Kurukṣetra",
+        "Inner Attitude"
+      ],
+      "angle": "analytical"
+    },
+    {
+      "id": "q-ch4-5",
+      "chapter": 4,
+      "section": "E",
+      "concept_id": "vivekananda_advaita_renunciation",
+      "difficulty": 5,
+      "type": "mcq",
+      "stem": "How does Swami Vivekananda's evaluation of the Vyādha Gītā reframe the classical concept of Advaitic renunciation (sannyāsa)?",
+      "stem_variants": [
+        "According to Swami Vivekananda, what does the Vyādha Gītā demonstrate regarding the true nature of renunciation?"
+      ],
+      "options": [
+        "Because the all-pervading Self is already within, authentic renunciation does not necessitate fleeing domestic life for the forest.",
+        "Advaita necessitates complete physical withdrawal from social karma before true knowledge can be assimilated.",
+        "Householders can only attain secondary merits, whereas liberation is exclusively reserved for monastic sannyāsins.",
+        "Ritual penances and acquisition of yogic siddhis must always precede the practice of non-dual meditation."
+      ],
+      "distractor_pool": [
+        "Advaita necessitates complete physical withdrawal from social karma before true knowledge can be assimilated.",
+        "Householders can only attain secondary merits, whereas liberation is exclusively reserved for monastic sannyāsins.",
+        "Ritual penances and acquisition of yogic siddhis must always precede the practice of non-dual meditation."
+      ],
+      "answer": "Because the all-pervading Self is already within, authentic renunciation does not necessitate fleeing domestic life for the forest.",
+      "accepted_answers": [
+        "Because the all-pervading Self is already within, authentic renunciation does not necessitate fleeing domestic life for the forest."
+      ],
+      "explanation": "Swami Vivekananda explains that the Vyādha Gītā reaches the heights of Advaita: since the all-pervading Divine Self resides within, renunciation does not mean abandoning parents or home to dwell in a forest; one can remain a householder and realize the highest spiritual truth through selfless duty.",
+      "page_ref": "44-45",
+      "source_quote": "Swami Vivekananda says the Vyādha Gītā contains the heights of Advaita, which preaches renunciation; but when the all-pervading Self is within, renunciation is not leaving home for the forest.",
+      "tags": [
+        "Swami Vivekananda",
+        "Advaita",
+        "Renunciation",
+        "Philosophy"
+      ],
+      "angle": "philosophical-depth"
     }
   ]
 }

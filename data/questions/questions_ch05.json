@@ -255,6 +255,201 @@
       ],
       "answer": "Op A (Correct)",
       "explanation": "In Chapter 5, it is explicitly detailed that option A represents the correct interpretation of the text."
+    },
+    {
+      "id": "q-ch5-1",
+      "chapter": 5,
+      "section": "Festivals",
+      "concept_id": "koovagam_iravan_tradition",
+      "difficulty": 1,
+      "type": "mcq",
+      "stem": "Which warrior's self-sacrifice before the Kurukṣetra war is commemorated at the Kattāntavar Temple during the Koovagam festival in Tamil Nadu?",
+      "stem_variants": [
+        "The Koovagam festival in Tamil Nadu commemorates the self-sacrifice and wedding of which epic character?",
+        "Whose sacrifice prompted Lord Kṛṣṇa to take the form of Mohinī at Koovagam?"
+      ],
+      "options": [
+        "Iravān (Aravan)",
+        "Ghaṭotkaca",
+        "Abhimanyu",
+        "Babruvāhana"
+      ],
+      "distractor_pool": [
+        "Ghaṭotkaca",
+        "Abhimanyu",
+        "Babruvāhana"
+      ],
+      "answer": "Iravān (Aravan)",
+      "accepted_answers": [
+        "Iravān (Aravan)",
+        "Iravan",
+        "Aravan"
+      ],
+      "explanation": "At the Kattāntavar Temple in Koovagam (Villupuram district, Tamil Nadu), Arjuna's son Iravān is commemorated. Before sacrificing his life for victory, he wished to marry, leading Kṛṣṇa to assume the Mohinī form to wed him for a night.",
+      "page_ref": "52",
+      "source_quote": "Iravān (Aravan), Arjuna's son, was granted three boons by Kṛṣṇa for self-sacrifice; he wished to marry before death, so Kṛṣṇa became Mohinī and married him.",
+      "tags": [
+        "festivals",
+        "koovagam",
+        "iravan",
+        "tamil_nadu"
+      ],
+      "angle": "factual_recall"
+    },
+    {
+      "id": "q-ch5-2",
+      "chapter": 5,
+      "section": "Literature",
+      "concept_id": "sanskrit_classics_sources",
+      "difficulty": 2,
+      "type": "mcq",
+      "stem": "Which classical Sanskrit Mahākāvya, composed by the 6th-century poet Bhāravi, is based on Arjuna's penance to obtain the Pāśupatāstra from Lord Śiva in the Vana Parva?",
+      "stem_variants": [
+        "Bhāravi's 6th-century CE Mahākāvya rooted in the Vana Parva is entitled:",
+        "Arjuna's encounter with Śiva disguised as a Kirāta inspired which classical poem?"
+      ],
+      "options": [
+        "Kirātārjunīya",
+        "Naiṣadha Caritam",
+        "Śiśupālavadha",
+        "Abhijñānaśākuntalam"
+      ],
+      "distractor_pool": [
+        "Naiṣadha Caritam",
+        "Śiśupālavadha",
+        "Abhijñānaśākuntalam"
+      ],
+      "answer": "Kirātārjunīya",
+      "accepted_answers": [
+        "Kirātārjunīya"
+      ],
+      "explanation": "Bhāravi (6th century CE) authored the Kirātārjunīya, one of the Pañcamahākāvyas, dramatising the encounter from Vana Parva where Śiva tests Arjuna as a Kirāta (hunter) before granting him the divine Pāśupatāstra.",
+      "page_ref": "51-52",
+      "source_quote": "In Vana Parva, Arjuna worships Śiva for the Pāśupatāstra; Śiva tests him as a Kirāta, and the poet Bhāravi (6th century CE) wrote the Mahākāvya Kirātārjunīya on it.",
+      "tags": [
+        "literature",
+        "sanskrit",
+        "bharavi",
+        "kiratarjuniya"
+      ],
+      "angle": "literary_attribution"
+    },
+    {
+      "id": "q-ch5-3",
+      "chapter": 5,
+      "section": "Temples",
+      "concept_id": "panca_pandava_temple_sequence",
+      "difficulty": 3,
+      "type": "mcq",
+      "stem": "In the Pañca Pāṇḍava temple pilgrimage around Chengannur, Kerala, which temple is dedicated to Arjuna and represents the central step of the birth-order pilgrimage circuit?",
+      "stem_variants": [
+        "Which Chengannur temple dedicated to Arjuna houses the deity Pārthasārathi?",
+        "According to Kerala temple traditions, which shrine is attributed to Arjuna among the five Pāṇḍava temples?"
+      ],
+      "options": [
+        "Aranmula Pārthasārathi Temple",
+        "Tṛcchittāṭ Temple",
+        "Tṛppuliyūr Temple",
+        "Tṛkoḍitthānam Temple"
+      ],
+      "distractor_pool": [
+        "Tṛcchittāṭ Temple",
+        "Tṛppuliyūr Temple",
+        "Tṛkoḍitthānam Temple"
+      ],
+      "answer": "Aranmula Pārthasārathi Temple",
+      "accepted_answers": [
+        "Aranmula Pārthasārathi Temple",
+        "Aranmula"
+      ],
+      "explanation": "The pilgrimage begins at Tṛcchittāṭ (Yudhiṣṭhira), moves to Tṛppuliyūr (Bhīma), proceeds to Aranmula Pārthasārathi (Arjuna), followed by Thiruvanvandoor (Nakula) and Tṛkoḍitthānam (Sahadeva).",
+      "page_ref": "52, 60",
+      "source_quote": "Tṛcchittāṭ (Yudhiṣṭhira), Tṛppuliyūr (Bhīma), Aranmula Pārthasārathi (Arjuna), Thiruvanvandoor (Nakula) and Tṛkoḍitthānam (Sahadeva); the pilgrimage starts at Tṛcchittāṭ.",
+      "tags": [
+        "temples",
+        "kerala",
+        "chengannur",
+        "arjuna",
+        "aranmula"
+      ],
+      "angle": "temple_topography"
+    },
+    {
+      "id": "q-ch5-4",
+      "chapter": 5,
+      "section": "Anthropology",
+      "concept_id": "anthropology_janas_jatis",
+      "difficulty": 4,
+      "type": "mcq",
+      "stem": "In the Mahābhārata's sociological catalogue of 363 groups, what is the precise analytical distinction drawn between a 'jana' and a 'jāti'?",
+      "stem_variants": [
+        "How does the epic delineate the linguistic and structural difference between 'jana' and 'jāti'?",
+        "What do 'jana' and 'jāti' specifically signify within the Mahābhārata's anthropological records?"
+      ],
+      "options": [
+        "A jana designates an entire people forming a political state, whereas a jāti represents a community or sub-segment of a jana.",
+        "A jana refers strictly to forest-dwelling tribes, whereas a jāti designates urban monarchical citizens.",
+        "A jana represents professional guild associations, while a jāti denotes ancestral lineage traced to ṛṣis.",
+        "A jana is defined by military conscription units, whereas a jāti is defined purely by ritual purity classifications."
+      ],
+      "distractor_pool": [
+        "A jana refers strictly to forest-dwelling tribes, whereas a jāti designates urban monarchical citizens.",
+        "A jana represents professional guild associations, while a jāti denotes ancestral lineage traced to ṛṣis.",
+        "A jana is defined by military conscription units, whereas a jāti is defined purely by ritual purity classifications."
+      ],
+      "answer": "A jana designates an entire people forming a political state, whereas a jāti represents a community or sub-segment of a jana.",
+      "accepted_answers": [
+        "A jana designates an entire people forming a political state, whereas a jāti represents a community or sub-segment of a jana."
+      ],
+      "explanation": "Both words derive from the Sanskrit root 'ja' (to be born). Textually, a 'jana' refers to a distinct people or tribe constituting a state or region, while a 'jāti' constitutes a specific sub-community or segmented lineage within that jana.",
+      "page_ref": "53, 58",
+      "source_quote": "Jana usually means a people forming a state; jāti a community or segment of a jana (both from 'ja', born).",
+      "tags": [
+        "anthropology",
+        "jana",
+        "jati",
+        "sociology"
+      ],
+      "angle": "conceptual_distinction"
+    },
+    {
+      "id": "q-ch5-5",
+      "chapter": 5,
+      "section": "Architecture",
+      "concept_id": "iconography_amritapuri_symbolism",
+      "difficulty": 5,
+      "type": "mcq",
+      "stem": "At the Kālī temple in Amṛtapurī, what specific philosophical and dharmic imperative is conveyed by depicting Arjuna and Kṛṣṇa in a chariot shown in 'charging mode'?",
+      "stem_variants": [
+        "Why did Amma select the charging chariot of Arjuna and Kṛṣṇa as the central sculpture of the Amṛtapurī Kālī temple?",
+        "What does the charging mode of the chariot sculpture at Amṛtapurī uniquely signify in contrast to passive Gita iconography?"
+      ],
+      "options": [
+        "The rejuvenated spiritual warrior who has conquered despondency and actively mobilises to re-establish Dharma.",
+        "The philosophical detachment of Sāṅkhya yoga where all physical outcomes are renounced as illusory.",
+        "The absolute surrender (Prapatti) wherein human action ceases and divine intervention alone determines fate.",
+        "The wrathful destruction of all cosmic cycles leading immediately to Mahāpralaya."
+      ],
+      "distractor_pool": [
+        "The philosophical detachment of Sāṅkhya yoga where all physical outcomes are renounced as illusory.",
+        "The absolute surrender (Prapatti) wherein human action ceases and divine intervention alone determines fate.",
+        "The wrathful destruction of all cosmic cycles leading immediately to Mahāpralaya."
+      ],
+      "answer": "The rejuvenated spiritual warrior who has conquered despondency and actively mobilises to re-establish Dharma.",
+      "accepted_answers": [
+        "The rejuvenated spiritual warrior who has conquered despondency and actively mobilises to re-establish Dharma."
+      ],
+      "explanation": "Instead of portraying Arjuna seated in dejection or merely listening, the sculpture portrays the chariot in charging mode to represent Arjuna after receiving the Gītā: fully rejuvenated, clear-minded, and actively charging forward into righteous action to uphold and restore Dharma.",
+      "page_ref": "54, 62",
+      "source_quote": "Amma chose Arjuna in a chariot with Kṛṣṇa as charioteer, in charging mode, as the main sculpture of the Kālī temple at Amṛtapurī, perhaps symbolising 'the rejuvenated Arjuna who fights to re-establish Dharma'.",
+      "tags": [
+        "architecture",
+        "amritapuri",
+        "iconography",
+        "dharma",
+        "arjuna"
+      ],
+      "angle": "philosophical_interpretation"
     }
   ]
 }
